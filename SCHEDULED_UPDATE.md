@@ -63,7 +63,19 @@ Exclude withdrawn, rejected and desk-rejected submissions from accepted-paper li
 
 ## 5. Presentation-status rules
 
-Allowed values include `Oral`, `Highlight`, `Spotlight`, `Poster`, combinations such as `Oral + Poster` or `Spotlight + Poster`, `Not verified`, and `N/A` for journals.
+Allowed values are **single normalized labels only**: `Oral`, `Highlight`, `Spotlight`, `Poster`, `Not verified`, and `N/A` for journals.
+
+Always retain the **highest-status verified label** rather than concatenating presentation formats. The normalization priority is:
+
+`Oral > Highlight > Spotlight > Poster > Not verified`.
+
+Therefore:
+
+- `Oral + Poster` → **`Oral`**;
+- `Highlight + Poster` → **`Highlight`**;
+- `Spotlight + Poster` → **`Spotlight`**.
+
+Never store or display combination labels such as `Oral + Poster`, `Highlight + Poster`, or `Spotlight + Poster`. At conferences where oral/highlight/spotlight papers are also physically presented as posters, the poster component is treated as the base presentation format and is omitted in favor of the more selective designation.
 
 Presentation status must be supported by a primary or official source. In particular:
 
@@ -87,7 +99,7 @@ Maintain:
 - `data/corrections.json` for verified overrides;
 - `README.md`, `index.html`, and this protocol so they remain consistent with the taxonomy and data model.
 
-The web page must merge all datasets, normalize legacy `domain/topic` fields to the newer `system_type/research_tasks` taxonomy, deduplicate by title, and apply correction records last.
+The web page must merge all datasets, normalize legacy `domain/topic` fields to the newer `system_type/research_tasks` taxonomy, normalize any legacy combined presentation labels to the single highest-status label, deduplicate by title, and apply correction records last.
 
 Commit only when there is a substantive verified addition, correction, or metadata upgrade. A no-change search should not create a cosmetic commit.
 
