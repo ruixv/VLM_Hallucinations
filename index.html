@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Continuously updated, accuracy-first index of top-tier LLM and VLM hallucination papers." />
+  <title>LLM / VLM Hallucination Papers</title>
+  <style>
+    :root{--bg:#f7f8fb;--card:#fff;--text:#17191d;--muted:#68707d;--line:#e6e8ed;--accent:#b42318;--accent2:#7a271a;--chip:#f1f3f6;--shadow:0 10px 30px rgba(18,24,40,.06)}
+    *{box-sizing:border-box} body{margin:0;font:15px/1.55 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text)}
+    a{color:inherit} .wrap{width:min(1180px,calc(100% - 32px));margin:auto}.hero{padding:56px 0 26px}.eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:800}.hero h1{font-size:clamp(34px,5vw,62px);line-height:1.02;margin:12px 0 16px;letter-spacing:-.045em}.lead{max-width:840px;color:var(--muted);font-size:17px}.topline{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.pill{display:inline-flex;align-items:center;gap:7px;background:var(--card);border:1px solid var(--line);padding:8px 12px;border-radius:999px;box-shadow:var(--shadow);font-size:13px}.dot{width:7px;height:7px;border-radius:50%;background:var(--accent)}
+    .panel{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:18px;margin:20px 0}.controls{display:grid;grid-template-columns:2fr repeat(4,1fr);gap:10px}.controls input,.controls select{width:100%;border:1px solid var(--line);background:#fff;border-radius:10px;padding:11px 12px;font:inherit;color:var(--text);outline:none}.controls input:focus,.controls select:focus{border-color:#c8a7a1;box-shadow:0 0 0 3px rgba(180,35,24,.08)}
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0}.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}.stat b{display:block;font-size:25px}.stat span{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em}
+    .sectionhead{display:flex;align-items:end;justify-content:space-between;gap:20px;margin:28px 0 10px}.sectionhead h2{margin:0;font-size:24px;letter-spacing:-.02em}.sectionhead p{margin:0;color:var(--muted);font-size:13px}.paper{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 19px;margin:10px 0;transition:.18s ease}.paper:hover{transform:translateY(-1px);box-shadow:var(--shadow)}.meta{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:10px}.badge{font-size:11px;font-weight:750;border-radius:999px;padding:4px 8px;background:var(--chip);border:1px solid var(--line)}.badge.venue{background:#fff4f2;border-color:#ffd8d2;color:var(--accent2)}.badge.verified{background:#f6fef9;border-color:#d1fadf;color:#067647}.badge.unknown{color:#667085}.paper h3{font-size:18px;line-height:1.35;margin:0 0 7px}.paper h3 a{text-decoration:none}.paper h3 a:hover{text-decoration:underline}.authors{color:#475467;margin-bottom:10px}.tags{display:flex;gap:6px;flex-wrap:wrap}.tag{font-size:11px;color:#667085;background:#f8fafc;border-radius:6px;padding:3px 6px}.source{margin-top:12px;color:var(--muted);font-size:12px}.source a{color:var(--accent);text-decoration:none}.empty{padding:30px;color:var(--muted);text-align:center}.note{font-size:13px;color:var(--muted);border-left:3px solid var(--accent);padding-left:12px;margin:24px 0 36px}footer{padding:42px 0 60px;color:var(--muted);font-size:12px;border-top:1px solid var(--line);margin-top:44px}
+    @media(max-width:850px){.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}.stats{grid-template-columns:1fr 1fr}} @media(max-width:520px){.controls{grid-template-columns:1fr}.controls input{grid-column:auto}.stats{grid-template-columns:1fr 1fr}.hero{padding-top:38px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="eyebrow">Living research index</div>
+      <h1>LLM / VLM<br>Hallucination Papers</h1>
+      <p class="lead">An accuracy-first, continuously updated collection of hallucination research across top vision and machine-learning conferences and leading journals. Venue and presentation labels are only shown when supported by an authoritative source.</p>
+      <div class="topline"><span class="pill"><span class="dot"></span>12-hour update cycle</span><span class="pill">CVPR · ICCV · ECCV · NeurIPS · ICLR · ICML</span><span class="pill">TPAMI · Nature Portfolio</span></div>
+    </section>
+
+    <section class="stats" id="stats"></section>
+
+    <section class="panel">
+      <div class="controls">
+        <input id="q" type="search" placeholder="Search title, author, topic…" />
+        <select id="domain"><option value="">All domains</option><option>VLM</option><option>LLM</option></select>
+        <select id="venue"><option value="">All venues</option></select>
+        <select id="year"><option value="">All years</option></select>
+        <select id="presentation"><option value="">All presentations</option></select>
+      </div>
+    </section>
+
+    <div class="sectionhead"><div><h2>Verified paper index</h2><p id="count"></p></div><p id="updated"></p></div>
+    <section id="papers"></section>
+    <p class="note">Presentation status is intentionally conservative: if an official source does not explicitly establish Oral / Highlight / Spotlight / Poster, this page displays <strong>Not verified</strong>. Preprints and withdrawn submissions should not be presented as top-venue acceptances.</p>
+  </main>
+
+  <footer><div class="wrap">Maintained as a research resource. Source-of-truth data: <code>data/papers.json</code>. Corrections should be supported by an authoritative venue or journal link.</div></footer>
+
+<script>
+const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+let db={papers:[],meta:{}};
+const els={q:document.querySelector('#q'),domain:document.querySelector('#domain'),venue:document.querySelector('#venue'),year:document.querySelector('#year'),presentation:document.querySelector('#presentation'),papers:document.querySelector('#papers'),count:document.querySelector('#count'),updated:document.querySelector('#updated'),stats:document.querySelector('#stats')};
+function fill(sel,items){items.forEach(v=>{const o=document.createElement('option');o.value=o.textContent=v;sel.appendChild(o)})}
+function renderStats(){const ps=db.papers;const latest=Math.max(...ps.map(p=>p.year));const conf=new Set(ps.map(p=>p.venue)).size;const explicit=ps.filter(p=>p.presentation&&p.presentation!=='Not verified').length;els.stats.innerHTML=`<div class="stat"><b>${ps.length}</b><span>Verified records</span></div><div class="stat"><b>${conf}</b><span>Venues represented</span></div><div class="stat"><b>${latest}</b><span>Latest publication year</span></div><div class="stat"><b>${explicit}</b><span>Official presentation labels</span></div>`}
+function render(){const q=els.q.value.trim().toLowerCase();const filtered=db.papers.filter(p=>{const hay=[p.title,p.authors,p.venue,p.domain,p.track,...(p.topic||[])].join(' ').toLowerCase();return(!q||hay.includes(q))&&(!els.domain.value||p.domain===els.domain.value)&&(!els.venue.value||p.venue===els.venue.value)&&(!els.year.value||String(p.year)===els.year.value)&&(!els.presentation.value||p.presentation===els.presentation.value)}).sort((a,b)=>b.year-a.year||a.venue.localeCompare(b.venue)||a.title.localeCompare(b.title));
+ els.count.textContent=`${filtered.length} of ${db.papers.length} records`;
+ els.papers.innerHTML=filtered.length?filtered.map(p=>`<article class="paper"><div class="meta"><span class="badge venue">${esc(p.venue)} ${esc(p.year)}</span><span class="badge">${esc(p.domain)}</span><span class="badge ${p.presentation==='Not verified'?'unknown':'verified'}">${esc(p.presentation)}</span>${p.track?`<span class="badge">${esc(p.track)}</span>`:''}</div><h3><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a></h3><div class="authors">${esc(p.authors)}</div><div class="tags">${(p.topic||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div><div class="source">Verified via <a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.source_type)}</a> · checked ${esc(p.verified_on)}</div></article>`).join(''):'<div class="empty">No papers match the current filters.</div>';
+}
+fetch('data/papers.json').then(r=>{if(!r.ok)throw new Error('data load failed');return r.json()}).then(x=>{db=x;fill(els.venue,[...new Set(db.papers.map(p=>p.venue))].sort());fill(els.year,[...new Set(db.papers.map(p=>p.year))].sort((a,b)=>b-a));fill(els.presentation,[...new Set(db.papers.map(p=>p.presentation))].sort());els.updated.textContent='Last updated: '+new Date(db.meta.last_updated).toLocaleString();renderStats();render();}).catch(e=>{els.papers.innerHTML='<div class="empty">Unable to load paper data.</div>';console.error(e)});
+Object.values(els).filter(e=>e&&['INPUT','SELECT'].includes(e.tagName)).forEach(e=>e.addEventListener('input',render));
+</script>
+</body>
+</html>
