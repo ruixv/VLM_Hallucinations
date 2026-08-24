@@ -1,62 +1,67 @@
-# LLM / VLM Hallucination Papers
+# LLM / VLM / Agent Reliability Papers
 
-A curated, continuously updated research index for **LLM hallucination** and **VLM / MLLM hallucination**, with emphasis on top-tier conferences and journals.
+A living, accuracy-first bibliography for **hallucination, uncertainty, and failure awareness** in modern foundation models.
 
-> **Accuracy-first policy.** A paper is added only after its bibliographic identity and venue are verified against an authoritative source. Presentation labels such as **Oral / Highlight / Spotlight / Poster** are shown only when an official conference page, OpenReview venue record, or equivalent authoritative source explicitly supports the label. Otherwise the website displays **Not verified** rather than guessing.
+**Web page:** https://ruixv.github.io/VLM_Hallucinations/  
+**Repository:** https://github.com/ruixv/VLM_Hallucinations
 
 ## Scope
 
-Priority venues include:
+The collection now covers three system families:
 
-- Vision: **CVPR, ICCV, ECCV**
-- Machine learning: **NeurIPS, ICLR, ICML**
-- Journals: **IEEE TPAMI**, **Nature** and relevant Nature Portfolio journals
-- Closely related top-tier work may be included when it directly advances hallucination understanding, evaluation, detection, grounding, factuality, or mitigation.
+- **LLM** — large language models, reasoning models, RAG systems.
+- **VLM / LVLM / MLLM** — vision-language and multimodal large language models.
+- **Agent / Agentic AI / VLA** — tool-using agents, GUI agents, embodied agents, robot/VLA policies, and multi-agent systems when the paper explicitly studies reliability or failure awareness.
 
-The index covers both:
+And the following research themes:
 
-- **VLM / MLLM hallucination**: object hallucination, visual grounding failures, modality conflict, multimodal reasoning hallucination, decoding/intervention/alignment methods, benchmarks and metrics.
-- **LLM hallucination**: factuality, faithfulness, knowledge errors, detection, attribution, retrieval/verification, representation editing, decoding and training-time mitigation.
+- hallucination **detection, localization, evaluation, attribution, and mitigation**;
+- **uncertainty detection / estimation / quantification**, confidence, calibration, semantic uncertainty, knowledge boundaries;
+- **failure detection / prediction / diagnosis / attribution**, runtime monitoring, OOD/error detection;
+- **abstention, selective prediction / selective generation**, reliability-aware planning and evaluation;
+- benchmarks and evaluation methods directly targeting these reliability failures.
 
-## Website
+The main venue priority is **CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML**, with additional coverage of ACL/EMNLP/NAACL/AAAI and highly relevant top journals such as **IEEE TPAMI, Nature, Nature Machine Intelligence, Nature Communications**, plus other strong venues when the work is directly on-topic.
 
-The static site is served by `index.html` and reads the canonical dataset from `data/papers.json`.
+## Current coverage
 
-Features include full-text search and filtering by domain, venue, year, presentation type, and topic; official-source links; verification status; and update timestamps.
+The 2026-08-24 systematic refresh contains **89 unique papers after title-level deduplication** across the seed list and the 2023–2026 expansion files. This is a curated high-confidence core rather than a claim that every preprint or workshop paper in the broader literature has been captured.
 
-After enabling GitHub Pages for the repository root, the expected URL is:
+Data layout:
 
-`https://ruixv.github.io/VLM_Hallucinations/`
+- `data/papers.json` — original seed collection;
+- `data/expanded_2023.json` … `data/expanded_2026.json` — systematically expanded records by year;
+- `data/corrections.json` — higher-confidence metadata corrections that override older records;
+- `index.html` — GitHub Pages browser that merges and deduplicates all records at load time.
 
-## Data schema
+## Presentation labels
 
-Each record stores:
+Presentation status is deliberately conservative:
 
-- title and authors
-- year, venue and track
-- domain (`LLM` or `VLM`)
-- topic tags
-- presentation (`Oral`, `Highlight`, `Spotlight`, `Poster`, or `Not verified`)
-- authoritative source URL and source type
-- last verification date
+- **Oral** — explicitly verified from an official conference oral schedule/page or equivalent primary record.
+- **Highlight / Spotlight** — explicitly verified from the official venue record.
+- **Poster** — explicitly verified from an official conference/virtual poster page or official OpenReview venue record.
+- **Not verified** — the paper itself is verified as accepted/published, but no authoritative presentation-status evidence was found in the current pass.
+- **N/A** — journal article or another venue where conference presentation type does not apply.
 
-## Update policy
+A paper is **never inferred to be a poster simply because it is not listed as an oral**, and a third-party list does not override an official conference record.
 
-The project is designed for a **12-hour update cycle**. Each run should:
+## Verification policy
 
-1. Search recent authoritative conference/proceedings/journal sources plus arXiv/OpenReview for discovery.
-2. Separate *new preprints/submissions* from *verified accepted papers*.
-3. Verify venue and presentation labels from official sources before promoting them into the top-venue list.
-4. Deduplicate by normalized title and, where available, DOI/arXiv/OpenReview identifier.
-5. Update `data/papers.json`, `README.md` statistics / latest additions, and any derived webpage metadata.
-6. Commit only substantive, verified changes.
+We prioritize, in order, official conference schedules/virtual pages, official OpenReview venue records, CVF Open Access, NeurIPS proceedings, PMLR, ACL Anthology, IEEE Xplore, Nature Portfolio, and official publisher/proceedings pages. arXiv and generic OpenReview submissions are useful for discovery, but are not sufficient by themselves to claim acceptance at a target venue.
+
+Withdrawn, desk-rejected, or rejected submissions are excluded from accepted-paper lists. Workshop and position papers may be retained only when strongly relevant and are explicitly marked by track so that they are not confused with main-conference papers.
+
+## Automated refresh
+
+The collection is re-checked **every 12 hours**. Each run searches for new papers and metadata changes, verifies venue/track/presentation status against authoritative sources, deduplicates records, and updates this repository only when there is a substantive verified change.
 
 See [`SCHEDULED_UPDATE.md`](SCHEDULED_UPDATE.md) for the detailed protocol.
 
-## Current status
+## GitHub Pages
 
-The repository was initialized on **2026-08-24** with an accuracy-first seed set verified from CVF Open Access, official OpenReview venue records, and NeurIPS proceedings. The first seed is intentionally conservative; subsequent scheduled passes should broaden historical coverage of LLM hallucination and top-journal papers without lowering verification standards.
+If Pages is not already enabled: **Settings → Pages → Deploy from a branch → `master` → `/ (root)`**. The site can then be served at https://ruixv.github.io/VLM_Hallucinations/.
 
-## Contributing / corrections
+## Corrections
 
-If a venue, presentation label, title, or source is inaccurate, please open an issue with an authoritative link. Corrections should take priority over adding new papers.
+Accuracy is more important than maximizing the raw paper count. If you find a wrong venue, track, author list, presentation type, duplicate, or missing high-confidence paper, please open an issue or submit a correction with an authoritative source.
