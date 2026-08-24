@@ -1,79 +1,105 @@
 # Scheduled Update Protocol
 
-This repository is maintained with an **accuracy-first 12-hour research update cycle**.
+This repository is maintained as an **accuracy-first living bibliography** for LLM/VLM/Agent reliability. Automated refreshes run every 12 hours and should prefer a smaller, verifiable list over an inflated list with incorrect venue or presentation labels.
 
-## Search scope
+## 1. Research scope
 
-Every run should search for new or newly verified work in:
+Search all three system families:
 
-- **CVPR / ICCV / ECCV**
-- **NeurIPS / ICLR / ICML**
-- **IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI / PAMI)**
-- **Nature** and relevant **Nature Portfolio** journals
-- arXiv / OpenReview may be used for *discovery*, but must not be treated as proof of conference or journal acceptance unless the official venue record confirms it.
+1. **LLM** — language models, reasoning models, RAG systems.
+2. **VLM / LVLM / MLLM** — vision-language and multimodal foundation models.
+3. **Agent / Agentic AI / VLA** — tool-using, GUI, embodied, robotic and multi-agent systems when reliability/failure awareness is a central contribution.
 
-Primary concepts and aliases:
+Search the following concept families, including close variants:
 
-- LLM hallucination, factuality, faithfulness, factual error, knowledge hallucination
-- VLM / LVLM / MLLM / multimodal hallucination
-- object hallucination, visual hallucination, visual grounding failure
-- hallucination detection, evaluation, benchmark, attribution, mechanism
-- hallucination mitigation, decoding, steering, intervention, alignment, RAG, verification
-- multimodal reasoning hallucination, modality conflict, visual evidence reliance
+- hallucination / confabulation / factuality / faithfulness;
+- hallucination detection, localization, attribution, verification, evaluation and mitigation;
+- uncertainty detection, estimation, quantification, decomposition and calibration;
+- confidence estimation, semantic entropy / semantic uncertainty, knowledge boundaries;
+- failure detection, failure prediction, error detection, failure diagnosis and failure attribution;
+- runtime monitoring, trajectory monitoring, execution failure and agent failure;
+- OOD / out-of-distribution detection when explicitly tied to LLM/VLM/Agent reliability;
+- abstention, selective prediction, selective generation, selective planning;
+- uncertainty-aware evaluators, reward/evaluation models and benchmarks when they directly detect or quantify reliability failures.
 
-## Source priority
+Do not include a paper merely because it mentions uncertainty or failures. Reliability detection/evaluation/quantification/mitigation must be a material part of the contribution.
 
-Use authoritative sources in this order whenever possible:
+## 2. Venue priorities
 
-1. Official conference / journal pages and proceedings
-2. Official OpenReview venue records
-3. CVF Open Access for CVPR / ICCV
-4. NeurIPS or PMLR proceedings
-5. IEEE Xplore / Nature Portfolio article pages
-6. arXiv only for discovery or supplementary metadata
-7. Project pages / GitHub only for code links, never as the sole acceptance proof
+Primary conference targets: **CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML**.
 
-## Acceptance and presentation verification
+Also search **ACL, EMNLP, NAACL, AAAI** and other clearly strong venues when directly relevant.
 
-Do **not** infer acceptance from a preprint title, author CV, Google Scholar snippet, lab news page, or citation metadata alone.
+Primary journal targets include **IEEE TPAMI/PAMI, Nature, Nature Machine Intelligence, Nature Communications**, and other top journals when the topic is a close match.
 
-For each paper, explicitly verify:
+Workshop-only and position papers may be retained only when unusually relevant and must be explicitly marked as such. They must never be represented as main-conference papers.
 
-- exact title
-- authors
-- venue and year
-- main conference / findings / workshop / datasets-and-benchmarks track, where relevant
-- presentation status: `Oral`, `Highlight`, `Spotlight`, `Poster`, or `Not verified`
+## 3. Authoritative source hierarchy
 
-Only assign Oral / Highlight / Spotlight / Poster when the official venue or OpenReview record states it. If no authoritative presentation label is found, store `Not verified`.
+Use authoritative sources whenever available:
 
-Withdrawn, rejected, desk-rejected, workshop-only, and unverified submissions must never be mislabeled as top-conference accepted papers.
+1. official conference schedule, virtual conference, oral/highlight/spotlight/poster pages;
+2. official OpenReview venue record;
+3. CVF Open Access, NeurIPS proceedings, PMLR, ACL Anthology;
+4. IEEE Xplore, Nature Portfolio, official journal/publisher pages;
+5. author/project page only as supporting evidence when a stronger venue source does not expose the needed metadata;
+6. arXiv / generic OpenReview submission for discovery only unless official acceptance is independently verified.
 
-## Deduplication
+If sources conflict, the official venue record wins. Record unresolved conflicts conservatively.
 
-Normalize titles by case, punctuation, whitespace, and common Unicode variants. Prefer DOI / OpenReview ID / arXiv ID when available. If the same work moves from preprint to an accepted venue, update the canonical record rather than create a duplicate.
+## 4. Acceptance and track verification
 
-## Update targets
+For every candidate, verify as much as possible:
 
-When verified changes are found:
+- exact title;
+- author list;
+- publication year;
+- venue;
+- main conference vs Findings vs workshop vs position paper vs dataset/benchmark track vs journal;
+- canonical paper/venue URL;
+- presentation type when applicable.
 
-1. Update `data/papers.json`.
-2. Update the `meta.last_updated` timestamp and `meta.paper_count`.
-3. Keep `index.html` compatible with the current schema.
-4. Update `README.md` when scope, statistics, or important curation rules change.
-5. Commit with a concise message such as `Update hallucination papers: 2026-08-25 AM`.
+Exclude withdrawn, rejected and desk-rejected submissions from accepted-paper lists. Do not infer acceptance from an arXiv comment without an official venue record.
 
-If no substantive verified change is found, do not create a noise commit.
+## 5. Presentation-status rules
 
-## Quality control
+Allowed values include `Oral`, `Highlight`, `Spotlight`, `Poster`, combinations such as `Oral + Poster` or `Spotlight + Poster`, `Not verified`, and `N/A` for journals.
 
-Before committing a new record, ask:
+Presentation status must be supported by a primary or official source. In particular:
 
-- Is this paper genuinely about hallucination/factuality/faithfulness rather than merely mentioning the term?
-- Is the claimed venue supported by an official source?
-- Is the presentation type supported by an official source?
-- Is the paper already in the database under another title/version?
-- Is the URL stable and authoritative?
-- Are the domain (`LLM` vs `VLM`) and topic tags reasonable?
+- absence from an oral list does **not** prove Poster;
+- an accepted-paper proceedings page alone does **not** prove Poster;
+- an author-maintained list can support a label, but should not override a conflicting official conference page;
+- when no authoritative presentation evidence is found, use **`Not verified`** instead of guessing.
 
-Accuracy has priority over paper count and update speed.
+## 6. Deduplication and metadata upgrades
+
+Deduplicate by normalized canonical title, then use DOI / OpenReview / CVF / proceedings identifiers as secondary checks. Treat conference versions and their arXiv preprints as the same work unless the publication is substantively different.
+
+When a preprint later becomes officially accepted, upgrade the existing record rather than adding a duplicate. When a presentation label is published later, update the existing record. `data/corrections.json` is loaded last by the web page and can be used for high-confidence metadata corrections that should override older seed records.
+
+## 7. Repository update contract
+
+Maintain:
+
+- `data/papers.json` as the legacy/seed collection;
+- `data/expanded_YYYY.json` as systematic year-specific expansion files;
+- `data/corrections.json` for verified overrides;
+- `README.md`, `index.html`, and this protocol so they remain consistent with the taxonomy and data model.
+
+The web page must merge all datasets, normalize legacy `domain/topic` fields to the newer `system_type/research_tasks` taxonomy, deduplicate by title, and apply correction records last.
+
+Commit only when there is a substantive verified addition, correction, or metadata upgrade. A no-change search should not create a cosmetic commit.
+
+## 8. Reporting after each run
+
+Report concisely:
+
+- number and titles of newly added high-confidence papers;
+- corrected venue/track/presentation metadata;
+- newly verified Oral/Highlight/Spotlight/Poster labels;
+- important candidates deliberately excluded because acceptance or status could not be verified;
+- authoritative source families checked;
+- whether GitHub was updated.
+
+The guiding rule is **accuracy first, completeness second, and explicit uncertainty instead of invented metadata**.
