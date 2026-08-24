@@ -36,13 +36,15 @@ Data layout:
 
 ## Presentation labels
 
-Presentation status is deliberately conservative:
+Presentation status is deliberately conservative and uses **one normalized highest-status label per paper**:
 
 - **Oral** — explicitly verified from an official conference oral schedule/page or equivalent primary record.
 - **Highlight / Spotlight** — explicitly verified from the official venue record.
 - **Poster** — explicitly verified from an official conference/virtual poster page or official OpenReview venue record.
 - **Not verified** — the paper itself is verified as accepted/published, but no authoritative presentation-status evidence was found in the current pass.
 - **N/A** — journal article or another venue where conference presentation type does not apply.
+
+The precedence is **Oral > Highlight > Spotlight > Poster > Not verified**. If a conference record describes a paper as both a higher-status presentation and a poster, only the higher-status label is retained: `Oral + Poster → Oral`, `Highlight + Poster → Highlight`, and `Spotlight + Poster → Spotlight`. Poster is treated as the base presentation format and is not appended to a more selective designation.
 
 A paper is **never inferred to be a poster simply because it is not listed as an oral**, and a third-party list does not override an official conference record.
 
@@ -54,7 +56,7 @@ Withdrawn, desk-rejected, or rejected submissions are excluded from accepted-pap
 
 ## Automated refresh
 
-The collection is re-checked **every 12 hours**. Each run searches for new papers and metadata changes, verifies venue/track/presentation status against authoritative sources, deduplicates records, and updates this repository only when there is a substantive verified change.
+The collection is re-checked **every 12 hours**. Each run searches for new papers and metadata changes, verifies venue/track/presentation status against authoritative sources, normalizes presentation labels to the highest verified status, deduplicates records, and updates this repository only when there is a substantive verified change.
 
 See [`SCHEDULED_UPDATE.md`](SCHEDULED_UPDATE.md) for the detailed protocol.
 
