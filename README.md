@@ -25,13 +25,14 @@ The main venue priority is **CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML**, with addit
 
 ## Current coverage
 
-The systematic refresh through **2026-08-25** expands the high-confidence core with newly verified ACL 2026 Long Papers and Findings covering hallucination detection, RAG reliability, uncertainty decomposition/calibration, abstention, and failure localization. The web page computes the current unique-paper count after title-level deduplication across all loaded data files, so metadata upgrades and correction records do not inflate the displayed count.
+The systematic refresh through **2026-08-26** further expands the high-confidence core with officially indexed ACL 2026 Long Papers and Findings on long-form hallucination detection, RAG hallucination detection and benchmarking, response uncertainty, long-form uncertainty quantification, calibration, abstention, and distribution shift. The web page computes the current unique-paper count after title-level deduplication across all loaded data files, so metadata upgrades and correction records do not inflate the displayed count.
 
 Data layout:
 
 - `data/papers.json` — original seed collection;
 - `data/expanded_2023.json` … `data/expanded_2026.json` — systematic year-level expansion records;
 - `data/expanded_2026_08_25.json` — additional ACL 2026 papers verified in the 2026-08-25 refresh;
+- `data/expanded_2026_08_26.json` — additional ACL 2026 papers verified in the 2026-08-26 refresh;
 - `data/corrections.json` — higher-confidence metadata corrections that override older records;
 - `index.html` — GitHub Pages browser that merges and deduplicates all records at load time.
 
