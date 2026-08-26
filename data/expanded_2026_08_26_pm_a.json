@@ -1,0 +1,32 @@
+{
+  "papers": [
+    {
+      "title": "Estimating the Black-box LLM Uncertainty with Distribution-Aligned Adversarial Distillation",
+      "authors": "Huizi Cui, Huan Ma, Qilin Wang, Yuhang Gao, Changqing Zhang",
+      "year": 2026,
+      "venue": "ACL",
+      "presentation": "Not verified",
+      "track": "Main Conference · Long Paper",
+      "system_type": ["LLM"],
+      "research_tasks": ["uncertainty estimation", "hallucination detection", "black-box reliability"],
+      "url": "https://aclanthology.org/2026.acl-long.1979/",
+      "doi": "10.18653/v1/2026.acl-long.1979",
+      "source_type": "ACL Anthology",
+      "verified_on": "2026-08-26"
+    },
+    {
+      "title": "ReFL: Reflective Feedback Learning for Hallucination Detection of Large Language Models",
+      "authors": "Cunhang Fan, Jun Zhang, Xue Zhang, Shuai Zhang, Zhao Lv, Jianhua Tao, Zhengqi Wen",
+      "year": 2026,
+      "venue": "ACL",
+      "presentation": "Not verified",
+      "track": "Main Conference · Long Paper",
+      "system_type": ["LLM"],
+      "research_tasks": ["hallucination detection", "self-reflection", "failure detection"],
+      "url": "https://aclanthology.org/2026.acl-long.899/",
+      "doi": "10.18653/v1/2026.acl-long.899",
+      "source_type": "ACL Anthology",
+      "verified_on": "2026-08-26"
+    }
+  ]
+}
