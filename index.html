@@ -35,7 +35,7 @@
 </div></main>
 <footer class="footer"><div class="wrap">Maintained as a living bibliography. Source records are deduplicated by normalized title, with later verification/correction records overriding earlier metadata. Contributions and corrections: <a href="https://github.com/ruixv/VLM_Hallucinations">GitHub</a>.</div></footer>
 <script>
-const files=['data/papers.json','data/expanded_2023.json','data/expanded_2024.json','data/expanded_2025.json','data/expanded_2026.json','data/expanded_2026_08_25.json','data/expanded_2026_08_26.json','data/corrections.json'];
+const files=['data/papers.json','data/expanded_2023.json','data/expanded_2024.json','data/expanded_2025.json','data/expanded_2026.json','data/expanded_2026_08_25.json','data/expanded_2026_08_26.json','data/expanded_2026_08_26_pm_a.json','data/expanded_2026_08_26_pm_vista.json','data/corrections.json'];
 const $=id=>document.getElementById(id); const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const key=t=>String(t||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 const systems=p=>Array.isArray(p.system_type)?p.system_type:(p.domain?[p.domain]:[]);
