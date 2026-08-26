@@ -1,0 +1,17 @@
+{
+  "papers": [
+    {
+      "title": "VISTA: Verification In Sequential Turn-based Assessment",
+      "authors": "Ashley Lewis, Andrew Perrault, Eric Fosler-Lussier, Michael White",
+      "year": 2026,
+      "venue": "ACL",
+      "presentation": "Not verified",
+      "track": "Main Conference · Long Paper",
+      "system_type": ["LLM"],
+      "research_tasks": ["hallucination detection", "hallucination evaluation", "claim verification", "multi-turn reliability"],
+      "url": "https://aclanthology.org/2026.acl-long.1890/",
+      "source_type": "ACL Anthology",
+      "verified_on": "2026-08-26"
+    }
+  ]
+}
