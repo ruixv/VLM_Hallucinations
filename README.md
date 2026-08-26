@@ -7,7 +7,7 @@ A living, accuracy-first bibliography for **hallucination, uncertainty, and fail
 
 ## Scope
 
-The collection now covers three system families:
+The collection covers three system families:
 
 - **LLM** — large language models, reasoning models, RAG systems.
 - **VLM / LVLM / MLLM** — vision-language and multimodal large language models.
@@ -25,14 +25,15 @@ The main venue priority is **CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML**, with addit
 
 ## Current coverage
 
-The systematic refresh through **2026-08-26** further expands the high-confidence core with officially indexed ACL 2026 Long Papers and Findings on long-form hallucination detection, RAG hallucination detection and benchmarking, response uncertainty, long-form uncertainty quantification, calibration, abstention, and distribution shift. The web page computes the current unique-paper count after title-level deduplication across all loaded data files, so metadata upgrades and correction records do not inflate the displayed count.
+The systematic refresh through **2026-08-26** includes newly verified ACL 2026 Long Papers on black-box LLM uncertainty estimation, reflective hallucination detection, and multi-turn factuality verification. The web page computes the current unique-paper count after title-level deduplication across all loaded data files, so metadata upgrades and correction records do not inflate the displayed count.
 
 Data layout:
 
 - `data/papers.json` — original seed collection;
 - `data/expanded_2023.json` … `data/expanded_2026.json` — systematic year-level expansion records;
-- `data/expanded_2026_08_25.json` — additional ACL 2026 papers verified in the 2026-08-25 refresh;
-- `data/expanded_2026_08_26.json` — additional ACL 2026 papers verified in the 2026-08-26 refresh;
+- `data/expanded_2026_08_25.json` and `data/expanded_2026_08_26.json` — additional ACL 2026 papers verified in recent refreshes;
+- `data/expanded_2026_08_26_pm_a.json` — ACL 2026 additions on black-box uncertainty estimation and reflective hallucination detection;
+- `data/expanded_2026_08_26_pm_vista.json` — ACL 2026 VISTA multi-turn hallucination evaluation record;
 - `data/corrections.json` — higher-confidence metadata corrections that override older records;
 - `index.html` — GitHub Pages browser that merges and deduplicates all records at load time.
 
