@@ -25,7 +25,9 @@ The main venue priority is **CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML**, with addit
 
 ## Current coverage
 
-The systematic refresh through **2026-08-26** includes newly verified ACL 2026 Long Papers on black-box LLM uncertainty estimation, reflective hallucination detection, and multi-turn factuality verification. The web page computes the current unique-paper count after title-level deduplication across all loaded data files, so metadata upgrades and correction records do not inflate the displayed count.
+The systematic refresh through **2026-08-27** adds three newly verified official proceedings records that were not previously in the repository: **LAFaCT** (ACL 2026 Long Paper) for attribution-based hallucination detection/localization, **MARCH** (ACL 2026 Long Paper) for multi-agent hallucination verification and mitigation in RAG, and **HALP** (EACL 2026 Long Paper) for token-free VLM hallucination detection. Their publication metadata is verified from ACL Anthology; no authoritative presentation-status evidence was found in this refresh, so all three remain conservatively labeled `Not verified`.
+
+The web page computes the current unique-paper count after title-level deduplication across all loaded data files, so metadata upgrades and correction records do not inflate the displayed count.
 
 Data layout:
 
@@ -34,6 +36,7 @@ Data layout:
 - `data/expanded_2026_08_25.json` and `data/expanded_2026_08_26.json` — additional ACL 2026 papers verified in recent refreshes;
 - `data/expanded_2026_08_26_pm_a.json` — ACL 2026 additions on black-box uncertainty estimation and reflective hallucination detection;
 - `data/expanded_2026_08_26_pm_vista.json` — ACL 2026 VISTA multi-turn hallucination evaluation record;
+- `data/expanded_2026_08_27.json` — ACL/EACL additions verified in the 2026-08-27 refresh;
 - `data/corrections.json` — higher-confidence metadata corrections that override older records;
 - `index.html` — GitHub Pages browser that merges and deduplicates all records at load time.
 
