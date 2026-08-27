@@ -25,7 +25,7 @@ The main venue priority is **CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML**, with addit
 
 ## Current coverage
 
-The systematic refresh through **2026-08-27** expanded the verified collection with additional official proceedings and journal records spanning LLM, VLM and Agent reliability. Newly added high-confidence records include **CAR-bench** (ACL 2026 Long Paper, officially marked Outstanding Paper) for consistency/limit-awareness of tool-using LLM agents under uncertainty; **Logic Matters** and **RLSeek** for RAG hallucination detection; **Vision-Language Introspection** and **VIB-Probe** for VLM hallucination detection/mitigation; **QuCo-RAG** and **Structured Uncertainty guided Clarification for LLM Agents** from Findings of ACL 2026; **Evidential Semantic Entropy** and a multilingual study of hallucination-detector robustness from EACL 2026; **Re3** and **Stable-RAG** for RAG hallucination mitigation; and the Nature article **Evaluating large language models for accuracy incentivizes hallucinations**, which directly studies hallucination, uncertainty and abstention incentives. Together with LAFaCT, MARCH and HALP added earlier on 2026-08-27, these records are stored in `data/expanded_2026_08_27.json`.
+The systematic refresh through **2026-08-28** added five high-confidence omissions verified from official proceedings/publisher pages: **Rethinking Hallucinations: Correctness, Consistency, and Prompt Multiplicity** (EACL 2026) for hallucination evaluation/consistency; **HalluZig** (EACL 2026) for internal-state and early hallucination detection; **Do LLMs Really Know What They Don’t Know?** (Findings of ACL 2026) for mechanistic limits of hidden-state hallucination detectors; **MeasHalu** (Findings of ACL 2026) for scientific hallucination mitigation; and **An evaluation of estimative uncertainty in large language models** (npj Complexity, 2026) for LLM uncertainty/confidence evaluation. These extend the ACL/EACL/Nature records already accumulated in `data/expanded_2026_08_27.json`.
 
 Conference presentation labels remain conservative: no Oral/Highlight/Spotlight/Poster designation is inferred without an authoritative presentation source. Journal records use `N/A`.
 
@@ -38,7 +38,7 @@ Data layout:
 - `data/expanded_2026_08_25.json` and `data/expanded_2026_08_26.json` — additional ACL 2026 papers verified in recent refreshes;
 - `data/expanded_2026_08_26_pm_a.json` — ACL 2026 additions on black-box uncertainty estimation and reflective hallucination detection;
 - `data/expanded_2026_08_26_pm_vista.json` — ACL 2026 VISTA multi-turn hallucination evaluation record;
-- `data/expanded_2026_08_27.json` — ACL/EACL/Nature additions verified in the 2026-08-27 refresh;
+- `data/expanded_2026_08_27.json` — ACL/EACL/Nature Portfolio additions verified through the 2026-08-28 refresh;
 - `data/corrections.json` — higher-confidence metadata corrections that override older records;
 - `index.html` — GitHub Pages browser that merges and deduplicates all records at load time.
 
