@@ -25,7 +25,7 @@ The main venue priority is **CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML**, with addit
 
 ## Current coverage
 
-The systematic refresh through **2026-08-28** added five high-confidence omissions verified from official proceedings/publisher pages: **Rethinking Hallucinations: Correctness, Consistency, and Prompt Multiplicity** (EACL 2026) for hallucination evaluation/consistency; **HalluZig** (EACL 2026) for internal-state and early hallucination detection; **Do LLMs Really Know What They Don’t Know?** (Findings of ACL 2026) for mechanistic limits of hidden-state hallucination detectors; **MeasHalu** (Findings of ACL 2026) for scientific hallucination mitigation; and **An evaluation of estimative uncertainty in large language models** (npj Complexity, 2026) for LLM uncertainty/confidence evaluation. These extend the ACL/EACL/Nature records already accumulated in `data/expanded_2026_08_27.json`.
+The systematic refresh through **2026-08-28** added five further high-confidence ACL 2026 omissions verified from the official ACL Anthology: **BaseCal: Unsupervised Confidence Calibration via Base Model Signals** (ACL 2026 Long Paper), **Confidence Should Be Calibrated More Than One Turn Deep** (ACL 2026 Long Paper), **VAUQ: Vision-Aware Uncertainty Quantification for LVLM Self-Evaluation** (Findings of ACL 2026), **Perceptual Hallucination in Vision–Language Models: Definition, Analysis and Verification** (Findings of ACL 2026), and **Deliberative Searcher: Improving LLM Reliability via Reinforcement Learning with Constraints** (ACL 2026 Long Paper). These extend the hallucination / uncertainty / failure-awareness coverage without relaxing the presentation-verification policy.
 
 Conference presentation labels remain conservative: no Oral/Highlight/Spotlight/Poster designation is inferred without an authoritative presentation source. Journal records use `N/A`.
 
@@ -39,7 +39,7 @@ Data layout:
 - `data/expanded_2026_08_26_pm_a.json` — ACL 2026 additions on black-box uncertainty estimation and reflective hallucination detection;
 - `data/expanded_2026_08_26_pm_vista.json` — ACL 2026 VISTA multi-turn hallucination evaluation record;
 - `data/expanded_2026_08_27.json` — ACL/EACL/Nature Portfolio additions verified through the 2026-08-28 refresh;
-- `data/corrections.json` — higher-confidence metadata corrections that override older records;
+- `data/corrections.json` — higher-confidence metadata corrections plus newly verified additions that should override older seed records;
 - `index.html` — GitHub Pages browser that merges and deduplicates all records at load time.
 
 ## Presentation labels
