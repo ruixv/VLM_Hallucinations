@@ -25,7 +25,7 @@ The main venue priority is **CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML**, with addit
 
 ## Current coverage
 
-The systematic refresh through **2026-08-30** added four further high-confidence ACL 2026 omissions verified from the official ACL Anthology: **Towards Mitigating Hallucinations in Large Vision-Language Models by Refining Textual Embeddings** (Findings of ACL 2026), **AHEAD: Attention Head Energy-Aware Dynamics for Hallucination Mitigation in MLLMs** (Findings of ACL 2026), **Aligning with Your Own Voice: Self-Corrected Preference Learning for Hallucination Mitigation in LVLMs** (Findings of ACL 2026), and **LLMs (Almost) Never Abstain Under Medical Uncertainty** (ACL 2026 Long Paper). These extend the collection's coverage of multimodal hallucination mitigation, inference-time intervention, self-correction/preference learning, abstention, uncertainty evaluation, and confidence calibration without relaxing the presentation-verification policy.
+The systematic refresh through **2026-08-30** added five further high-confidence ACL 2026 omissions verified from the official ACL Anthology: **Towards Mitigating Hallucinations in Large Vision-Language Models by Refining Textual Embeddings** (Findings of ACL 2026), **AHEAD: Attention Head Energy-Aware Dynamics for Hallucination Mitigation in MLLMs** (Findings of ACL 2026), **Aligning with Your Own Voice: Self-Corrected Preference Learning for Hallucination Mitigation in LVLMs** (Findings of ACL 2026), **LLMs (Almost) Never Abstain Under Medical Uncertainty** (ACL 2026 Long Paper), and **From RAG to Agentic RAG for Faithful Islamic Question Answering** (Findings of ACL 2026). These extend the collection's coverage of multimodal hallucination mitigation, inference-time intervention, self-correction/preference learning, abstention, uncertainty evaluation, confidence calibration, hallucination benchmarking, and agentic RAG reliability without relaxing the presentation-verification policy.
 
 Conference presentation labels remain conservative: no Oral/Highlight/Spotlight/Poster designation is inferred without an authoritative presentation source. Journal records use `N/A`.
 
@@ -40,7 +40,7 @@ Data layout:
 - `data/expanded_2026_08_26_pm_vista.json` — ACL 2026 VISTA multi-turn hallucination evaluation record;
 - `data/expanded_2026_08_27.json` — ACL/EACL/Nature Portfolio additions verified through the 2026-08-28 refresh;
 - `data/expanded_2026_08_29.json` — ACL 2026 calibration, multi-agent uncertainty, selective generation, and refusal additions verified on 2026-08-29;
-- `data/expanded_2026_08_30.json` — ACL 2026 VLM hallucination mitigation and LLM abstention/uncertainty additions verified on 2026-08-30;
+- `data/expanded_2026_08_30.json` — ACL 2026 VLM hallucination mitigation, LLM abstention/uncertainty, hallucination benchmarking, and agentic RAG reliability additions verified on 2026-08-30;
 - `data/corrections.json` — higher-confidence metadata corrections plus newly verified additions that should override older seed records;
 - `index.html` — GitHub Pages browser that merges and deduplicates all records at load time.
 
