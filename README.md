@@ -9,20 +9,15 @@ A living, accuracy-first bibliography for **hallucination, uncertainty, and fail
 
 The collection covers **LLMs**, **VLM/LVLM/MLLMs**, and **agents/agentic systems**, with emphasis on hallucination detection/evaluation/mitigation, uncertainty estimation/calibration/confidence/reliability, failure/OOD/error detection, abstention and selective prediction.
 
-Priority venues include **CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, ACL, EMNLP, NAACL, AAAI, IEEE TPAMI/PAMI, IEEE TMM**, and highly relevant Nature Portfolio journals. Other strong venues are included only when directly on-topic.
+Priority venues include **CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, ACL, EMNLP, NAACL, AAAI, IEEE TPAMI/PAMI, IEEE TMM**, and highly relevant Nature Portfolio journals including **Nature, Nature Machine Intelligence, Nature Communications, and Scientific Reports** when directly on-topic. Other strong venues are included only when justified by topical relevance and source quality.
 
 ## Current coverage
 
-The systematic refresh through **2026-08-31** now includes six high-confidence ACL/EACL 2026 additions verified from the official ACL Anthology:
+The systematic refresh through **2026-09-01** adds three high-confidence records verified from official proceedings/publisher pages:
 
-- **Reducing Hallucinations in LLMs via Factuality-Aware Preference Learning** — Findings of ACL 2026; hallucination mitigation, factuality-aware preference optimization, and OOD reliability.
-- **Answering the Wrong Question: Reasoning Trace Inversion for Abstention in LLMs** — ACL 2026 Main Conference · Long Paper; abstention/selective prediction, reasoning failure detection, and hallucination mitigation.
-- **Knowing When to Abstain: Medical LLMs Under Clinical Uncertainty** — EACL 2026 Main Conference · Long Paper; uncertainty estimation, calibration/reliability, and abstention under clinical uncertainty.
-- **Harmful Factuality: LLMs Correcting What They Shouldn’t** — Findings of EACL 2026; a source-faithfulness failure mode where models replace source content with factually correct but unfaithful information, plus a simple mitigation.
-- **The Unintended Trade-off of AI Alignment: Balancing Hallucination Mitigation and Safety in LLMs** — Findings of EACL 2026; analyzes truthfulness/refusal coupling and proposes a mitigation that preserves refusal behavior while reducing hallucination pressure.
-- **Decomposed Prompting Does Not Fix Knowledge Gaps, But Helps Models Say “I Don’t Know”** — Findings of ACL 2026; disagreement-based uncertainty/error detection and training-free abstention for closed-book QA.
-
-An initially rediscovered paper, **Efficient Hallucination Detection in Automatic Code Generation**, was not counted as new because it was already present in `data/corrections.json`; the refresh therefore preserves title-level deduplication rather than inflating the bibliography.
+- **Knowing When to Quit: Diagnosing and Training LLMs to Abort Futile Reasoning** — Findings of ACL 2026; capability-boundary diagnosis, over-confidence, refusal/abstention, and hallucination-aware mitigation via capability-aligned reinforcement learning.
+- **ART: Attention Replacement Technique to Improve Factuality in LLMs** — ACL 2026 Main Conference · Long Paper; training-free hallucination mitigation through attention-pattern intervention.
+- **Hallucination in Time-series Large Language Models: An empirical lnvestigation and analysis of mitigation strategies** — Scientific Reports 2026 journal article; hallucination-rate evaluation, uncertainty/reliability diagnostics, and mitigation for time-series LLM forecasting.
 
 Conference presentation labels remain conservative: no Oral/Highlight/Spotlight/Poster designation is inferred without an authoritative presentation source. Journal records use `N/A`.
 
@@ -30,7 +25,7 @@ Conference presentation labels remain conservative: no Oral/Highlight/Spotlight/
 
 - `data/papers.json` — canonical seed collection.
 - `data/expanded_2023.json` … `data/expanded_2026.json` — year-level expansion records.
-- `data/expanded_2026_08_25.json` … `data/expanded_2026_08_31.json` — dated high-confidence additions and corrections from systematic refreshes.
+- dated files such as `data/expanded_2026_08_25.json` … `data/expanded_2026_09_01.json` — high-confidence additions and corrections from systematic refreshes.
 - `data/corrections.json` — higher-confidence metadata corrections and override records.
 - `index.html` — GitHub Pages browser; it merges all loaded sources and deduplicates by normalized canonical title, with later correction records overriding earlier metadata.
 
