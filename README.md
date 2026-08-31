@@ -13,10 +13,14 @@ Priority venues include **CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, ACL, EMNLP, NAA
 
 ## Current coverage
 
-The systematic refresh through **2026-08-31** added two further high-confidence ACL 2026 omissions verified from the official ACL Anthology:
+The systematic refresh through **2026-08-31** now includes six high-confidence ACL/EACL 2026 additions verified from the official ACL Anthology:
 
 - **Reducing Hallucinations in LLMs via Factuality-Aware Preference Learning** — Findings of ACL 2026; hallucination mitigation, factuality-aware preference optimization, and OOD reliability.
 - **Answering the Wrong Question: Reasoning Trace Inversion for Abstention in LLMs** — ACL 2026 Main Conference · Long Paper; abstention/selective prediction, reasoning failure detection, and hallucination mitigation.
+- **Knowing When to Abstain: Medical LLMs Under Clinical Uncertainty** — EACL 2026 Main Conference · Long Paper; uncertainty estimation, calibration/reliability, and abstention under clinical uncertainty.
+- **Harmful Factuality: LLMs Correcting What They Shouldn’t** — Findings of EACL 2026; a source-faithfulness failure mode where models replace source content with factually correct but unfaithful information, plus a simple mitigation.
+- **The Unintended Trade-off of AI Alignment: Balancing Hallucination Mitigation and Safety in LLMs** — Findings of EACL 2026; analyzes truthfulness/refusal coupling and proposes a mitigation that preserves refusal behavior while reducing hallucination pressure.
+- **Decomposed Prompting Does Not Fix Knowledge Gaps, But Helps Models Say “I Don’t Know”** — Findings of ACL 2026; disagreement-based uncertainty/error detection and training-free abstention for closed-book QA.
 
 An initially rediscovered paper, **Efficient Hallucination Detection in Automatic Code Generation**, was not counted as new because it was already present in `data/corrections.json`; the refresh therefore preserves title-level deduplication rather than inflating the bibliography.
 
