@@ -30,7 +30,7 @@ Primary conference targets: **CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML**.
 
 Also search **ACL, EMNLP, NAACL, AAAI** and other clearly strong venues when directly relevant.
 
-Primary journal targets include **IEEE TPAMI/PAMI, Nature, Nature Machine Intelligence, Nature Communications**, and other top journals when the topic is a close match.
+Primary journal targets include **IEEE TPAMI/PAMI, IEEE TMM, Nature, Nature Machine Intelligence, Nature Communications, and Scientific Reports when directly on-topic**. Other high-quality journals may be retained only when the reliability contribution is central and the publication status is verified from the official publisher.
 
 Workshop-only and position papers may be retained only when unusually relevant and must be explicitly marked as such. They must never be represented as main-conference papers.
 
@@ -96,6 +96,7 @@ Maintain:
 
 - `data/papers.json` as the legacy/seed collection;
 - `data/expanded_YYYY.json` as systematic year-specific expansion files;
+- dated expansion/correction files for incremental verified additions;
 - `data/corrections.json` for verified overrides;
 - `README.md`, `index.html`, and this protocol so they remain consistent with the taxonomy and data model.
 
