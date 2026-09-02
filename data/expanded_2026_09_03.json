@@ -1,0 +1,18 @@
+{
+  "papers": [
+    {
+      "title": "Accuracy and hallucinations in AI-generated medication dosing calculations: a sequential explanatory mixed-methods evaluation",
+      "authors": "Fuad Farajalla, Momin Rasras, Mohyeddin Al-Allama, Ayman Salameh, Abd-alrahman Halahla, Mousa Farajallah",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "presentation": "N/A",
+      "track": "Journal Article",
+      "system_type": ["LLM"],
+      "research_tasks": ["hallucination evaluation", "failure evaluation", "accuracy/reliability", "reasoning error analysis", "clinical reliability"],
+      "url": "https://www.nature.com/articles/s41598-026-69321-9",
+      "doi": "10.1038/s41598-026-69321-9",
+      "source_type": "Nature Portfolio official journal article",
+      "verified_on": "2026-09-03"
+    }
+  ]
+}
