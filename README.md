@@ -13,7 +13,7 @@ Priority venues include **CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, ACL, EMNLP, NAA
 
 ## Current coverage
 
-The systematic refresh through **2026-09-02** adds six high-confidence official ACL/EACL proceedings records that were not present in the repository:
+The systematic refresh through **2026-09-02** adds seven high-confidence official proceedings/journal records that were not present in the repository:
 
 - **HALP: Detecting Hallucinations in Vision-Language Models without Generating a Single Token** — EACL 2026 Main Conference · Long Paper; pre-generation hallucination-risk prediction from VLM internal representations, with implications for abstention and selective routing.
 - **Prompting the Unknown: Understanding Response Uncertainty in Large Language Models** — Findings of ACL 2026; theoretical and empirical analysis of prompt informativeness and response uncertainty.
@@ -21,6 +21,7 @@ The systematic refresh through **2026-09-02** adds six high-confidence official 
 - **Fine-Grained Detection of Context-Grounded Hallucinations Using LLMs** — Findings of ACL 2026; fine-grained context-grounded hallucination detection and error characterization.
 - **HalluGuard: Evidence-Grounded Small Reasoning Models to Mitigate Hallucinations in Retrieval-Augmented Generation** — Findings of ACL 2026; evidence-grounded RAG hallucination detection/guardrailing.
 - **Faithfulness-Aware Uncertainty Quantification for Fact-Checking the Output of Retrieval-Augmented Generation** — Findings of ACL 2026; faithfulness-aware uncertainty quantification and factual-error detection for RAG.
+- **Fallibility, persuadability, and correctability of large language models under sustained conversational misinformation pressure** — Scientific Reports 2026; systematic evaluation of LLM failure modes, misinformation robustness, conversational susceptibility, and self-correction under sustained multi-turn pressure.
 
 The September 1 increment remains available in `data/expanded_2026_09_01.json` and contains ten previously verified records spanning hallucination detection/mitigation, uncertainty/calibration, failure detection, and abstention.
 
