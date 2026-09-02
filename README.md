@@ -13,17 +13,11 @@ Priority venues include **CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, ACL, EMNLP, NAA
 
 ## Current coverage
 
-The systematic refresh through **2026-09-02** adds seven high-confidence official proceedings/journal records that were not present in the repository:
+The systematic refresh through **2026-09-03** adds one newly published high-confidence journal record that was not present in the repository:
 
-- **HALP: Detecting Hallucinations in Vision-Language Models without Generating a Single Token** — EACL 2026 Main Conference · Long Paper; pre-generation hallucination-risk prediction from VLM internal representations, with implications for abstention and selective routing.
-- **Prompting the Unknown: Understanding Response Uncertainty in Large Language Models** — Findings of ACL 2026; theoretical and empirical analysis of prompt informativeness and response uncertainty.
-- **PretrainRL: Alleviating Factuality Hallucination of Large Language Models at the Beginning** — Findings of ACL 2026; pretraining-stage factuality intervention for hallucination mitigation.
-- **Fine-Grained Detection of Context-Grounded Hallucinations Using LLMs** — Findings of ACL 2026; fine-grained context-grounded hallucination detection and error characterization.
-- **HalluGuard: Evidence-Grounded Small Reasoning Models to Mitigate Hallucinations in Retrieval-Augmented Generation** — Findings of ACL 2026; evidence-grounded RAG hallucination detection/guardrailing.
-- **Faithfulness-Aware Uncertainty Quantification for Fact-Checking the Output of Retrieval-Augmented Generation** — Findings of ACL 2026; faithfulness-aware uncertainty quantification and factual-error detection for RAG.
-- **Fallibility, persuadability, and correctability of large language models under sustained conversational misinformation pressure** — Scientific Reports 2026; systematic evaluation of LLM failure modes, misinformation robustness, conversational susceptibility, and self-correction under sustained multi-turn pressure.
+- **Accuracy and hallucinations in AI-generated medication dosing calculations: a sequential explanatory mixed-methods evaluation** — Scientific Reports 2026; evaluates hallucination frequency, numerical accuracy, reasoning errors, and reliability of ChatGPT, Gemini, and DeepSeek on standardized medication-dosing calculations.
 
-The September 1 increment remains available in `data/expanded_2026_09_01.json` and contains ten previously verified records spanning hallucination detection/mitigation, uncertainty/calibration, failure detection, and abstention.
+The September 2 increment remains available in `data/expanded_2026_09_02.json` and contains seven previously verified records spanning VLM hallucination detection, LLM uncertainty, RAG faithfulness/reliability, hallucination mitigation, and conversational failure evaluation. The September 1 increment remains available in `data/expanded_2026_09_01.json` and contains ten previously verified records spanning hallucination detection/mitigation, uncertainty/calibration, failure detection, and abstention.
 
 Conference presentation labels remain conservative: no Oral/Highlight/Spotlight/Poster designation is inferred without an authoritative presentation source. Journal records use `N/A`.
 
@@ -31,7 +25,7 @@ Conference presentation labels remain conservative: no Oral/Highlight/Spotlight/
 
 - `data/papers.json` — canonical seed collection.
 - `data/expanded_2023.json` … `data/expanded_2026.json` — year-level expansion records.
-- dated files such as `data/expanded_2026_08_25.json` … `data/expanded_2026_09_02.json` — high-confidence additions and corrections from systematic refreshes.
+- dated files such as `data/expanded_2026_08_25.json` … `data/expanded_2026_09_03.json` — high-confidence additions and corrections from systematic refreshes.
 - `data/corrections.json` — higher-confidence metadata corrections and override records.
 - `index.html` — GitHub Pages browser; it merges all loaded sources and deduplicates by normalized canonical title, with later correction records overriding earlier metadata.
 
