@@ -13,15 +13,13 @@ Priority venues include **CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, ACL, EMNLP, NAA
 
 ## Current coverage
 
-The systematic refresh through **2026-09-03** adds five newly verified high-confidence records that were not present in the repository:
+The systematic refresh through **2026-09-04** adds three newly verified high-confidence records that were not present in the repository:
 
-- **Accuracy and hallucinations in AI-generated medication dosing calculations: a sequential explanatory mixed-methods evaluation** — Scientific Reports 2026; evaluates hallucination frequency, numerical accuracy, reasoning errors, and reliability of ChatGPT, Gemini, and DeepSeek on standardized medication-dosing calculations.
-- **Understanding New-Knowledge-Induced Factual Hallucinations in LLMs: Analysis and Interpretation** — Findings of ACL 2026; analyzes how learning unfamiliar knowledge induces and propagates factual hallucinations and studies attention-based mechanisms and mitigation.
-- **Dynamic PMI-Guided Contrastive Decoding Reduces Hallucination in Large Language Models: A Unified Framework of Fine-Grained Input Transformations** — Findings of ACL 2026; proposes training-free contrastive decoding for hallucination mitigation and improved factuality/reasoning robustness.
-- **Principled Detection of Hallucinations in Large Language Models via Multiple Testing** — Findings of ACL 2026; formulates hallucination detection as calibrated hypothesis testing with conformal p-values and controlled false-alarm rate.
-- **MARCH: Multi-Agent Reinforced Check for Hallucination** — ACL 2026 Main Conference, Long Paper; uses specialized Solver/Proposer/Checker agents and multi-agent reinforcement learning for RAG hallucination verification and mitigation.
+- **Confidence Estimation for LLMs in Multi-turn Interactions** — Findings of ACL 2026; establishes a multi-turn confidence-estimation framework with calibration and monotonicity criteria, introduces InfoECE and P(Sufficient), and studies reliability as evidence accumulates across turns.
+- **Reasoning about Uncertainty: Do Reasoning Models Know When They Don’t Know?** — Findings of EACL 2026; evaluates uncertainty quantification and calibration in reasoning models and introduces introspective uncertainty quantification.
+- **Confidence-Calibrated Small-Large Language Model Collaboration for Cost-Efficient Reasoning** — EACL 2026 Main Conference, Long Paper; uses calibrated confidence for selective routing from a smaller model to a larger model, directly connecting confidence calibration with selective prediction and cost-aware reliability.
 
-The September 2 increment remains available in `data/expanded_2026_09_02.json` and contains seven previously verified records spanning VLM hallucination detection, LLM uncertainty, RAG faithfulness/reliability, hallucination mitigation, and conversational failure evaluation. The September 1 increment remains available in `data/expanded_2026_09_01.json` and contains ten previously verified records spanning hallucination detection/mitigation, uncertainty/calibration, failure detection, and abstention.
+The September 3 increment remains available in `data/expanded_2026_09_03.json` and `data/expanded_2026_09_03_pm.json`. The September 2 increment remains available in `data/expanded_2026_09_02.json`, and the September 1 increment remains available in `data/expanded_2026_09_01.json`.
 
 Conference presentation labels remain conservative: no Oral/Highlight/Spotlight/Poster designation is inferred without an authoritative presentation source. Journal records use `N/A`.
 
@@ -29,7 +27,7 @@ Conference presentation labels remain conservative: no Oral/Highlight/Spotlight/
 
 - `data/papers.json` — canonical seed collection.
 - `data/expanded_2023.json` … `data/expanded_2026.json` — year-level expansion records.
-- dated files such as `data/expanded_2026_08_25.json` … `data/expanded_2026_09_03_pm.json` — high-confidence additions and corrections from systematic refreshes.
+- dated files such as `data/expanded_2026_08_25.json` … `data/expanded_2026_09_04.json` — high-confidence additions and corrections from systematic refreshes.
 - `data/corrections.json` — higher-confidence metadata corrections and override records.
 - `index.html` — GitHub Pages browser; it merges all loaded sources and deduplicates by normalized canonical title, with later correction records overriding earlier metadata.
 
