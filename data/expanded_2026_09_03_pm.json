@@ -1,0 +1,60 @@
+{
+  "papers": [
+    {
+      "title": "Understanding New-Knowledge-Induced Factual Hallucinations in LLMs: Analysis and Interpretation",
+      "authors": "Renfei Dang, Peng Hu, Zhejian Lai, Changjiang Gao, Min Zhang, Shujian Huang",
+      "year": 2026,
+      "venue": "ACL",
+      "presentation": "Not verified",
+      "track": "Findings",
+      "system_type": ["LLM"],
+      "research_tasks": ["hallucination analysis", "hallucination evaluation", "hallucination mitigation", "knowledge reliability", "interpretability"],
+      "url": "https://aclanthology.org/2026.findings-acl.358/",
+      "doi": "10.18653/v1/2026.findings-acl.358",
+      "source_type": "ACL Anthology official proceedings record",
+      "verified_on": "2026-09-03"
+    },
+    {
+      "title": "Dynamic PMI-Guided Contrastive Decoding Reduces Hallucination in Large Language Models: A Unified Framework of Fine-Grained Input Transformations",
+      "authors": "Dongsheng Chen, Yingqi Zhu, Xingyue Zhang, Wenqing Zhou, Lei Li",
+      "year": 2026,
+      "venue": "ACL",
+      "presentation": "Not verified",
+      "track": "Findings",
+      "system_type": ["LLM"],
+      "research_tasks": ["hallucination mitigation", "factuality", "contrastive decoding", "reasoning reliability", "over-refusal mitigation"],
+      "url": "https://aclanthology.org/2026.findings-acl.1212/",
+      "doi": "10.18653/v1/2026.findings-acl.1212",
+      "source_type": "ACL Anthology official proceedings record",
+      "verified_on": "2026-09-03"
+    },
+    {
+      "title": "Principled Detection of Hallucinations in Large Language Models via Multiple Testing",
+      "authors": "Jiawei Li, Akshayaa Magesh, Venugopal Veeravalli",
+      "year": 2026,
+      "venue": "ACL",
+      "presentation": "Not verified",
+      "track": "Findings",
+      "system_type": ["LLM"],
+      "research_tasks": ["hallucination detection", "uncertainty calibration", "failure detection", "out-of-distribution detection", "conformal inference"],
+      "url": "https://aclanthology.org/2026.findings-acl.1705/",
+      "doi": "10.18653/v1/2026.findings-acl.1705",
+      "source_type": "ACL Anthology official proceedings record",
+      "verified_on": "2026-09-03"
+    },
+    {
+      "title": "MARCH: Multi-Agent Reinforced Check for Hallucination",
+      "authors": "Zhuo Li, Yupeng Zhang, Pengyu Cheng, Jiajun Song, Mengyu Zhou, Hao Li, Shujie Hu, Yu Qin, Erchao Zhao, Xiaoxi Jiang, Guanjun Jiang",
+      "year": 2026,
+      "venue": "ACL",
+      "presentation": "Not verified",
+      "track": "Main Conference · Long Paper",
+      "system_type": ["LLM", "Agent"],
+      "research_tasks": ["hallucination detection", "hallucination mitigation", "RAG reliability", "multi-agent verification", "factuality"],
+      "url": "https://aclanthology.org/2026.acl-long.1828/",
+      "doi": "10.18653/v1/2026.acl-long.1828",
+      "source_type": "ACL Anthology official proceedings record",
+      "verified_on": "2026-09-03"
+    }
+  ]
+}
