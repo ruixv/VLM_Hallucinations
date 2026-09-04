@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "verified_on": "2026-09-05",
+    "note": "High-confidence NeurIPS 2025 additions verified from official NeurIPS virtual presentation pages."
+  },
+  "papers": [
+    {
+      "title": "On Epistemic Uncertainty of Visual Tokens for Object Hallucinations in Large Vision-Language Models",
+      "authors": "Hoigi Seo, Dong Un Kang, Hyunjin Cho, Joohoon Lee, Se Young Chun",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "presentation": "Poster",
+      "track": "Main Conference Track",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "uncertainty estimation",
+        "hallucination analysis",
+        "hallucination mitigation"
+      ],
+      "url": "https://neurips.cc/virtual/2025/poster/116514",
+      "source_type": "Official NeurIPS virtual presentation page",
+      "verified_on": "2026-09-05"
+    },
+    {
+      "title": "Poison as Cure: Visual Noise for Mitigating Object Hallucinations in LVMs",
+      "authors": "Kejia Zhang, Keda Tao, Jiasheng Tang, Huan Wang",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "presentation": "Poster",
+      "track": "Main Conference Track",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "object hallucination",
+        "visual perturbation"
+      ],
+      "url": "https://neurips.cc/virtual/2025/poster/115828",
+      "source_type": "Official NeurIPS virtual presentation page",
+      "verified_on": "2026-09-05"
+    },
+    {
+      "title": "Grounding Language with Vision: A Conditional Mutual Information Calibrated Decoding Strategy for Reducing Hallucinations in LVLMs",
+      "authors": "Hao Fang, Changle Zhou, Jiawei Kong, Kuofeng Gao, Bin Chen, Tao Liang, Guojun Ma, Shu-Tao Xia",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "presentation": "Poster",
+      "track": "Main Conference Track",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "calibrated decoding",
+        "visual grounding"
+      ],
+      "url": "https://neurips.cc/virtual/2025/poster/117625",
+      "source_type": "Official NeurIPS virtual presentation page",
+      "verified_on": "2026-09-05"
+    },
+    {
+      "title": "The Curse of Multi-Modalities: Evaluating Hallucinations of Large Multimodal Models across Language, Visual, and Audio",
+      "authors": "Sicong Leng, Yun Xing, Zesen Cheng, Yang Zhou, Hang Zhang, Xin Li, Deli Zhao, Shijian Lu, Chunyan Miao, Lidong Bing",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "presentation": "Poster",
+      "track": "Main Conference Track",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination evaluation",
+        "hallucination analysis",
+        "benchmark/evaluation"
+      ],
+      "url": "https://neurips.cc/virtual/2025/poster/121756",
+      "source_type": "Official NeurIPS virtual presentation page",
+      "verified_on": "2026-09-05"
+    },
+    {
+      "title": "GLSim: Detecting Object Hallucinations in LVLMs via Global-Local Similarity",
+      "authors": "Seongheon Park, Sharon Li",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "presentation": "Poster",
+      "track": "Main Conference Track",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "failure detection",
+        "object hallucination"
+      ],
+      "url": "https://neurips.cc/virtual/2025/poster/117360",
+      "source_type": "Official NeurIPS virtual presentation page",
+      "verified_on": "2026-09-05"
+    },
+    {
+      "title": "Mitigating Hallucination in VideoLLMs via Temporal-Aware Activation Engineering",
+      "authors": "Jianfeng Cai, Jiale Hong, Zongmeng Zhang, Wengang Zhou, Zhannian Ji, Houqiang Li",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "presentation": "Poster",
+      "track": "Main Conference Track",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "video-language models",
+        "activation engineering"
+      ],
+      "url": "https://neurips.cc/virtual/2025/poster/119674",
+      "source_type": "Official NeurIPS virtual presentation page",
+      "verified_on": "2026-09-05"
+    },
+    {
+      "title": "ViCrit: A Verifiable Reinforcement Learning Proxy Task for Visual Perception in VLMs",
+      "authors": "Xiyao Wang, Zhengyuan Yang, Chao Feng, Yuhang Zhou, Xiaoyu Liu, Yongyuan Liang, Ming Li, Ziyi Zang, Linjie Li, Chung-Ching Lin, Kevin Lin, Furong Huang, Lijuan Wang",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "presentation": "Poster",
+      "track": "Main Conference Track",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "hallucination localization",
+        "reinforcement learning"
+      ],
+      "url": "https://neurips.cc/virtual/2025/poster/116500",
+      "source_type": "Official NeurIPS virtual presentation page",
+      "verified_on": "2026-09-05"
+    },
+    {
+      "title": "Auditing Meta-Cognitive Hallucinations in Reasoning Large Language Models",
+      "authors": "Haolang Lu, Yilian Liu, Jingxin Xu, Guoshun Nan, Yuanlong Yu, Zhican Chen, Kun Wang",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "presentation": "Poster",
+      "track": "Main Conference Track",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination evaluation",
+        "hallucination detection",
+        "reasoning reliability"
+      ],
+      "url": "https://neurips.cc/virtual/2025/poster/115780",
+      "source_type": "Official NeurIPS virtual presentation page",
+      "verified_on": "2026-09-05"
+    }
+  ]
+}

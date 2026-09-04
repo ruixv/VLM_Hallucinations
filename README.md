@@ -13,11 +13,18 @@ Priority venues include **CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, ACL, EMNLP, NAA
 
 ## Current coverage
 
-The systematic refresh through **2026-09-04** adds three newly verified high-confidence records that were not present in the repository:
+The systematic refresh through **2026-09-05** adds eight newly verified NeurIPS 2025 records that were not present in the repository. All eight have official NeurIPS virtual presentation pages and are therefore verified as **Poster**:
 
-- **Confidence Estimation for LLMs in Multi-turn Interactions** — Findings of ACL 2026; establishes a multi-turn confidence-estimation framework with calibration and monotonicity criteria, introduces InfoECE and P(Sufficient), and studies reliability as evidence accumulates across turns.
-- **Reasoning about Uncertainty: Do Reasoning Models Know When They Don’t Know?** — Findings of EACL 2026; evaluates uncertainty quantification and calibration in reasoning models and introduces introspective uncertainty quantification.
-- **Confidence-Calibrated Small-Large Language Model Collaboration for Cost-Efficient Reasoning** — EACL 2026 Main Conference, Long Paper; uses calibrated confidence for selective routing from a smaller model to a larger model, directly connecting confidence calibration with selective prediction and cost-aware reliability.
+- **On Epistemic Uncertainty of Visual Tokens for Object Hallucinations in Large Vision-Language Models** — uncertainty analysis and hallucination mitigation.
+- **Poison as Cure: Visual Noise for Mitigating Object Hallucinations in LVMs** — object-hallucination mitigation via visual perturbation.
+- **Grounding Language with Vision: A Conditional Mutual Information Calibrated Decoding Strategy for Reducing Hallucinations in LVLMs** — calibrated decoding and visual grounding.
+- **The Curse of Multi-Modalities: Evaluating Hallucinations of Large Multimodal Models across Language, Visual, and Audio** — multimodal hallucination benchmark/evaluation.
+- **GLSim: Detecting Object Hallucinations in LVLMs via Global-Local Similarity** — training-free hallucination detection.
+- **Mitigating Hallucination in VideoLLMs via Temporal-Aware Activation Engineering** — VideoLLM hallucination mitigation.
+- **ViCrit: A Verifiable Reinforcement Learning Proxy Task for Visual Perception in VLMs** — hallucination localization/critic training.
+- **Auditing Meta-Cognitive Hallucinations in Reasoning Large Language Models** — reasoning-chain hallucination auditing and detection.
+
+The September 4 increment remains available in `data/expanded_2026_09_04.json`.
 
 The September 3 increment remains available in `data/expanded_2026_09_03.json` and `data/expanded_2026_09_03_pm.json`. The September 2 increment remains available in `data/expanded_2026_09_02.json`, and the September 1 increment remains available in `data/expanded_2026_09_01.json`.
 
@@ -27,7 +34,7 @@ Conference presentation labels remain conservative: no Oral/Highlight/Spotlight/
 
 - `data/papers.json` — canonical seed collection.
 - `data/expanded_2023.json` … `data/expanded_2026.json` — year-level expansion records.
-- dated files such as `data/expanded_2026_08_25.json` … `data/expanded_2026_09_04.json` — high-confidence additions and corrections from systematic refreshes.
+- dated files such as `data/expanded_2026_08_25.json` … `data/expanded_2026_09_05.json` — high-confidence additions and corrections from systematic refreshes.
 - `data/corrections.json` — higher-confidence metadata corrections and override records.
 - `index.html` — GitHub Pages browser; it merges all loaded sources and deduplicates by normalized canonical title, with later correction records overriding earlier metadata.
 
