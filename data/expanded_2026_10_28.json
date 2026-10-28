@@ -295,46 +295,6 @@
       "verified_on": "2026-10-28"
     },
     {
-      "title": "Tracking Truth Through Layers: Temporal Dynamics of Fact Representations for Hallucination Detection in LLMs",
-      "authors": "Yanqiang Zhang, Feng Dawei, Bo Ding, Yuanzhao Zhai, Huaimin Wang",
-      "year": 2026,
-      "venue": "EMNLP",
-      "track": "Findings of EMNLP 2026",
-      "presentation": "Not verified",
-      "system_type": [
-        "LLM"
-      ],
-      "research_tasks": [
-        "hallucination detection",
-        "hidden-state analysis",
-        "temporal representation dynamics"
-      ],
-      "url": "https://aclanthology.org/2026.findings-emnlp.297/",
-      "paper_type": "Conference paper · Findings",
-      "source_type": "ACL Anthology official proceedings",
-      "verified_on": "2026-10-28"
-    },
-    {
-      "title": "TriLens: Per-Layer Logit-Lens Entropy for White-Box Hallucination Detection",
-      "authors": "Bohan Yang, Yijun Gong, Zhi Zhang, Ge Zhang, Wenpeng Xing, Meng Han",
-      "year": 2026,
-      "venue": "EMNLP",
-      "track": "Findings of EMNLP 2026",
-      "presentation": "Not verified",
-      "system_type": [
-        "LLM"
-      ],
-      "research_tasks": [
-        "hallucination detection",
-        "uncertainty estimation",
-        "white-box monitoring"
-      ],
-      "url": "https://aclanthology.org/2026.findings-emnlp.1803/",
-      "paper_type": "Conference paper · Findings",
-      "source_type": "ACL Anthology official proceedings",
-      "verified_on": "2026-10-28"
-    },
-    {
       "title": "Detecting Hallucinations for Large Language Model-Based Knowledge Graph Reasoning",
       "authors": "Xinyan Zhu, Yaoqi Liu, Yue Gao, Huadong Ma, Cheng Yang, Chuan Shi",
       "year": 2026,
@@ -514,26 +474,6 @@
         "quantization reliability"
       ],
       "url": "https://aclanthology.org/2026.findings-emnlp.670/",
-      "paper_type": "Conference paper · Findings",
-      "source_type": "ACL Anthology official proceedings",
-      "verified_on": "2026-10-28"
-    },
-    {
-      "title": "DynHD: Hallucination Detection for Diffusion Large Language Models via Denoising Dynamics Deviation Learning",
-      "authors": "Yanyu Qian, Yue Tan, Yixin Liu, Wang Yu, Shirui Pan",
-      "year": 2026,
-      "venue": "EMNLP",
-      "track": "Findings of EMNLP 2026",
-      "presentation": "Not verified",
-      "system_type": [
-        "LLM"
-      ],
-      "research_tasks": [
-        "hallucination detection",
-        "uncertainty dynamics",
-        "diffusion language models"
-      ],
-      "url": "https://aclanthology.org/2026.findings-emnlp.368/",
       "paper_type": "Conference paper · Findings",
       "source_type": "ACL Anthology official proceedings",
       "verified_on": "2026-10-28"
