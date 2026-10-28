@@ -13,21 +13,26 @@ Priority venues include **CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, ACL, EMNLP, NAA
 
 ## Current coverage
 
-The systematic refresh through **2026-09-04** adds three newly verified high-confidence records that were not present in the repository:
+The systematic refresh through **2026-10-28** adds **51 unique verified records** to the loaded bibliography. It backfills previously verified NeurIPS 2025 poster records, adds newly indexed **EMNLP 2026 Findings** on uncertainty calibration, answerability, hallucination detection, multimodal mitigation and agent reliability, and fills missed ACL/EACL and CVPR 2026 Main/Findings records.
 
-- **Confidence Estimation for LLMs in Multi-turn Interactions** — Findings of ACL 2026; establishes a multi-turn confidence-estimation framework with calibration and monotonicity criteria, introduces InfoECE and P(Sufficient), and studies reliability as evidence accumulates across turns.
-- **Reasoning about Uncertainty: Do Reasoning Models Know When They Don’t Know?** — Findings of EACL 2026; evaluates uncertainty quantification and calibration in reasoning models and introduces introspective uncertainty quantification.
-- **Confidence-Calibrated Small-Large Language Model Collaboration for Cost-Efficient Reasoning** — EACL 2026 Main Conference, Long Paper; uses calibrated confidence for selective routing from a smaller model to a larger model, directly connecting confidence calibration with selective prediction and cost-aware reliability.
+Representative additions include:
 
-The September 3 increment remains available in `data/expanded_2026_09_03.json` and `data/expanded_2026_09_03_pm.json`. The September 2 increment remains available in `data/expanded_2026_09_02.json`, and the September 1 increment remains available in `data/expanded_2026_09_01.json`.
+- **FLOW-ABSTAIN: Modeling the Answerable Manifold for Query-Aware Abstention in Large Language Models** — EMNLP Findings of EMNLP 2026; abstention, answerability estimation, OOD detection.
+- **Towards Reliable Truth-Aligned Uncertainty Estimation in Large Language Models** — EMNLP Findings of EMNLP 2026; uncertainty estimation, confidence calibration, hallucination detection.
+- **Hallucination as Exploit: Evidence-Carrying Multimodal Agents** — EMNLP Findings of EMNLP 2026; agent failure detection, hallucination mitigation, evidence verification.
+- **Two Pathways to Truthfulness: On the Intrinsic Encoding of LLM Hallucinations** — ACL Main Conference · Long Paper; hallucination detection, truthfulness representation, knowledge-boundary analysis.
+- **A unified multi-domain framework for hallucination detection and reliability evaluation in large language models** — Scientific Reports Journal Article; hallucination detection, reliability evaluation, adversarial robustness.
+- **Overthinking Causes Hallucination: Tracing Confounder Propagation in Vision Language Models** — CVPR Findings Track; hallucination detection, uncertainty analysis, reasoning failure analysis.
 
-Conference presentation labels remain conservative: no Oral/Highlight/Spotlight/Poster designation is inferred without an authoritative presentation source. Journal records use `N/A`.
+The update also adds the Scientific Reports article *A unified multi-domain framework for hallucination detection and reliability evaluation in large language models* (published 2026-10-15), and the Nature article *Training language models to be warm can reduce accuracy and increase sycophancy* (published 2026-04-29). Journal records use N/A for presentation.
+
+The nine NeurIPS 2025 papers added from official virtual pages are recorded as **Poster**. New ACL/EMNLP/CVPR records remain **Not verified** unless an official presentation page supports a label. The legacy **Oral + Poster** value for *Semantic Uncertainty* is normalized to **Oral**; two existing NeurIPS 2025 seed records are upgraded to **Poster** from official virtual pages.
 
 ## Data layout
 
 - `data/papers.json` — canonical seed collection.
 - `data/expanded_2023.json` … `data/expanded_2026.json` — year-level expansion records.
-- dated files such as `data/expanded_2026_08_25.json` … `data/expanded_2026_09_04.json` — high-confidence additions and corrections from systematic refreshes.
+- dated files such as `data/expanded_2026_08_25.json` … `data/expanded_2026_10_28.json` — high-confidence additions and corrections from systematic refreshes.
 - `data/corrections.json` — higher-confidence metadata corrections and override records.
 - `index.html` — GitHub Pages browser; it merges all loaded sources and deduplicates by normalized canonical title, with later correction records overriding earlier metadata.
 

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "LLM / VLM Hallucination Papers",
-    "last_updated": "2026-08-24T16:18:00+08:00",
+    "last_updated": "2026-10-28T16:22:00+08:00",
     "verification_policy": "Venue and presentation labels are recorded only when supported by an official conference, OpenReview, CVF, proceedings, or journal page. Otherwise presentation is 'Not verified'.",
     "paper_count": 18
   },
@@ -15,7 +15,11 @@
       "presentation": "Not verified",
       "track": "Main Conference",
       "domain": "VLM",
-      "topic": ["mitigation", "training", "visual grounding"],
+      "topic": [
+        "mitigation",
+        "training",
+        "visual grounding"
+      ],
       "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hou_VES-RFT_Rewarding_Visual_Evidence_Sensitivity_to_Mitigate_Hallucinations_in_Large_CVPR_2026_paper.html",
       "source_type": "CVF official proceedings",
       "verified_on": "2026-08-24"
@@ -29,7 +33,11 @@
       "presentation": "Not verified",
       "track": "Main Conference",
       "domain": "VLM",
-      "topic": ["mitigation", "inference-time", "steering"],
+      "topic": [
+        "mitigation",
+        "inference-time",
+        "steering"
+      ],
       "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Prefill-Time_Intervention_for_Mitigating_Hallucination_in_Large_Vision-Language_Models_CVPR_2026_paper.html",
       "source_type": "CVF official proceedings",
       "verified_on": "2026-08-24"
@@ -43,7 +51,11 @@
       "presentation": "Not verified",
       "track": "Main Conference",
       "domain": "VLM",
-      "topic": ["mitigation", "attention", "training-free"],
+      "topic": [
+        "mitigation",
+        "attention",
+        "training-free"
+      ],
       "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhao_Tell_Model_Where_to_Look_Mitigating_Hallucinations_in_MLLMs_by_CVPR_2026_paper.html",
       "source_type": "CVF official proceedings",
       "verified_on": "2026-08-24"
@@ -57,7 +69,11 @@
       "presentation": "Not verified",
       "track": "Main Conference",
       "domain": "VLM",
-      "topic": ["mitigation", "KV-cache", "training-free"],
+      "topic": [
+        "mitigation",
+        "KV-cache",
+        "training-free"
+      ],
       "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_KVSmooth_Mitigating_Hallucination_in_Multi-modal_Large_Language_Models_through_Key-Value_CVPR_2026_paper.html",
       "source_type": "CVF official proceedings",
       "verified_on": "2026-08-24"
@@ -71,7 +87,11 @@
       "presentation": "Not verified",
       "track": "Main Conference",
       "domain": "VLM",
-      "topic": ["mitigation", "counterfactual", "contrastive decoding"],
+      "topic": [
+        "mitigation",
+        "counterfactual",
+        "contrastive decoding"
+      ],
       "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liang_Envision_Attend_Then_Respond_Counterfactual_Hallucination_Mitigation_in_Large_Vision-Language_CVPR_2026_paper.html",
       "source_type": "CVF official proceedings",
       "verified_on": "2026-08-24"
@@ -85,7 +105,10 @@
       "presentation": "Not verified",
       "track": "Main Conference",
       "domain": "VLM",
-      "topic": ["mitigation", "cross-modal attention"],
+      "topic": [
+        "mitigation",
+        "cross-modal attention"
+      ],
       "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Cross-Modal_Attention_Calibration_for_LVLM_Hallucination_Mitigation_CVPR_2026_paper.html",
       "source_type": "CVF official proceedings",
       "verified_on": "2026-08-24"
@@ -99,7 +122,11 @@
       "presentation": "Not verified",
       "track": "Main Conference",
       "domain": "VLM",
-      "topic": ["mitigation", "vision tokens", "training-free"],
+      "topic": [
+        "mitigation",
+        "vision tokens",
+        "training-free"
+      ],
       "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Fa_One_Token_Two_Fates_A_Unified_Framework_via_Vision_Token_CVPR_2026_paper.html",
       "source_type": "CVF official proceedings",
       "verified_on": "2026-08-24"
@@ -113,7 +140,11 @@
       "presentation": "Not verified",
       "track": "Main Conference",
       "domain": "VLM",
-      "topic": ["mitigation", "self-reflection", "gradient"],
+      "topic": [
+        "mitigation",
+        "self-reflection",
+        "gradient"
+      ],
       "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Mitigating_Multimodal_Hallucinations_via_Gradient-based_Self-Reflection_CVPR_2026_paper.html",
       "source_type": "CVF official proceedings",
       "verified_on": "2026-08-24"
@@ -127,7 +158,11 @@
       "presentation": "Not verified",
       "track": "Main Conference",
       "domain": "VLM",
-      "topic": ["mitigation", "preference learning", "object hallucination"],
+      "topic": [
+        "mitigation",
+        "preference learning",
+        "object hallucination"
+      ],
       "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Peng_Mitigating_Object_Hallucinations_via_Sentence-Level_Early_Intervention_ICCV_2025_paper.html",
       "source_type": "CVF official proceedings",
       "verified_on": "2026-08-24"
@@ -141,7 +176,10 @@
       "presentation": "Not verified",
       "track": "Main Conference",
       "domain": "VLM",
-      "topic": ["mitigation", "information flow"],
+      "topic": [
+        "mitigation",
+        "information flow"
+      ],
       "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Wang_SHIFT_Smoothing_Hallucinations_by_Information_Flow_Tuning_for_Multimodal_Large_ICCV_2025_paper.html",
       "source_type": "CVF official proceedings",
       "verified_on": "2026-08-24"
@@ -155,7 +193,11 @@
       "presentation": "Not verified",
       "track": "Main Conference",
       "domain": "VLM",
-      "topic": ["mitigation", "latent intervention", "object hallucination"],
+      "topic": [
+        "mitigation",
+        "latent intervention",
+        "object hallucination"
+      ],
       "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Duan_TruthPrInt_Mitigating_Large_Vision-Language_Models_Object_Hallucination_Via_Latent_Truthful-Guided_ICCV_2025_paper.html",
       "source_type": "CVF official proceedings",
       "verified_on": "2026-08-24"
@@ -169,7 +211,11 @@
       "presentation": "Spotlight",
       "track": "Main Conference",
       "domain": "VLM",
-      "topic": ["mitigation", "latent steering", "inference-time"],
+      "topic": [
+        "mitigation",
+        "latent steering",
+        "inference-time"
+      ],
       "url": "https://openreview.net/forum?id=LBl7Hez0fF",
       "source_type": "Official OpenReview venue page",
       "verified_on": "2026-08-24"
@@ -183,7 +229,11 @@
       "presentation": "Poster",
       "track": "Main Conference",
       "domain": "VLM",
-      "topic": ["mitigation", "alignment", "object hallucination"],
+      "topic": [
+        "mitigation",
+        "alignment",
+        "object hallucination"
+      ],
       "url": "https://openreview.net/forum?id=yG1fW8igzP",
       "source_type": "Official OpenReview venue page",
       "verified_on": "2026-08-24"
@@ -197,7 +247,11 @@
       "presentation": "Poster",
       "track": "Main Conference",
       "domain": "VLM",
-      "topic": ["mitigation", "ensemble decoding", "attention"],
+      "topic": [
+        "mitigation",
+        "ensemble decoding",
+        "attention"
+      ],
       "url": "https://openreview.net/forum?id=ziw5bzg2NO",
       "source_type": "Official OpenReview venue page",
       "verified_on": "2026-08-24"
@@ -211,7 +265,11 @@
       "presentation": "Poster",
       "track": "Main Conference",
       "domain": "VLM",
-      "topic": ["mitigation", "grounding", "alignment"],
+      "topic": [
+        "mitigation",
+        "grounding",
+        "alignment"
+      ],
       "url": "https://openreview.net/forum?id=zJnPyb2xrp",
       "source_type": "Official OpenReview venue page",
       "verified_on": "2026-08-24"
@@ -222,13 +280,17 @@
       "year": 2025,
       "venue": "NeurIPS",
       "venue_full": "Conference on Neural Information Processing Systems",
-      "presentation": "Not verified",
+      "presentation": "Poster",
       "track": "Main Conference Track",
       "domain": "VLM",
-      "topic": ["mitigation", "contrastive decoding"],
+      "topic": [
+        "mitigation",
+        "contrastive decoding"
+      ],
       "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f39cc9110544a067f024c1fb8b396128-Abstract-Conference.html",
-      "source_type": "Official NeurIPS proceedings",
-      "verified_on": "2026-08-24"
+      "source_type": "NeurIPS proceedings plus official virtual presentation page",
+      "verified_on": "2026-10-28",
+      "presentation_source": "https://neurips.cc/virtual/2025/poster/118235"
     },
     {
       "title": "More Thinking, Less Seeing? Assessing Amplified Hallucination in Multimodal Reasoning Models",
@@ -236,13 +298,18 @@
       "year": 2025,
       "venue": "NeurIPS",
       "venue_full": "Conference on Neural Information Processing Systems",
-      "presentation": "Not verified",
+      "presentation": "Poster",
       "track": "Main Conference Track",
       "domain": "VLM",
-      "topic": ["evaluation", "reasoning", "benchmark"],
+      "topic": [
+        "evaluation",
+        "reasoning",
+        "benchmark"
+      ],
       "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/777db387a5ccb131ba8c7cd155166b85-Abstract-Conference.html",
-      "source_type": "Official NeurIPS proceedings",
-      "verified_on": "2026-08-24"
+      "source_type": "NeurIPS proceedings plus official virtual presentation page",
+      "verified_on": "2026-10-28",
+      "presentation_source": "https://neurips.cc/virtual/2025/poster/118585"
     },
     {
       "title": "What’s in Common? Multimodal Models Hallucinate When Reasoning Across Scenes",
@@ -253,7 +320,11 @@
       "presentation": "Not verified",
       "track": "Datasets and Benchmarks Track",
       "domain": "VLM",
-      "topic": ["evaluation", "benchmark", "reasoning"],
+      "topic": [
+        "evaluation",
+        "benchmark",
+        "reasoning"
+      ],
       "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3e5b0db387078ac4968fd536d3c3a019-Abstract-Datasets_and_Benchmarks_Track.html",
       "source_type": "Official NeurIPS proceedings",
       "verified_on": "2026-08-24"

@@ -1,0 +1,1060 @@
+{
+  "meta": {
+    "verified_on": "2026-10-28",
+    "note": "Verified backfill and newly indexed reliability papers from official NeurIPS, ACL Anthology, CVF Open Access, and Nature Portfolio sources. Presentation labels are conservative and normalized."
+  },
+  "papers": [
+    {
+      "title": "On Epistemic Uncertainty of Visual Tokens for Object Hallucinations in Large Vision-Language Models",
+      "authors": "Hoigi Seo, Dong Un Kang, Hyunjin Cho, Joohoon Lee, Se Young Chun",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "track": "Main Conference Track",
+      "presentation": "Poster",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "uncertainty estimation",
+        "hallucination analysis",
+        "hallucination mitigation"
+      ],
+      "url": "https://neurips.cc/virtual/2025/poster/116514",
+      "presentation_source": "https://neurips.cc/virtual/2025/poster/116514",
+      "paper_type": "Conference paper",
+      "source_type": "Official NeurIPS virtual presentation page",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Poison as Cure: Visual Noise for Mitigating Object Hallucinations in LVMs",
+      "authors": "Kejia Zhang, Keda Tao, Jiasheng Tang, Huan Wang",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "track": "Main Conference Track",
+      "presentation": "Poster",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "object hallucination",
+        "visual perturbation"
+      ],
+      "url": "https://neurips.cc/virtual/2025/poster/115828",
+      "presentation_source": "https://neurips.cc/virtual/2025/poster/115828",
+      "paper_type": "Conference paper",
+      "source_type": "Official NeurIPS virtual presentation page",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Grounding Language with Vision: A Conditional Mutual Information Calibrated Decoding Strategy for Reducing Hallucinations in LVLMs",
+      "authors": "Hao Fang, Changle Zhou, Jiawei Kong, Kuofeng Gao, Bin Chen, Tao Liang, Guojun Ma, Shu-Tao Xia",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "track": "Main Conference Track",
+      "presentation": "Poster",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "calibrated decoding",
+        "visual grounding"
+      ],
+      "url": "https://neurips.cc/virtual/2025/poster/117625",
+      "presentation_source": "https://neurips.cc/virtual/2025/poster/117625",
+      "paper_type": "Conference paper",
+      "source_type": "Official NeurIPS virtual presentation page",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "The Curse of Multi-Modalities: Evaluating Hallucinations of Large Multimodal Models across Language, Visual, and Audio",
+      "authors": "Sicong Leng, Yun Xing, Zesen Cheng, Yang Zhou, Hang Zhang, Xin Li, Deli Zhao, Shijian Lu, Chunyan Miao, Lidong Bing",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "track": "Main Conference Track",
+      "presentation": "Poster",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination evaluation",
+        "hallucination analysis",
+        "benchmark/evaluation"
+      ],
+      "url": "https://neurips.cc/virtual/2025/poster/121756",
+      "presentation_source": "https://neurips.cc/virtual/2025/poster/121756",
+      "paper_type": "Conference paper",
+      "source_type": "Official NeurIPS virtual presentation page",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "GLSim: Detecting Object Hallucinations in LVLMs via Global-Local Similarity",
+      "authors": "Seongheon Park, Sharon Li",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "track": "Main Conference Track",
+      "presentation": "Poster",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "failure detection",
+        "object hallucination"
+      ],
+      "url": "https://neurips.cc/virtual/2025/poster/117360",
+      "presentation_source": "https://neurips.cc/virtual/2025/poster/117360",
+      "paper_type": "Conference paper",
+      "source_type": "Official NeurIPS virtual presentation page",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Mitigating Hallucination in VideoLLMs via Temporal-Aware Activation Engineering",
+      "authors": "Jianfeng Cai, Jiale Hong, Zongmeng Zhang, Wengang Zhou, Zhannian Ji, Houqiang Li",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "track": "Main Conference Track",
+      "presentation": "Poster",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "video-language models",
+        "activation engineering"
+      ],
+      "url": "https://neurips.cc/virtual/2025/poster/119674",
+      "presentation_source": "https://neurips.cc/virtual/2025/poster/119674",
+      "paper_type": "Conference paper",
+      "source_type": "Official NeurIPS virtual presentation page",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "ViCrit: A Verifiable Reinforcement Learning Proxy Task for Visual Perception in VLMs",
+      "authors": "Xiyao Wang, Zhengyuan Yang, Chao Feng, Yuhang Zhou, Xiaoyu Liu, Yongyuan Liang, Ming Li, Ziyi Zang, Linjie Li, Chung-Ching Lin, Kevin Lin, Furong Huang, Lijuan Wang",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "track": "Main Conference Track",
+      "presentation": "Poster",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "hallucination localization",
+        "reinforcement learning"
+      ],
+      "url": "https://neurips.cc/virtual/2025/poster/116500",
+      "presentation_source": "https://neurips.cc/virtual/2025/poster/116500",
+      "paper_type": "Conference paper",
+      "source_type": "Official NeurIPS virtual presentation page",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Auditing Meta-Cognitive Hallucinations in Reasoning Large Language Models",
+      "authors": "Haolang Lu, Yilian Liu, Jingxin Xu, Guoshun Nan, Yuanlong Yu, Zhican Chen, Kun Wang",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "track": "Main Conference Track",
+      "presentation": "Poster",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination evaluation",
+        "hallucination detection",
+        "reasoning reliability"
+      ],
+      "url": "https://neurips.cc/virtual/2025/poster/115780",
+      "presentation_source": "https://neurips.cc/virtual/2025/poster/115780",
+      "paper_type": "Conference paper",
+      "source_type": "Official NeurIPS virtual presentation page",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Efficient semantic uncertainty quantification in language models via diversity-steered sampling",
+      "authors": "Ji Won Park, Kyunghyun Cho",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "track": "Main Conference Track",
+      "presentation": "Poster",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "uncertainty estimation",
+        "semantic uncertainty",
+        "sample efficiency"
+      ],
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2e49934cac6cb8604b0c67cfa0828718-Abstract-Conference.html",
+      "doi": "10.52202/085713-1080",
+      "presentation_source": "https://neurips.cc/virtual/2025/poster/118777",
+      "paper_type": "Conference paper",
+      "source_type": "NeurIPS proceedings plus official virtual presentation page",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "FLOW-ABSTAIN: Modeling the Answerable Manifold for Query-Aware Abstention in Large Language Models",
+      "authors": "Jixin Zhang, Bensheng Qiu",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings of EMNLP 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "abstention",
+        "answerability estimation",
+        "OOD detection",
+        "uncertainty estimation"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.645/",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Towards Reliable Truth-Aligned Uncertainty Estimation in Large Language Models",
+      "authors": "Ponhvoan Srey, Quang Minh Nguyen, Xiaobao Wu, Anh Tuan Luu",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings of EMNLP 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "uncertainty estimation",
+        "confidence calibration",
+        "hallucination detection",
+        "reliability"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.1471/",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Uncovering the Knowledge Boundaries and Mechanistic \"Knob\" of LLMs",
+      "authors": "Zihao Huang, Rui Mao, Yong Jiang, Erik Cambria",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings of EMNLP 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "knowledge-boundary estimation",
+        "hallucination detection",
+        "hallucination mitigation"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.1262/",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Beyond Visual Neglect: Context-Preference Activation Steering for Mitigating MLLM Hallucinations",
+      "authors": "Jingwen Wu, Xijun Zhang, Ge Song",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings of EMNLP 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "activation steering",
+        "visual grounding"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.1156/",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "RADAM: A Retrieval-Augmented Detection and Mitigation Framework for Faithfulness Hallucinations",
+      "authors": "Bin He, Guanghua Li, Yu Liu, Mingyang Zhou, Rui Mao, Naipeng Chao, Hao Liao",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings of EMNLP 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "hallucination mitigation",
+        "RAG faithfulness"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.1573/",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Visual Representation Regularization for Multimodal Hallucination Mitigation",
+      "authors": "Yifan Meng, Enguang Wang, Xusheng Cao, Fei Yang, Xialei Liu",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings of EMNLP 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "visual representation",
+        "multimodal reliability"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.1561/",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Tracking Truth Through Layers: Temporal Dynamics of Fact Representations for Hallucination Detection in LLMs",
+      "authors": "Yanqiang Zhang, Feng Dawei, Bo Ding, Yuanzhao Zhai, Huaimin Wang",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings of EMNLP 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "hidden-state analysis",
+        "temporal representation dynamics"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.297/",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "TriLens: Per-Layer Logit-Lens Entropy for White-Box Hallucination Detection",
+      "authors": "Bohan Yang, Yijun Gong, Zhi Zhang, Ge Zhang, Wenpeng Xing, Meng Han",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings of EMNLP 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "uncertainty estimation",
+        "white-box monitoring"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.1803/",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Detecting Hallucinations for Large Language Model-Based Knowledge Graph Reasoning",
+      "authors": "Xinyan Zhu, Yaoqi Liu, Yue Gao, Huadong Ma, Cheng Yang, Chuan Shi",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings of EMNLP 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM",
+        "Agent"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "knowledge-graph reasoning",
+        "benchmark/evaluation"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.155/",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Harmless Yet Harmful: Neutral Prompting Attacks for Stealthy Hallucination Steering in Agent Skills",
+      "authors": "Chia-Yi Hsu, Chia-Mu Yu, Chun-Ying Huang, Jun Sakuma",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings of EMNLP 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "Agent",
+        "LLM"
+      ],
+      "research_tasks": [
+        "agent failure evaluation",
+        "hallucination analysis",
+        "prompt-induced failure"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.1274/",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Guard Models Are Overconfident Where Base Models Are Uncertain",
+      "authors": "Jonghyun Hong, Min Jae Jung, Minwoo Kim",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings of EMNLP 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "confidence calibration",
+        "failure detection",
+        "adversarial robustness"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.2276/",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Fortifying Hallucination Detection Under Distribution Shift in Short-Form QA",
+      "authors": "Ti Tze Hong, Saffron Salmah Yen Lim, Maarten Sap",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings of EMNLP 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "OOD detection",
+        "distribution shift"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.113/",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Hallucination as Exploit: Evidence-Carrying Multimodal Agents",
+      "authors": "Guijia Zhang, Hao Zheng, Harry Yang",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings of EMNLP 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "Agent",
+        "VLM"
+      ],
+      "research_tasks": [
+        "agent failure detection",
+        "hallucination mitigation",
+        "evidence verification"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.871/",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "SAGE: Answer-Conditioned Uncertainty Targets for Verbal Confidence Alignment",
+      "authors": "Kaiwen Shi, Zheyuan Zhang, Yanfang Ye",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings of EMNLP 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "confidence calibration",
+        "uncertainty estimation",
+        "overconfidence mitigation"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.1214/",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "A Pre-Generation Epistemic Routing Axis in Language Models",
+      "authors": "Steve Bakos, Heidar Davoudi, Aijun An",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings of EMNLP 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "epistemic uncertainty",
+        "hallucination detection",
+        "abstention"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.1324/",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Sieve and Sage: Efficient Distraction Filtering for Reliable RALM Abstention",
+      "authors": "Jongbin Won, SungGeun An, Jay-Yoon Lee",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings of EMNLP 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM",
+        "Agent"
+      ],
+      "research_tasks": [
+        "abstention",
+        "RAG failure detection",
+        "retrieval-noise detection"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.2356/",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Target-Aware Calibration Data Selection for Preserving Uncertainty in Quantized Language Models",
+      "authors": "Zhen Yang, Sizai Hou, Kaiwen Zheng, Yaofang Liu, Liang He, Yixuan Chen, Kangning Cui",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings of EMNLP 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "uncertainty preservation",
+        "confidence calibration",
+        "quantization reliability"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.670/",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "DynHD: Hallucination Detection for Diffusion Large Language Models via Denoising Dynamics Deviation Learning",
+      "authors": "Yanyu Qian, Yue Tan, Yixin Liu, Wang Yu, Shirui Pan",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings of EMNLP 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "uncertainty dynamics",
+        "diffusion language models"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.368/",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "The Privacy-Hallucination Tradeoff in Differentially Private Language Models",
+      "authors": "Krithika Ramesh, Krishna Pillutla, Danish Pruthi, Anjalie Field",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings of EMNLP 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination evaluation",
+        "reliability analysis",
+        "privacy-accuracy trade-off"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.2088/",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Efficient Hallucination Detection in Automatic Code Generation",
+      "authors": "Georgii Andriushchenko, Roman Garaev, Lyudmila Rvanova, Artem Shelmanov, Vladimir V. Ivanov",
+      "year": 2026,
+      "venue": "ACL",
+      "track": "Findings of ACL 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM",
+        "Agent"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "code-generation reliability",
+        "uncertainty estimation"
+      ],
+      "url": "https://aclanthology.org/2026.findings-acl.2143/",
+      "doi": "10.18653/v1/2026.findings-acl.2143",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Beyond Output Confidence: Epistemic-Aware Hallucination Detection with Answer-Level Signals",
+      "authors": "Jieran Li, Xiuyuan Hu, Yang Zhao, Dongbiao Sun, Hao Zhang",
+      "year": 2026,
+      "venue": "ACL",
+      "track": "Findings of ACL 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "epistemic uncertainty",
+        "confidence calibration"
+      ],
+      "url": "https://aclanthology.org/2026.findings-acl.674/",
+      "doi": "10.18653/v1/2026.findings-acl.674",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "VL-Calibration: Decoupled Confidence Calibration for Large Vision-Language Models Reasoning",
+      "authors": "Wenyi Xiao, Xinchi Xu, Leilei Gan",
+      "year": 2026,
+      "venue": "ACL",
+      "track": "Main Conference · Long Paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "confidence calibration",
+        "uncertainty estimation",
+        "hallucination mitigation",
+        "OOD generalization"
+      ],
+      "url": "https://aclanthology.org/2026.acl-long.2074/",
+      "doi": "10.18653/v1/2026.acl-long.2074",
+      "paper_type": "Conference paper · Main Conference Long Paper",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "CEBC: Conformal Evidence-Bounded Control for Low-Hallucination Vision–Language Generation",
+      "authors": "Ashish Mishra, Tarun Kumar, Arpit Shah, Suparna Bhattacharya, Martin Foltin",
+      "year": 2026,
+      "venue": "ACL",
+      "track": "Main Conference · Long Paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "conformal calibration",
+        "evidence-grounded generation"
+      ],
+      "url": "https://aclanthology.org/2026.acl-long.2142/",
+      "doi": "10.18653/v1/2026.acl-long.2142",
+      "paper_type": "Conference paper · Main Conference Long Paper",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "HalluZig: Hallucination Detection using Zigzag Persistence",
+      "authors": "Shreyas N. Samaga, Gilberto Gonzalez Arroyo, Tamal K. Dey",
+      "year": 2026,
+      "venue": "EACL",
+      "track": "Main Conference · Long Paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "topological analysis",
+        "early detection"
+      ],
+      "url": "https://aclanthology.org/2026.eacl-long.159/",
+      "doi": "10.18653/v1/2026.eacl-long.159",
+      "paper_type": "Conference paper · Main Conference Long Paper",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Two Pathways to Truthfulness: On the Intrinsic Encoding of LLM Hallucinations",
+      "authors": "Wen Luo, Guangyue Peng, Wei Li, Shaohang Wei, Feifan Song, Liang Wang, Nan Yang, Xingxing Zhang, Jing Jin, Furu Wei, Houfeng Wang",
+      "year": 2026,
+      "venue": "ACL",
+      "track": "Main Conference · Long Paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "truthfulness representation",
+        "knowledge-boundary analysis"
+      ],
+      "url": "https://aclanthology.org/2026.acl-long.1173/",
+      "doi": "10.18653/v1/2026.acl-long.1173",
+      "paper_type": "Conference paper · Main Conference Long Paper",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Mitigating Hallucinations in Large Vision-Language Models without Performance Degradation",
+      "authors": "Xingyu Zhu, Junfeng Fang, Shuo Wang, Beier Zhu, Zhicai Wang, Yonghui Yang, Xiangnan He",
+      "year": 2026,
+      "venue": "ACL",
+      "track": "Main Conference · Long Paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "selective parameter update",
+        "generation reliability"
+      ],
+      "url": "https://aclanthology.org/2026.acl-long.89/",
+      "doi": "10.18653/v1/2026.acl-long.89",
+      "paper_type": "Conference paper · Main Conference Long Paper",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "KGHaluBench: A Knowledge Graph-Based Hallucination Benchmark for Evaluating the Breadth and Depth of LLM Knowledge",
+      "authors": "Alex Robertson, Huizhi Liang, Mahbub Gani, Rohit Kumar, Srijith Rajamohan",
+      "year": 2026,
+      "venue": "EACL",
+      "track": "Findings of EACL 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination evaluation",
+        "benchmark/evaluation",
+        "knowledge coverage"
+      ],
+      "url": "https://aclanthology.org/2026.findings-eacl.206/",
+      "doi": "10.18653/v1/2026.findings-eacl.206",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "ClinDet-Bench: Beyond Abstention, Evaluating Judgment Determinability of LLMs in Clinical Decision-Making",
+      "authors": "Yusuke Watanabe, Yohei Kobashi, Takeshi Kojima, Yusuke Iwasawa, Yasushi Okuno, Yutaka Matsuo",
+      "year": 2026,
+      "venue": "ACL",
+      "track": "Industry Track",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "abstention",
+        "judgment determinability",
+        "clinical reliability evaluation"
+      ],
+      "url": "https://aclanthology.org/2026.acl-industry.47/",
+      "doi": "10.18653/v1/2026.acl-industry.47",
+      "paper_type": "Conference paper · Industry Track",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Abstain-R1: Calibrated Abstention and Post-Refusal Clarification via Verifiable RL",
+      "authors": "Haotian Zhai, Jingcheng Liang, Dongyeop Kang",
+      "year": 2026,
+      "venue": "ACL",
+      "track": "Findings of ACL 2026",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "calibrated abstention",
+        "clarification",
+        "selective prediction"
+      ],
+      "url": "https://aclanthology.org/2026.findings-acl.985/",
+      "doi": "10.18653/v1/2026.findings-acl.985",
+      "paper_type": "Conference paper · Findings",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Training language models to be warm can reduce accuracy and increase sycophancy",
+      "authors": "Lujain Ibrahim, Franziska Sofia Hafner, Luc Rocher",
+      "year": 2026,
+      "venue": "Nature",
+      "track": "Journal Article",
+      "presentation": "N/A",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "reliability evaluation",
+        "accuracy degradation",
+        "sycophancy"
+      ],
+      "url": "https://www.nature.com/articles/s41586-026-10410-0",
+      "doi": "10.1038/s41586-026-10410-0",
+      "paper_type": "Journal article",
+      "source_type": "Nature Portfolio official article page",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "A unified multi-domain framework for hallucination detection and reliability evaluation in large language models",
+      "authors": "Kayarvizhy Nagappan, M. Bhuvana, Ayman Khan, C. Bharath, S. G. Brijesh, Pankaj Awasthi, Reevu Maity",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "track": "Journal Article",
+      "presentation": "N/A",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "reliability evaluation",
+        "adversarial robustness"
+      ],
+      "url": "https://www.nature.com/articles/s41598-026-76014-w",
+      "doi": "10.1038/s41598-026-76014-w",
+      "paper_type": "Journal article",
+      "source_type": "Nature Portfolio official article page",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "CausalLens: Sensitivity-Guided Multi-Head Causal Intervention for Hallucination Mitigation in Large Vision-Language Models",
+      "authors": "Junyang Ji, Qifan Liu, Wenming Yang, Zhihai He",
+      "year": 2026,
+      "venue": "CVPR",
+      "track": "Main Conference",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "causal intervention",
+        "visual grounding"
+      ],
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ji_CausalLens_Sensitivity-Guided_Multi-Head_Causal_Intervention_for_Hallucination_Mitigation_in_Large_CVPR_2026_paper.html",
+      "paper_type": "Conference paper",
+      "source_type": "CVF Open Access official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "AXG-Reasoner: Error Detection and Explanation in Long Task Videos with Vision-Language Models",
+      "authors": "Shih-Po Lee, Ehsan Elhamifar",
+      "year": 2026,
+      "venue": "CVPR",
+      "track": "Main Conference",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM",
+        "Agent"
+      ],
+      "research_tasks": [
+        "error detection",
+        "failure explanation",
+        "procedural-video reliability"
+      ],
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lee_AXG-Reasoner_Error_Detection_and_Explanation_in_Long_Task_Videos_with_CVPR_2026_paper.html",
+      "paper_type": "Conference paper",
+      "source_type": "CVF Open Access official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "ZINA: Multimodal Fine-grained Hallucination Detection and Editing",
+      "authors": "Yuiga Wada, Kazuki Matsuda, Komei Sugiura, Graham Neubig",
+      "year": 2026,
+      "venue": "CVPR",
+      "track": "Main Conference",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "hallucination localization",
+        "hallucination editing"
+      ],
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wada_ZINA_Multimodal_Fine-grained_Hallucination_Detection_and_Editing_CVPR_2026_paper.html",
+      "paper_type": "Conference paper",
+      "source_type": "CVF Open Access official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "MoD-DPO: Towards Mitigating Cross-modal Hallucinations in Omni LLMs using Modality Decoupled Preference Optimization",
+      "authors": "Ashutosh Chaubey, Jiacheng Pang, Mohammad Soleymani",
+      "year": 2026,
+      "venue": "CVPR",
+      "track": "Main Conference",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM",
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "cross-modal reliability",
+        "preference optimization"
+      ],
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chaubey_MoD-DPO_Towards_Mitigating_Cross-modal_Hallucinations_in_Omni_LLMs_using_Modality_CVPR_2026_paper.html",
+      "paper_type": "Conference paper",
+      "source_type": "CVF Open Access official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Reallocating Attention Across Layers to Reduce Multimodal Hallucination",
+      "authors": "Haolang Lu, Bolun Chu, WeiYe Fu, Guoshun Nan, Junning Liu, Minghui Pan, Qiankun Li, Yi Yu, Hua Wang, Kun Wang",
+      "year": 2026,
+      "venue": "CVPR",
+      "track": "Main Conference",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "attention analysis",
+        "multimodal reasoning reliability"
+      ],
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lu_Reallocating_Attention_Across_Layers_to_Reduce_Multimodal_Hallucination_CVPR_2026_paper.html",
+      "paper_type": "Conference paper",
+      "source_type": "CVF Open Access official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Locate-then-Sparsify: Attribution Guided Sparse Strategy for Visual Hallucination Mitigation",
+      "authors": "Tiantian Dang, Chao Bi, Shufan Shen, Jinzhe Liu, Qingming Huang, Shuhui Wang",
+      "year": 2026,
+      "venue": "CVPR",
+      "track": "Main Conference",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "attribution",
+        "feature steering"
+      ],
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Dang_Locate-then-Sparsify_Attribution_Guided_Sparse_Strategy_for_Visual_Hallucination_Mitigation_CVPR_2026_paper.html",
+      "paper_type": "Conference paper",
+      "source_type": "CVF Open Access official proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Overthinking Causes Hallucination: Tracing Confounder Propagation in Vision Language Models",
+      "authors": "Abin Shoby, Ta Duc Huy, Tuan Dung Nguyen, Minh Khoi Ho, Qi Chen, Anton van den Hengel, Phi Le Nguyen, Johan W. Verjans, Vu Minh Hieu Phan",
+      "year": 2026,
+      "venue": "CVPR",
+      "track": "Findings Track",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "uncertainty analysis",
+        "reasoning failure analysis"
+      ],
+      "url": "https://openaccess.thecvf.com/content/CVPR2026F/html/Shoby_Overthinking_Causes_Hallucination_Tracing_Confounder_Propagation_in_Vision_Language_Models_CVPRF_2026_paper.html",
+      "paper_type": "Conference paper · Findings track",
+      "source_type": "CVF Open Access official Findings proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Attention-Space Contrastive Guidance for Efficient Hallucination Mitigation in LVLMs",
+      "authors": "Yujin Jo, Sangyoon Bae, Taesup Kim",
+      "year": 2026,
+      "venue": "CVPR",
+      "track": "Findings Track",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "visual grounding",
+        "efficient decoding"
+      ],
+      "url": "https://openaccess.thecvf.com/content/CVPR2026F/html/Jo_Attention-Space_Contrastive_Guidance_for_Efficient_Hallucination_Mitigation_in_LVLMs_CVPRF_2026_paper.html",
+      "paper_type": "Conference paper · Findings track",
+      "source_type": "CVF Open Access official Findings proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Alleviating Hallucinations in Large Vision-Language Models via Decoding-Time Perturbation Adaptation",
+      "authors": "Jiaqi Bai, Hongcheng Guo, Jiaheng Liu, Zhibo Zhou, Jian Yang, Feiran Huang",
+      "year": 2026,
+      "venue": "CVPR",
+      "track": "Findings Track",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "test-time adaptation",
+        "decoding reliability"
+      ],
+      "url": "https://openaccess.thecvf.com/content/CVPR2026F/html/Bai_Alleviating_Hallucinations_in_Large_Vision-Language_Models_via_Decoding-Time_Perturbation_Adaptation_CVPRF_2026_paper.html",
+      "paper_type": "Conference paper · Findings track",
+      "source_type": "CVF Open Access official Findings proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Counterfactual Segmentation Reasoning: Diagnosing and Mitigating Pixel-Grounding Hallucination",
+      "authors": "Xinzhuo Li, Adheesh Juvekar, Jiaxun Zhang, Xingyou Liu, Muntasir Wahed, Kiet A. Nguyen, Yifan Shen, Tianjiao Yu, Ismini Lourentzou",
+      "year": 2026,
+      "venue": "CVPR",
+      "track": "Findings Track",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "pixel-grounding failure",
+        "abstention"
+      ],
+      "url": "https://openaccess.thecvf.com/content/CVPR2026F/html/Li_Counterfactual_Segmentation_Reasoning_Diagnosing_and_Mitigating_Pixel-Grounding_Hallucination_CVPRF_2026_paper.html",
+      "paper_type": "Conference paper · Findings track",
+      "source_type": "CVF Open Access official Findings proceedings",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "title": "Mitigating Object Hallucinations in LVLMs via Attention Imbalance Rectification",
+      "authors": "Han Sun, Qin Li, Peixin Wang, Min Zhang",
+      "year": 2026,
+      "venue": "CVPR",
+      "track": "Findings Track",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "attention analysis",
+        "visual grounding"
+      ],
+      "url": "https://openaccess.thecvf.com/content/CVPR2026F/html/Sun_Mitigating_Object_Hallucinations_in_LVLMs_via_Attention_Imbalance_Rectification_CVPRF_2026_paper.html",
+      "paper_type": "Conference paper · Findings track",
+      "source_type": "CVF Open Access official Findings proceedings",
+      "verified_on": "2026-10-28"
+    }
+  ]
+}

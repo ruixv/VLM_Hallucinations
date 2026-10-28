@@ -116,3 +116,9 @@ Report concisely:
 - whether GitHub was updated.
 
 The guiding rule is **accuracy first, completeness second, and explicit uncertainty instead of invented metadata**.
+
+## 9. Completion and synchronization integrity
+
+Before reporting a refresh as complete, reconcile the default branch with prior automation branches or pending commits. Additions count as repository updates only when their data file is reachable from the default branch and loaded by index.html. A successful write to a side branch is not a completed repository update.
+
+Check newly indexed proceedings volumes and distinguish Main Conference, Findings, Industry, Dataset/Benchmark, and Workshop records. For CVPR, inspect the separate Findings proceedings as well as the main proceedings; for ACL/EMNLP, inspect newly indexed Anthology volumes. Keep presentation status at Not verified unless an official schedule, virtual page, or venue record explicitly supports the label. Treat the default branch as the live source of truth.
