@@ -13,7 +13,7 @@ Priority venues include **CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, ACL, EMNLP, NAA
 
 ## Current coverage
 
-The systematic refresh through **2026-10-28** adds **51 unique verified records** to the loaded bibliography. It backfills previously verified NeurIPS 2025 poster records, adds newly indexed **EMNLP 2026 Findings** on uncertainty calibration, answerability, hallucination detection, multimodal mitigation and agent reliability, and fills missed ACL/EACL and CVPR 2026 Main/Findings records.
+The systematic refresh through **2026-10-28** adds **47 unique verified records** to the loaded bibliography. It backfills previously verified NeurIPS 2025 poster records, adds newly indexed **EMNLP 2026 Findings** on uncertainty calibration, answerability, hallucination detection, multimodal mitigation and agent reliability, and fills missed ACL/EACL and CVPR 2026 Main/Findings records.
 
 Representative additions include:
 
@@ -26,7 +26,7 @@ Representative additions include:
 
 The update also adds the Scientific Reports article *A unified multi-domain framework for hallucination detection and reliability evaluation in large language models* (published 2026-10-15), and the Nature article *Training language models to be warm can reduce accuracy and increase sycophancy* (published 2026-04-29). Journal records use N/A for presentation.
 
-The nine NeurIPS 2025 papers added from official virtual pages are recorded as **Poster**. New ACL/EMNLP/CVPR records remain **Not verified** unless an official presentation page supports a label. The legacy **Oral + Poster** value for *Semantic Uncertainty* is normalized to **Oral**; two existing NeurIPS 2025 seed records are upgraded to **Poster** from official virtual pages.
+The eight newly backfilled NeurIPS 2025 papers added from official virtual pages are recorded as **Poster**. New ACL/EMNLP/CVPR records remain **Not verified** unless an official presentation page supports a label. The legacy **Oral + Poster** value for *Semantic Uncertainty* is normalized to **Oral**; two existing NeurIPS 2025 seed records are upgraded to **Poster** from official virtual pages.
 
 ## Data layout
 

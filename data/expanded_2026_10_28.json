@@ -173,28 +173,6 @@
       "verified_on": "2026-10-28"
     },
     {
-      "title": "Efficient semantic uncertainty quantification in language models via diversity-steered sampling",
-      "authors": "Ji Won Park, Kyunghyun Cho",
-      "year": 2025,
-      "venue": "NeurIPS",
-      "track": "Main Conference Track",
-      "presentation": "Poster",
-      "system_type": [
-        "LLM"
-      ],
-      "research_tasks": [
-        "uncertainty estimation",
-        "semantic uncertainty",
-        "sample efficiency"
-      ],
-      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2e49934cac6cb8604b0c67cfa0828718-Abstract-Conference.html",
-      "doi": "10.52202/085713-1080",
-      "presentation_source": "https://neurips.cc/virtual/2025/poster/118777",
-      "paper_type": "Conference paper",
-      "source_type": "NeurIPS proceedings plus official virtual presentation page",
-      "verified_on": "2026-10-28"
-    },
-    {
       "title": "FLOW-ABSTAIN: Modeling the Answerable Manifold for Query-Aware Abstention in Large Language Models",
       "authors": "Jixin Zhang, Bensheng Qiu",
       "year": 2026,
@@ -603,49 +581,6 @@
       "verified_on": "2026-10-28"
     },
     {
-      "title": "Beyond Output Confidence: Epistemic-Aware Hallucination Detection with Answer-Level Signals",
-      "authors": "Jieran Li, Xiuyuan Hu, Yang Zhao, Dongbiao Sun, Hao Zhang",
-      "year": 2026,
-      "venue": "ACL",
-      "track": "Findings of ACL 2026",
-      "presentation": "Not verified",
-      "system_type": [
-        "LLM"
-      ],
-      "research_tasks": [
-        "hallucination detection",
-        "epistemic uncertainty",
-        "confidence calibration"
-      ],
-      "url": "https://aclanthology.org/2026.findings-acl.674/",
-      "doi": "10.18653/v1/2026.findings-acl.674",
-      "paper_type": "Conference paper · Findings",
-      "source_type": "ACL Anthology official proceedings",
-      "verified_on": "2026-10-28"
-    },
-    {
-      "title": "VL-Calibration: Decoupled Confidence Calibration for Large Vision-Language Models Reasoning",
-      "authors": "Wenyi Xiao, Xinchi Xu, Leilei Gan",
-      "year": 2026,
-      "venue": "ACL",
-      "track": "Main Conference · Long Paper",
-      "presentation": "Not verified",
-      "system_type": [
-        "VLM"
-      ],
-      "research_tasks": [
-        "confidence calibration",
-        "uncertainty estimation",
-        "hallucination mitigation",
-        "OOD generalization"
-      ],
-      "url": "https://aclanthology.org/2026.acl-long.2074/",
-      "doi": "10.18653/v1/2026.acl-long.2074",
-      "paper_type": "Conference paper · Main Conference Long Paper",
-      "source_type": "ACL Anthology official proceedings",
-      "verified_on": "2026-10-28"
-    },
-    {
       "title": "CEBC: Conformal Evidence-Bounded Control for Low-Hallucination Vision–Language Generation",
       "authors": "Ashish Mishra, Tarun Kumar, Arpit Shah, Suparna Bhattacharya, Martin Foltin",
       "year": 2026,
@@ -662,27 +597,6 @@
       ],
       "url": "https://aclanthology.org/2026.acl-long.2142/",
       "doi": "10.18653/v1/2026.acl-long.2142",
-      "paper_type": "Conference paper · Main Conference Long Paper",
-      "source_type": "ACL Anthology official proceedings",
-      "verified_on": "2026-10-28"
-    },
-    {
-      "title": "HalluZig: Hallucination Detection using Zigzag Persistence",
-      "authors": "Shreyas N. Samaga, Gilberto Gonzalez Arroyo, Tamal K. Dey",
-      "year": 2026,
-      "venue": "EACL",
-      "track": "Main Conference · Long Paper",
-      "presentation": "Not verified",
-      "system_type": [
-        "LLM"
-      ],
-      "research_tasks": [
-        "hallucination detection",
-        "topological analysis",
-        "early detection"
-      ],
-      "url": "https://aclanthology.org/2026.eacl-long.159/",
-      "doi": "10.18653/v1/2026.eacl-long.159",
       "paper_type": "Conference paper · Main Conference Long Paper",
       "source_type": "ACL Anthology official proceedings",
       "verified_on": "2026-10-28"
