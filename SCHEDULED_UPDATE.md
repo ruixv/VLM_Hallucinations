@@ -122,3 +122,9 @@ The guiding rule is **accuracy first, completeness second, and explicit uncertai
 Before reporting a refresh as complete, reconcile the default branch with prior automation branches or pending commits. Additions count as repository updates only when their data file is reachable from the default branch and loaded by index.html. A successful write to a side branch is not a completed repository update.
 
 Check newly indexed proceedings volumes and distinguish Main Conference, Findings, Industry, Dataset/Benchmark, and Workshop records. For CVPR, inspect the separate Findings proceedings as well as the main proceedings; for ACL/EMNLP, inspect newly indexed Anthology volumes. Keep presentation status at Not verified unless an official schedule, virtual page, or venue record explicitly supports the label. Treat the default branch as the live source of truth.
+
+## Verified additions — 2026-11-18
+
+- Added `data/expanded_2026_11_18.json` with two officially published EMNLP 2026 Findings records: ToolHACE and DynHD (ACL Anthology IDs `2026.findings-emnlp.1919` and `2026.findings-emnlp.368`).
+- Both are `Not verified` for presentation status; no inferred Poster or higher-status labels.
+- Additional discovery candidates await comprehensive cross-file deduplication and authoritative presentation checks.
