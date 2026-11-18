@@ -128,3 +128,9 @@ Check newly indexed proceedings volumes and distinguish Main Conference, Finding
 - Added `data/expanded_2026_11_18.json` with two officially published EMNLP 2026 Findings records: ToolHACE and DynHD (ACL Anthology IDs `2026.findings-emnlp.1919` and `2026.findings-emnlp.368`).
 - Both are `Not verified` for presentation status; no inferred Poster or higher-status labels.
 - Additional discovery candidates await comprehensive cross-file deduplication and authoritative presentation checks.
+
+## Verified additions — 2026-11-19
+
+- Added EMNLP 2026 Findings paper *Dynamic Alignment Compensation for Hallucination Mitigation in Large Vision-Language Models* to the existing November expansion file (official ACL Anthology ID `2026.findings-emnlp.161`, DOI `10.18653/2026.findings-emnlp.161`).
+- `presentation: Not verified`; no inferred Poster or higher label.
+- Audited discovered candidate titles across the seed database, year expansions and correction file; previously indexed titles were not re-added.
