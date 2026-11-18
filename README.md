@@ -65,3 +65,6 @@ See [`SCHEDULED_UPDATE.md`](SCHEDULED_UPDATE.md) for the detailed protocol.
 ## Corrections
 
 Accuracy is more important than maximizing raw paper count. If you find an incorrect venue, track, author list, presentation type, duplicate, or missing high-confidence paper, please open an issue or submit a correction with an authoritative source.
+### 2026-11-18 verified additions
+
+Two additional official EMNLP 2026 Findings papers are indexed in `data/expanded_2026_11_18.json`: **ToolHACE: A Dataset for Detecting Hallucinations in Tool-Based LLM Responses** (tool-augmented agent hallucination benchmark) and **DynHD: Hallucination Detection for Diffusion Large Language Models via Denoising Dynamics Deviation Learning**. Both have official ACL Anthology proceedings records; presentation status is **Not verified**. Other candidates require cross-file deduplication before inclusion.
