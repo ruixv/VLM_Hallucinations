@@ -68,3 +68,7 @@ Accuracy is more important than maximizing raw paper count. If you find an incor
 ### 2026-11-18 verified additions
 
 Two additional official EMNLP 2026 Findings papers are indexed in `data/expanded_2026_11_18.json`: **ToolHACE: A Dataset for Detecting Hallucinations in Tool-Based LLM Responses** (tool-augmented agent hallucination benchmark) and **DynHD: Hallucination Detection for Diffusion Large Language Models via Denoising Dynamics Deviation Learning**. Both have official ACL Anthology proceedings records; presentation status is **Not verified**. Other candidates require cross-file deduplication before inclusion.
+
+### 2026-11-19 verification
+
+Added **Dynamic Alignment Compensation for Hallucination Mitigation in Large Vision-Language Models** (Kairong Yu, Zixin Zhu, Le Yu, Hongwei Wang), **EMNLP 2026 Findings**, DOI `10.18653/2026.findings-emnlp.161`, official [ACL Anthology](https://aclanthology.org/2026.findings-emnlp.161/). The paper is stored in `data/expanded_2026_11_18.json` with `presentation: Not verified` because no official presentation label was established. Cross-file deduplication also confirmed that other screened ACL/EMNLP candidates were already represented in earlier expansion or correction files.
