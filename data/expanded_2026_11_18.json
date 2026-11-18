@@ -1,7 +1,7 @@
 {
   "meta": {
-    "verified_on": "2026-11-18",
-    "note": "Official ACL Anthology verified additions; presentation not verified."
+    "verified_on": "2026-11-19",
+    "note": "Official ACL Anthology verified additions; presentation labels are Not verified. Includes 2026-11-19 verified EMNLP Findings DAC."
   },
   "papers": [
     {
@@ -43,6 +43,27 @@
       "url": "https://aclanthology.org/2026.findings-emnlp.368/",
       "source_type": "ACL Anthology official proceedings",
       "verified_on": "2026-11-18"
+    },
+    {
+      "title": "Dynamic Alignment Compensation for Hallucination Mitigation in Large Vision-Language Models",
+      "authors": "Kairong Yu, Zixin Zhu, Le Yu, Hongwei Wang",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "visual grounding",
+        "inference-time intervention"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.161/",
+      "doi": "10.18653/2026.findings-emnlp.161",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-19"
     }
   ]
 }
