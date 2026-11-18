@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "verified_on": "2026-11-18",
+    "note": "Official ACL Anthology verified additions; presentation not verified."
+  },
+  "papers": [
+    {
+      "title": "ToolHACE: A Dataset for Detecting Hallucinations in Tool-Based LLM Responses",
+      "authors": "Nikolay Ivanov, Sergey Pletenev, Elisei Rykov, Frolov Anatolii, Bogdan Monogov, Alexander Potekhin, Maria Marina, Daniil Moskovskiy, Viktor Moskvoretskii, Alexander Panchenko, Ilseyar Alimova",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "Agent",
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "benchmark",
+        "tool-use reliability"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.1919/",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-18"
+    },
+    {
+      "title": "DynHD: Hallucination Detection for Diffusion Large Language Models via Denoising Dynamics Deviation Learning",
+      "authors": "Yanyu Qian, Yue Tan, Yixin Liu, Wang Yu, Shirui Pan",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "uncertainty estimation"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.368/",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-18"
+    }
+  ]
+}
