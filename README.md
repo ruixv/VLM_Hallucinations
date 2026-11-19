@@ -76,3 +76,7 @@ Added **Dynamic Alignment Compensation for Hallucination Mitigation in Large Vis
 ### 2026-11-19 additional official proceedings backfill
 
 Five previously unlisted EMNLP 2026 papers are added in `data/expanded_2026_11_19.json`: **Agentic Uncertainty Quantification** (Findings), **INTRYGUE** (Main Conference), **When Response Variation Does Not Indicate Uncertainty** (Main Conference), **CHARM** (Findings), and **K-FinHallu** (Findings). Titles, author lists and venue/track were verified against their individual ACL Anthology records. All have `presentation: Not verified` pending explicit authoritative presentation evidence. The canonical seed `data/papers.json` remains unchanged.
+
+### 2026-11-20 official proceedings verification
+
+Three records were added to `data/expanded_2026_11_20.json`: **Exploring Agentic Tool-Calling Decisions via Uncertainty-Aligned Reinforcement Learning** (EMNLP 2026 Findings), **LLM Abstention Can Be a Prompt Artifact, in Addition to Genuine Uncertainty** (EMNLP 2026 Main Conference), and **Overview of SHROOM-Visions 2026** (UncertaiNLP workshop shared-task overview, **not** EMNLP Main). Official ACL Anthology metadata and DOIs were checked; all presentation labels remain **Not verified**. Previously indexed FLOW-ABSTAIN, Sieve and Sage, and related candidates were not duplicated.
