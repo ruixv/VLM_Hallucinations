@@ -72,3 +72,7 @@ Two additional official EMNLP 2026 Findings papers are indexed in `data/expanded
 ### 2026-11-19 verification
 
 Added **Dynamic Alignment Compensation for Hallucination Mitigation in Large Vision-Language Models** (Kairong Yu, Zixin Zhu, Le Yu, Hongwei Wang), **EMNLP 2026 Findings**, DOI `10.18653/2026.findings-emnlp.161`, official [ACL Anthology](https://aclanthology.org/2026.findings-emnlp.161/). The paper is stored in `data/expanded_2026_11_18.json` with `presentation: Not verified` because no official presentation label was established. Cross-file deduplication also confirmed that other screened ACL/EMNLP candidates were already represented in earlier expansion or correction files.
+
+### 2026-11-19 additional official proceedings backfill
+
+Five previously unlisted EMNLP 2026 papers are added in `data/expanded_2026_11_19.json`: **Agentic Uncertainty Quantification** (Findings), **INTRYGUE** (Main Conference), **When Response Variation Does Not Indicate Uncertainty** (Main Conference), **CHARM** (Findings), and **K-FinHallu** (Findings). Titles, author lists and venue/track were verified against their individual ACL Anthology records. All have `presentation: Not verified` pending explicit authoritative presentation evidence. The canonical seed `data/papers.json` remains unchanged.
