@@ -140,3 +140,9 @@ Check newly indexed proceedings volumes and distinguish Main Conference, Finding
 - Added five EMNLP 2026 Main Conference/Findings papers in `data/expanded_2026_11_19.json`: Agentic Uncertainty Quantification, INTRYGUE, When Response Variation Does Not Indicate Uncertainty, CHARM, and K-FinHallu.
 - Official source: ACL Anthology individual proceedings pages; all presentation labels are `Not verified` (no unsupported Poster inference).
 - Deduplicated against the canonical seed, corrections, and all pre-existing year/date expansion files by title. No historical status correction established.
+
+## Official additions — 2026-11-20
+
+- Added three ACL Anthology-verified records to `data/expanded_2026_11_20.json`: TRUST agent tool-use uncertainty (EMNLP Findings), abstention prompt-artifact analysis (EMNLP Main), and SHROOM-Visions 2026 overview (UncertaiNLP Workshop, separately classified).
+- Each uses a single `Not verified` presentation label; no oral/spotlight/poster inference.
+- Confirmed that the previously added FLOW-ABSTAIN, Sieve and Sage, pre-generation epistemic routing and related items were already in the October 28 expansion; did not duplicate them.
