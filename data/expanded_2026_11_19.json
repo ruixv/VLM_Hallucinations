@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "verified_on": "2026-11-19",
+    "note": "Five previously missing EMNLP 2026 Main/Findings records verified against ACL Anthology; presentation not verified."
+  },
+  "papers": [
+    {
+      "title": "Agentic Uncertainty Quantification",
+      "authors": "Jiaxin Zhang, Prafulla Kumar Choubey, Kung-Hsiang Huang, Caiming Xiong, Chien-Sheng Wu",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "Agent",
+        "LLM"
+      ],
+      "research_tasks": [
+        "uncertainty quantification",
+        "confidence calibration",
+        "agent reliability",
+        "hallucination mitigation"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.1416/",
+      "doi": "10.18653/2026.findings-emnlp.1416",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-19"
+    },
+    {
+      "title": "INTRYGUE: Induction-Aware Entropy Gating for Reliable RAG Uncertainty Estimation",
+      "authors": "Alexandra Kuleshova, Andrei Volodichev, Daria Kotova, Alexey Zaytsev",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Main Conference",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "uncertainty estimation",
+        "hallucination detection",
+        "RAG reliability"
+      ],
+      "url": "https://aclanthology.org/2026.emnlp-main.2236/",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-19"
+    },
+    {
+      "title": "When Response Variation Does Not Indicate Uncertainty: Hallucination Detection for Multi-Answer Queries",
+      "authors": "Hongliang Dai, Qiuyuan Li, Piji Li",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Main Conference",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "uncertainty calibration",
+        "failure detection"
+      ],
+      "url": "https://aclanthology.org/2026.emnlp-main.864/",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-19"
+    },
+    {
+      "title": "CHARM: Character Hallucination for Multicultural Role Play Benchmark",
+      "authors": "Sunkyung Han, Nahyeon Park, Gaeun Seo, Seunghyun Yoon, JinYeong Bak",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination evaluation",
+        "benchmark",
+        "abstention",
+        "knowledge boundary detection"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.460/",
+      "doi": "10.18653/2026.findings-emnlp.460",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-19"
+    },
+    {
+      "title": "K-FinHallu: A Hallucination Detection Benchmark for Multi-Turn RAG in Korean Finance",
+      "authors": "Eunbyeol Cho, Yunseung Lee, Mirae Kim, Jeewon Yang, Youngjun Kwak, Edward Choi",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "benchmark",
+        "RAG reliability",
+        "abstention"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.2053/",
+      "doi": "10.18653/2026.findings-emnlp.2053",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-19"
+    }
+  ]
+}
