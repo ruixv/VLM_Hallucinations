@@ -134,3 +134,9 @@ Check newly indexed proceedings volumes and distinguish Main Conference, Finding
 - Added EMNLP 2026 Findings paper *Dynamic Alignment Compensation for Hallucination Mitigation in Large Vision-Language Models* to the existing November expansion file (official ACL Anthology ID `2026.findings-emnlp.161`, DOI `10.18653/2026.findings-emnlp.161`).
 - `presentation: Not verified`; no inferred Poster or higher label.
 - Audited discovered candidate titles across the seed database, year expansions and correction file; previously indexed titles were not re-added.
+
+## Official backfill — 2026-11-19 (additional pass)
+
+- Added five EMNLP 2026 Main Conference/Findings papers in `data/expanded_2026_11_19.json`: Agentic Uncertainty Quantification, INTRYGUE, When Response Variation Does Not Indicate Uncertainty, CHARM, and K-FinHallu.
+- Official source: ACL Anthology individual proceedings pages; all presentation labels are `Not verified` (no unsupported Poster inference).
+- Deduplicated against the canonical seed, corrections, and all pre-existing year/date expansion files by title. No historical status correction established.
