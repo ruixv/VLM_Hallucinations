@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "verified_on": "2026-11-20",
+    "note": "Three official ACL Anthology records, including one explicitly workshop-only shared-task overview; all presentation statuses not verified."
+  },
+  "papers": [
+    {
+      "year": 2026,
+      "presentation": "Not verified",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-20",
+      "title": "Exploring Agentic Tool-Calling Decisions via Uncertainty-Aligned Reinforcement Learning",
+      "authors": "Yijin Zhou, Linqian Zeng, Xiaoya Lu, Wenyuan Xie, Dongrui Liu, Junchi Yan, Jing Shao",
+      "venue": "EMNLP",
+      "track": "Findings",
+      "paper_type": "Conference paper",
+      "system_type": [
+        "Agent",
+        "LLM"
+      ],
+      "research_tasks": [
+        "uncertainty estimation",
+        "agent reliability",
+        "tool-use failure detection",
+        "confidence calibration"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.513/",
+      "doi": "10.18653/2026.findings-emnlp.513"
+    },
+    {
+      "year": 2026,
+      "presentation": "Not verified",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-20",
+      "title": "LLM Abstention Can Be a Prompt Artifact, in Addition to Genuine Uncertainty",
+      "authors": "Zipeng Ling, Shuliang Liu, Yuehao Tang, Junqi Yang, Shenghong Fu, Seonil Son, Chen Huang, Kejia Huang, Yao Wan, Zhichao Hou, Xuming Hu",
+      "venue": "EMNLP",
+      "track": "Main Conference",
+      "paper_type": "Conference paper",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "abstention",
+        "uncertainty evaluation",
+        "failure analysis"
+      ],
+      "url": "https://aclanthology.org/2026.emnlp-main.549/",
+      "doi": "10.18653/2026.emnlp-main.549"
+    },
+    {
+      "year": 2026,
+      "presentation": "Not verified",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-20",
+      "title": "Overview of SHROOM-Visions 2026: A Shared Task on Hallucination Detection in Large Vision-Language Models",
+      "authors": "Raúl Vázquez, Aman Sinha, Chuyuan Li, Artem Shelmanov, Artem Vazhentsev, Claudio Savelli, Eduardo Calò, Emilio Raimond, Stella Frank, Hengyu Luo, Flavio Giobergia, Vincent Segonne, Lorenzo Vaiani, Jörg Tiedemann, Timothee Mickus",
+      "venue": "UncertaiNLP (EMNLP 2026 Workshop)",
+      "track": "Workshop / Shared Task",
+      "paper_type": "Workshop benchmark overview",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "benchmark",
+        "multilingual evaluation"
+      ],
+      "url": "https://aclanthology.org/2026.uncertainlp-main.27/",
+      "doi": "10.18653/2026.uncertainlp-main.27"
+    }
+  ]
+}
