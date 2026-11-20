@@ -146,3 +146,9 @@ Check newly indexed proceedings volumes and distinguish Main Conference, Finding
 - Added three ACL Anthology-verified records to `data/expanded_2026_11_20.json`: TRUST agent tool-use uncertainty (EMNLP Findings), abstention prompt-artifact analysis (EMNLP Main), and SHROOM-Visions 2026 overview (UncertaiNLP Workshop, separately classified).
 - Each uses a single `Not verified` presentation label; no oral/spotlight/poster inference.
 - Confirmed that the previously added FLOW-ABSTAIN, Sieve and Sage, pre-generation epistemic routing and related items were already in the October 28 expansion; did not duplicate them.
+
+## Additional EMNLP Main verification — 2026-11-20
+
+- Added `data/expanded_2026_11_20_pm.json` with three official EMNLP 2026 Main papers: *Beyond the Final Layer* (`2026.emnlp-main.958`), *The Mirage of Calibrated Confidence* (`2026.emnlp-main.1506`), and *OmniHalluc-L* (`2026.emnlp-main.882`).
+- Each is recorded as `Not verified` for presentation because the official proceedings record does not establish Oral, Highlight, Spotlight, or Poster.
+- Cross-checked titles against all currently tracked JSON bibliography files before inclusion.
