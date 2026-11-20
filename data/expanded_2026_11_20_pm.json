@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "verified_on": "2026-11-20",
+    "note": "Official EMNLP 2026 Main Conference additions, checked against existing bibliography files; presentation not independently verified."
+  },
+  "papers": [
+    {
+      "title": "Beyond the Final Layer: Intermediate Representations for Better Multilingual Calibration in Large Language Models",
+      "authors": "Ej Zhou, Caiqi Zhang, Tiancheng Hu, Chengzu Li, Nigel Collier, Ivan Vulić, Anna Korhonen",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Main Conference",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "uncertainty calibration",
+        "confidence estimation",
+        "multilingual reliability"
+      ],
+      "url": "https://aclanthology.org/2026.emnlp-main.958/",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-20"
+    },
+    {
+      "title": "The Mirage of Calibrated Confidence: Trajectory-Independence of Verbalized Confidence in Vision-Language Models",
+      "authors": "Jisoo Yang, Jaeho Han, Trung X. Pham, Junyeong Kim",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Main Conference",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "uncertainty calibration",
+        "confidence reliability",
+        "failure evaluation",
+        "benchmark"
+      ],
+      "url": "https://aclanthology.org/2026.emnlp-main.1506/",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-20"
+    },
+    {
+      "title": "OmniHalluc-L: Counterfactual Benchmarking and Modality-Perturbation Calibration for Long-Form Omni Hallucination",
+      "authors": "Zixuan Dong, Jiafu Tang, Zhide Lei, Zhe Cao, Zijie Zhang, Yanghai Wang, Shihao Li, Xiaodong Wang, Baoyun Peng, Jiaheng Liu",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Main Conference",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "multimodal hallucination evaluation",
+        "uncertainty calibration",
+        "benchmark"
+      ],
+      "url": "https://aclanthology.org/2026.emnlp-main.882/",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-20"
+    }
+  ]
+}
