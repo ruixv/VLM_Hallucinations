@@ -84,3 +84,7 @@ Three records were added to `data/expanded_2026_11_20.json`: **Exploring Agentic
 ### Additional official EMNLP Main papers — 2026-11-20
 
 Three further official EMNLP 2026 Main Conference papers are included in `data/expanded_2026_11_20_pm.json`: **Beyond the Final Layer** (multilingual LLM calibration), **The Mirage of Calibrated Confidence** (VLM reasoning-trajectory confidence reliability), and **OmniHalluc-L** (multimodal hallucination benchmarking and perturbation calibration). Their official ACL Anthology records were checked; presentation status remains **Not verified**. These are separate from the earlier three November 20 additions.
+
+### 2026-11-21 official EMNLP Main additions
+
+Four ACL Anthology-verified EMNLP 2026 Main Conference papers were added in `data/expanded_2026_11_21.json`: **PropUQ-MAS** (uncertainty propagation in LLM multi-agent systems), **Last Step Matters** (long-horizon agent failure prediction), **HaluMem** (memory-system hallucination benchmark), and **Perceive, Localize, Reflect** (evidence-anchored MLLM multi-agent debate). All use the conservative presentation label **Not verified**. `data/papers.json` remains the canonical seed database.
