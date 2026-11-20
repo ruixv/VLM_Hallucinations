@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "verified_on": "2026-11-21",
+    "note": "Official ACL Anthology EMNLP 2026 Main Conference records; presentation status unverified."
+  },
+  "papers": [
+    {
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Main Conference",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-21",
+      "title": "PropUQ-MAS: Propagation-Aware Uncertainty Quantification for LLM Multi-Agent Systems",
+      "authors": "Yaokun Liu, Yifan Liu, Daniel Yue Zhang, Ruichen Yao, Zelin Li, Dong Wang",
+      "system_type": [
+        "Agent",
+        "LLM"
+      ],
+      "research_tasks": [
+        "uncertainty estimation",
+        "failure detection",
+        "multi-agent reliability"
+      ],
+      "url": "https://aclanthology.org/2026.emnlp-main.891/",
+      "doi": "10.18653/2026.emnlp-main.891"
+    },
+    {
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Main Conference",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-21",
+      "title": "Last Step Matters: Early Uncertainty Cannot Predict Failure in Long-Horizon Agents",
+      "authors": "Zongyue Li, Chengyue Yu, Lei Zang, Chenyi Zhuang, Linjian Mo, Leilei Gan",
+      "system_type": [
+        "Agent"
+      ],
+      "research_tasks": [
+        "failure detection",
+        "uncertainty estimation",
+        "long-horizon agents"
+      ],
+      "url": "https://aclanthology.org/2026.emnlp-main.475/",
+      "doi": "10.18653/2026.emnlp-main.475"
+    },
+    {
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Main Conference",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-21",
+      "title": "HaluMem: Evaluating Hallucinations in Memory Systems of Agents",
+      "authors": "Ding Chen, Simin Niu, Li Kehang, Peng Liu, Xiangping Zheng, Bo Tang, Xinchi Li, Feiyu Xiong, Zhiyu li",
+      "system_type": [
+        "Agent",
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination evaluation",
+        "benchmark",
+        "memory reliability"
+      ],
+      "url": "https://aclanthology.org/2026.emnlp-main.220/",
+      "doi": "10.18653/2026.emnlp-main.220"
+    },
+    {
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Main Conference",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-21",
+      "title": "Perceive, Localize, Reflect: Evidence-Anchored Multi-Agent Debate for MLLM Hallucination Mitigation",
+      "authors": "Yebo Wu, Han Jin, Wei Yang Bryan Lim, Li Li",
+      "system_type": [
+        "VLM",
+        "Agent"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "visual grounding",
+        "multi-agent debate"
+      ],
+      "url": "https://aclanthology.org/2026.emnlp-main.1597/",
+      "doi": "10.18653/2026.emnlp-main.1597"
+    }
+  ]
+}
