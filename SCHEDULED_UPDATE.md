@@ -152,3 +152,8 @@ Check newly indexed proceedings volumes and distinguish Main Conference, Finding
 - Added `data/expanded_2026_11_20_pm.json` with three official EMNLP 2026 Main papers: *Beyond the Final Layer* (`2026.emnlp-main.958`), *The Mirage of Calibrated Confidence* (`2026.emnlp-main.1506`), and *OmniHalluc-L* (`2026.emnlp-main.882`).
 - Each is recorded as `Not verified` for presentation because the official proceedings record does not establish Oral, Highlight, Spotlight, or Poster.
 - Cross-checked titles against all currently tracked JSON bibliography files before inclusion.
+
+## Official EMNLP Main additions — 2026-11-21
+
+- Added `data/expanded_2026_11_21.json` with four official EMNLP 2026 Main papers: PropUQ-MAS (`2026.emnlp-main.891`), Last Step Matters (`2026.emnlp-main.475`), HaluMem (`2026.emnlp-main.220`), and Perceive, Localize, Reflect (`2026.emnlp-main.1597`).
+- Official ACL Anthology records verified title, authors, track and DOI. All presentation statuses remain `Not verified`; no unsupported oral/spotlight/poster inference.
