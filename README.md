@@ -80,3 +80,7 @@ Five previously unlisted EMNLP 2026 papers are added in `data/expanded_2026_11_1
 ### 2026-11-20 official proceedings verification
 
 Three records were added to `data/expanded_2026_11_20.json`: **Exploring Agentic Tool-Calling Decisions via Uncertainty-Aligned Reinforcement Learning** (EMNLP 2026 Findings), **LLM Abstention Can Be a Prompt Artifact, in Addition to Genuine Uncertainty** (EMNLP 2026 Main Conference), and **Overview of SHROOM-Visions 2026** (UncertaiNLP workshop shared-task overview, **not** EMNLP Main). Official ACL Anthology metadata and DOIs were checked; all presentation labels remain **Not verified**. Previously indexed FLOW-ABSTAIN, Sieve and Sage, and related candidates were not duplicated.
+
+### Additional official EMNLP Main papers — 2026-11-20
+
+Three further official EMNLP 2026 Main Conference papers are included in `data/expanded_2026_11_20_pm.json`: **Beyond the Final Layer** (multilingual LLM calibration), **The Mirage of Calibrated Confidence** (VLM reasoning-trajectory confidence reliability), and **OmniHalluc-L** (multimodal hallucination benchmarking and perturbation calibration). Their official ACL Anthology records were checked; presentation status remains **Not verified**. These are separate from the earlier three November 20 additions.
