@@ -92,3 +92,7 @@ Four ACL Anthology-verified EMNLP 2026 Main Conference papers were added in `dat
 ### 2026-11-21 supplementary verified papers
 
 Added **9 deduplicated official proceedings papers** in `data/expanded_2026_11_21_pm.json`: 4 EMNLP Main papers (AWA-RL search-agent abstention; ACA-RL missing-premise reasoning; RiskEval verbal confidence versus decisions; agent memory for unanswerable questions), 3 EMNLP Findings papers (Agent-Trident; hallucination-aware multi-agent RAG; OmniHallu), and 2 CVPR Main papers (Unstitching the Chimera; Thinking in Uncertainty). Official ACL Anthology/CVF sources verified venue and author metadata. Presentation is **Not verified** for all nine; no unverified Oral/Highlight/Spotlight/Poster was inferred. The canonical `data/papers.json` seed remains unchanged.
+
+### 2026-11-22 verified EMNLP additions
+
+Added three official proceedings papers in `data/expanded_2026_11_22.json`: **DualStake** (EMNLP 2026 Main; agent evidence/answer confidence calibration), **From Answers to Interpretations** (EMNLP 2026 Findings; ambiguity-induced aleatoric uncertainty), and **Tracking Truth Through Layers** (EMNLP 2026 Findings; TemHal cross-layer hallucination detection). Cross-file title checks found no prior records. Each is `Not verified` for presentation; no conference-presentation label was inferred. `data/papers.json` remains the canonical seed.
