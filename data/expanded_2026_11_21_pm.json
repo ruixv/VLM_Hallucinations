@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "verified_on": "2026-11-21",
+    "note": "Nine previously missing official proceedings papers; cross-checked against all existing JSON files; presentation labels unverified."
+  },
+  "papers": [
+    {
+      "title": "To Answer or to Abstain: Mitigating Search-Agent Hallucinations via Abstention-Aware Reinforcement Learning",
+      "authors": "Fengji Zhang, Tianyu Fan, Yuxiang Zheng, Xinyao Niu, Chengen Huang, Jacky Keung, Bei Chen",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Main Conference",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "Agent",
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "abstention",
+        "selective prediction",
+        "reinforcement learning"
+      ],
+      "url": "https://aclanthology.org/2026.emnlp-main.161/",
+      "doi": "10.18653/2026.emnlp-main.161",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-21"
+    },
+    {
+      "title": "Ask, Condition or Abstain: Reinforcement Learning for Missing-Premise Reasoning",
+      "authors": "Yongqi Tong, Zhenyu Zhang, Zimi Liu, Kewei Fu, Mingli Song, Haofei Zhang, Junshao Zhang, Hong Zhu, Jiang-Ming Yang, Xin Zhang, Jianshe LI",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Main Conference",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "abstention",
+        "uncertainty awareness",
+        "selective prediction"
+      ],
+      "url": "https://aclanthology.org/2026.emnlp-main.1440/",
+      "doi": "10.18653/2026.emnlp-main.1440",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-21"
+    },
+    {
+      "title": "Are LLM Decisions Faithful to Verbal Confidence?",
+      "authors": "Jiawei Wang, Yanfei Zhou, Siddartha Devic, Deqing Fu",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Main Conference",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "confidence calibration",
+        "abstention",
+        "risk-sensitive decision making"
+      ],
+      "url": "https://aclanthology.org/2026.emnlp-main.759/",
+      "doi": "10.18653/2026.emnlp-main.759",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-21"
+    },
+    {
+      "title": "What Makes Agent Memory Useful for Reliable Unanswerable Question Handling?",
+      "authors": "Chuanyuan Tan, Junjie Yu, Yuxin Wang, Yining Zheng, Xipeng Qiu, Wenliang Chen",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Main Conference",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "Agent",
+        "LLM"
+      ],
+      "research_tasks": [
+        "abstention",
+        "unanswerable question detection",
+        "distribution shift",
+        "agent memory reliability"
+      ],
+      "url": "https://aclanthology.org/2026.emnlp-main.1886/",
+      "doi": "10.18653/2026.emnlp-main.1886",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-21"
+    },
+    {
+      "title": "Agent-Trident: A Three-Level Progressive Diagnostic Benchmark for Tool-Use Hallucination in LLM Agents",
+      "authors": "Jiaqing Li, Du Xuehui, Liu Aodi, Jiaxi Shi, Jiangpeng Cui",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "Agent",
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination evaluation",
+        "failure diagnosis",
+        "tool-use benchmark"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.1862/",
+      "doi": "10.18653/2026.findings-emnlp.1862",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-21"
+    },
+    {
+      "title": "Hallucination-Aware Multi-Agent RAG via Internal Attention Rewards",
+      "authors": "Runsong Jia, Qian Chang, Mengjia Wu, Ciprian Doru Giurcaneanu, Jie Lu, Yi Zhang",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "Agent",
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination mitigation",
+        "RAG faithfulness",
+        "reinforcement learning"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.1809/",
+      "doi": "10.18653/2026.findings-emnlp.1809",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-21"
+    },
+    {
+      "title": "OmniHallu: Unified Hallucination Detection for Cross-Modal Comprehension and Generation in Multimodal Large Language Models",
+      "authors": "Jianjiang Yang, LI Peihang, Shanqing Xu, Mengchen Qian, Lu Zhang, Meng Luo",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM",
+        "Agent"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "multimodal benchmark",
+        "claim verification"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.644/",
+      "doi": "10.18653/2026.findings-emnlp.644",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-21"
+    },
+    {
+      "title": "Unstitching the Chimera: Frame-Level Risk and Train-Free Mitigation for Video Hallucination",
+      "authors": "Songyuan Yang, Guijian Tang, Kun Hu, Haotian Wang, Shixuan Liu, Wenjing Yang, Long Lan, Huibin Tan",
+      "year": 2026,
+      "venue": "CVPR",
+      "track": "Main Conference",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "video hallucination detection",
+        "risk estimation",
+        "hallucination mitigation"
+      ],
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Unstitching_the_Chimera_Frame-Level_Risk_and_Train-Free_Mitigation_for_Video_CVPR_2026_paper.html",
+      "source_type": "CVF Open Access official proceedings",
+      "verified_on": "2026-11-21"
+    },
+    {
+      "title": "Thinking in Uncertainty: Mitigating Hallucinations in MLRMs with Latent Entropy-Aware Decoding",
+      "authors": "Zhongxing Xu, Zhonghua Wang, Zhe Qian, Dachuan Shi, Feilong Tang, Ming Hu, Shiyan Su, Xiaocheng Zou, Wei Feng, Dwarikanath Mahapatra, Yifan Peng, Minquan Lin, Zongyuan Ge",
+      "year": 2026,
+      "venue": "CVPR",
+      "track": "Main Conference",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "uncertainty estimation",
+        "hallucination mitigation",
+        "decoding"
+      ],
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_Thinking_in_Uncertainty_Mitigating_Hallucinations_in_MLRMs_with_Latent_Entropy-Aware_CVPR_2026_paper.html",
+      "source_type": "CVF Open Access official proceedings",
+      "verified_on": "2026-11-21"
+    }
+  ]
+}
