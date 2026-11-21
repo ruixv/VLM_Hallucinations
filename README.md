@@ -88,3 +88,7 @@ Three further official EMNLP 2026 Main Conference papers are included in `data/e
 ### 2026-11-21 official EMNLP Main additions
 
 Four ACL Anthology-verified EMNLP 2026 Main Conference papers were added in `data/expanded_2026_11_21.json`: **PropUQ-MAS** (uncertainty propagation in LLM multi-agent systems), **Last Step Matters** (long-horizon agent failure prediction), **HaluMem** (memory-system hallucination benchmark), and **Perceive, Localize, Reflect** (evidence-anchored MLLM multi-agent debate). All use the conservative presentation label **Not verified**. `data/papers.json` remains the canonical seed database.
+
+### 2026-11-21 supplementary verified papers
+
+Added **9 deduplicated official proceedings papers** in `data/expanded_2026_11_21_pm.json`: 4 EMNLP Main papers (AWA-RL search-agent abstention; ACA-RL missing-premise reasoning; RiskEval verbal confidence versus decisions; agent memory for unanswerable questions), 3 EMNLP Findings papers (Agent-Trident; hallucination-aware multi-agent RAG; OmniHallu), and 2 CVPR Main papers (Unstitching the Chimera; Thinking in Uncertainty). Official ACL Anthology/CVF sources verified venue and author metadata. Presentation is **Not verified** for all nine; no unverified Oral/Highlight/Spotlight/Poster was inferred. The canonical `data/papers.json` seed remains unchanged.
