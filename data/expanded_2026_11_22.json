@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "verified_on": "2026-11-22",
+    "note": "Three new official ACL Anthology proceedings records; cross-file title checks completed. Presentation status not independently verified."
+  },
+  "papers": [
+    {
+      "title": "DualStake: Dual-Path Confidence Calibration in Deep Research Agent",
+      "authors": "Yinuo Xu, Yuwei Liang, Jianjie Cheng, Meng Wang, Yongcan Yu, Shuo Lu, Jian Liang",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Main Conference",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "Agent",
+        "LLM"
+      ],
+      "research_tasks": [
+        "uncertainty estimation",
+        "confidence calibration",
+        "abstention",
+        "agent reliability"
+      ],
+      "url": "https://aclanthology.org/2026.emnlp-main.389/",
+      "doi": "10.18653/2026.emnlp-main.389",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-22"
+    },
+    {
+      "title": "From Answers to Interpretations: Rethinking Ambiguity-Induced Aleatoric Uncertainty Estimation in LLMs",
+      "authors": "Omer Nahum, Niv Nayman, Jonathan Fhima, Alon Zolfi, Jeremy Levy, Shai Mazor, Paolo Favaro",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "aleatoric uncertainty estimation",
+        "ambiguity detection",
+        "uncertainty decomposition"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.2455/",
+      "doi": "10.18653/2026.findings-emnlp.2455",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-22"
+    },
+    {
+      "title": "Tracking Truth Through Layers: Temporal Dynamics of Fact Representations for Hallucination Detection in LLMs",
+      "authors": "Yanqiang Zhang, Feng Dawei, Bo Ding, Yuanzhao Zhai, Huaimin Wang",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination detection",
+        "internal representation analysis",
+        "cross-dataset generalization"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.297/",
+      "doi": "10.18653/2026.findings-emnlp.297",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-22"
+    }
+  ]
+}
