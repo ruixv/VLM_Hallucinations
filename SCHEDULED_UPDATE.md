@@ -157,3 +157,10 @@ Check newly indexed proceedings volumes and distinguish Main Conference, Finding
 
 - Added `data/expanded_2026_11_21.json` with four official EMNLP 2026 Main papers: PropUQ-MAS (`2026.emnlp-main.891`), Last Step Matters (`2026.emnlp-main.475`), HaluMem (`2026.emnlp-main.220`), and Perceive, Localize, Reflect (`2026.emnlp-main.1597`).
 - Official ACL Anthology records verified title, authors, track and DOI. All presentation statuses remain `Not verified`; no unsupported oral/spotlight/poster inference.
+
+## Supplementary verified additions — 2026-11-21
+
+- Added `data/expanded_2026_11_21_pm.json`: 9 papers verified against ACL Anthology (7 EMNLP Main/Findings) and CVF Open Access (2 CVPR Main).
+- Verified title, authors, year, venue/track, official URL and DOI where available; `presentation` remains `Not verified` absent official presentation evidence.
+- Checked all existing JSON expansion files for exact-title matches; an already indexed CVPR paper, *Same Attention, Different Truths*, was not duplicated.
+- Maintained `data/papers.json` as seed and loaded the new expansion file in `index.html`.
