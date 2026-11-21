@@ -164,3 +164,10 @@ Check newly indexed proceedings volumes and distinguish Main Conference, Finding
 - Verified title, authors, year, venue/track, official URL and DOI where available; `presentation` remains `Not verified` absent official presentation evidence.
 - Checked all existing JSON expansion files for exact-title matches; an already indexed CVPR paper, *Same Attention, Different Truths*, was not duplicated.
 - Maintained `data/papers.json` as seed and loaded the new expansion file in `index.html`.
+
+## Official EMNLP additions — 2026-11-22
+
+- Three unique officially verified ACL Anthology records: DualStake (EMNLP Main), From Answers to Interpretations (Findings), Tracking Truth Through Layers (Findings).
+- Cross-file title matching against all existing data JSON files found no duplicates. DOI, authors, venue, track and official links verified.
+- Presentation for all three: `Not verified`. No new Oral/Highlight/Spotlight/Poster or historical correction this run.
+- Other conference and journal sources were not exhaustively audited in this pass.
