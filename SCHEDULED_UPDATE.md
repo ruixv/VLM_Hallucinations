@@ -175,3 +175,7 @@ Check newly indexed proceedings volumes and distinguish Main Conference, Finding
 ### 2026-11-22 supplemental verification
 
 Added one officially indexed EMNLP 2026 Findings paper: Jing et al., *A Comprehensive Analysis for Visual Object Hallucination in Large Vision-Language Models* ([ACL Anthology](https://aclanthology.org/2026.findings-emnlp.115/)). Cross-checked all existing data JSON files for the canonical title. No official presentation status was identified, so `Not verified` is retained. Updated `data/expanded_2026_11_22.json` in place. No new data file is required; `index.html` already loads it.
+
+## Verified additions — 2026-11-23
+
+Three official EMNLP 2026 proceedings records added in `data/expanded_2026_11_23.json`: Ask or Assume? (Findings, ACL Anthology `2026.findings-emnlp.15`); How to Speculate about Uncertainty in Agentic Coding? (Industry Track, `2026.emnlp-industry.206`); SVR-MAD (Findings, `2026.findings-emnlp.483`). Presentation remains `Not verified` for all three. No legacy combination presentation labels found in the inspected historical JSON files. The canonical seed `data/papers.json` is unchanged.
