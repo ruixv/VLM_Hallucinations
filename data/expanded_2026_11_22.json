@@ -1,7 +1,7 @@
 {
   "meta": {
     "verified_on": "2026-11-22",
-    "note": "Three new official ACL Anthology proceedings records; cross-file title checks completed. Presentation status not independently verified."
+    "note": "Four official ACL Anthology proceedings records; presentation status not independently verified."
   },
   "papers": [
     {
@@ -66,6 +66,27 @@
       ],
       "url": "https://aclanthology.org/2026.findings-emnlp.297/",
       "doi": "10.18653/2026.findings-emnlp.297",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-22"
+    },
+    {
+      "title": "A Comprehensive Analysis for Visual Object Hallucination in Large Vision-Language Models",
+      "authors": "Liqiang Jing, Hardy Chen, Ehsan Aghazadeh, Xin Eric Wang, Xinya Du",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "VLM"
+      ],
+      "research_tasks": [
+        "hallucination analysis",
+        "hallucination evaluation",
+        "hallucination mitigation",
+        "benchmark"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.115/",
       "source_type": "ACL Anthology official proceedings",
       "verified_on": "2026-11-22"
     }
