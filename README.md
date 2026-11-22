@@ -98,3 +98,7 @@ Added **9 deduplicated official proceedings papers** in `data/expanded_2026_11_2
 Added three official proceedings papers in `data/expanded_2026_11_22.json`: **DualStake** (EMNLP 2026 Main; agent evidence/answer confidence calibration), **From Answers to Interpretations** (EMNLP 2026 Findings; ambiguity-induced aleatoric uncertainty), and **Tracking Truth Through Layers** (EMNLP 2026 Findings; TemHal cross-layer hallucination detection). Cross-file title checks found no prior records. Each is `Not verified` for presentation; no conference-presentation label was inferred. `data/papers.json` remains the canonical seed.
 
 - **2026-11-22 supplemental verification:** Added *A Comprehensive Analysis for Visual Object Hallucination in Large Vision-Language Models* (Jing et al., EMNLP 2026 Findings), officially indexed at [ACL Anthology](https://aclanthology.org/2026.findings-emnlp.115/). Presentation: Not verified. The existing `data/expanded_2026_11_22.json` now contains four papers.
+
+### 2026-11-23: verified agent reliability additions
+
+Three official ACL Anthology records added in `data/expanded_2026_11_23.json`: **Ask or Assume? Uncertainty-Aware Clarification-Seeking in Coding Agents** (EMNLP 2026 Findings), **How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method** (EMNLP 2026 Industry Track), and **SVR-MAD: A Bayesian-Inspired Framework for Posterior-Guided Multi-Agent Debate** (EMNLP 2026 Findings). All are marked `Not verified` for presentation; the Industry Track is not mislabeled as Main Conference.
