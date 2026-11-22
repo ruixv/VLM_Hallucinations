@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "verified_on": "2026-11-23",
+    "note": "Three official ACL Anthology proceedings additions. Presentation labels are not inferred; industry track is distinguished from main conference."
+  },
+  "papers": [
+    {
+      "title": "Ask or Assume? Uncertainty-Aware Clarification-Seeking in Coding Agents",
+      "authors": "Nicholas Edwards, Sebastian Schuster",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "Agent",
+        "LLM"
+      ],
+      "research_tasks": [
+        "uncertainty estimation",
+        "failure prevention",
+        "clarification seeking",
+        "agent reliability"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.15/",
+      "doi": "10.18653/2026.findings-emnlp.15",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-23"
+    },
+    {
+      "title": "How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method",
+      "authors": "Konstantin Grotov, Valentin Malykh",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Industry Track",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "Agent",
+        "LLM"
+      ],
+      "research_tasks": [
+        "uncertainty estimation",
+        "failure prediction",
+        "error detection",
+        "agent reliability"
+      ],
+      "url": "https://aclanthology.org/2026.emnlp-industry.206/",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-23"
+    },
+    {
+      "title": "SVR-MAD: A Bayesian-Inspired Framework for Posterior-Guided Multi-Agent Debate",
+      "authors": "Weifan Jiang, Rana Shahout, Minghao Li, Zhenting Qi, Yilun Du, Michael Mitzenmacher, Minlan Yu",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Findings",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "Agent",
+        "LLM"
+      ],
+      "research_tasks": [
+        "confidence estimation",
+        "hallucination mitigation",
+        "multi-agent reliability"
+      ],
+      "url": "https://aclanthology.org/2026.findings-emnlp.483/",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-23"
+    }
+  ]
+}
