@@ -171,3 +171,7 @@ Check newly indexed proceedings volumes and distinguish Main Conference, Finding
 - Cross-file title matching against all existing data JSON files found no duplicates. DOI, authors, venue, track and official links verified.
 - Presentation for all three: `Not verified`. No new Oral/Highlight/Spotlight/Poster or historical correction this run.
 - Other conference and journal sources were not exhaustively audited in this pass.
+
+### 2026-11-22 supplemental verification
+
+Added one officially indexed EMNLP 2026 Findings paper: Jing et al., *A Comprehensive Analysis for Visual Object Hallucination in Large Vision-Language Models* ([ACL Anthology](https://aclanthology.org/2026.findings-emnlp.115/)). Cross-checked all existing data JSON files for the canonical title. No official presentation status was identified, so `Not verified` is retained. Updated `data/expanded_2026_11_22.json` in place. No new data file is required; `index.html` already loads it.
