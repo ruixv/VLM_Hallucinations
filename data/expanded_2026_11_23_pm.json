@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "verified_on": "2026-11-23",
+    "note": "Official EMNLP 2026 Main Conference proceedings backfill; presentation status not verified."
+  },
+  "papers": [
+    {
+      "title": "AgentHallu: Benchmarking Automated Hallucination Attribution of LLM-based Agents",
+      "authors": "Xuannan Liu, Xiao Yang, Zekun Li, Pei Pei Li, Ran He",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Main Conference",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "Agent",
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination attribution",
+        "failure localization",
+        "benchmark"
+      ],
+      "url": "https://aclanthology.org/2026.emnlp-main.925/",
+      "doi": "10.18653/2026.emnlp-main.925",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-23"
+    },
+    {
+      "title": "LexAgentHallu: A Hierarchical Benchmark for Profiling Hallucinations in Legal Agents",
+      "authors": "Yujin Zhou, Mingxuan Zheng, Chuxue Cao, Huang Yidan, Jiale Chen, Yike Guo, Sirui Han",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Main Conference",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "Agent",
+        "LLM"
+      ],
+      "research_tasks": [
+        "hallucination evaluation",
+        "failure diagnosis",
+        "benchmark"
+      ],
+      "url": "https://aclanthology.org/2026.emnlp-main.2121/",
+      "doi": "10.18653/2026.emnlp-main.2121",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-23"
+    },
+    {
+      "title": "Teaching LLMs to Abstain via Fine-Grained Semantic Confidence Reward",
+      "authors": "Hao An, Yang Xu",
+      "year": 2026,
+      "venue": "EMNLP",
+      "track": "Main Conference",
+      "paper_type": "Conference paper",
+      "presentation": "Not verified",
+      "system_type": [
+        "LLM"
+      ],
+      "research_tasks": [
+        "abstention",
+        "confidence estimation",
+        "hallucination mitigation"
+      ],
+      "url": "https://aclanthology.org/2026.emnlp-main.243/",
+      "source_type": "ACL Anthology official proceedings",
+      "verified_on": "2026-11-23"
+    }
+  ]
+}
