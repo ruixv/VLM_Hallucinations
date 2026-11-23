@@ -102,3 +102,7 @@ Added three official proceedings papers in `data/expanded_2026_11_22.json`: **Du
 ### 2026-11-23: verified agent reliability additions
 
 Three official ACL Anthology records added in `data/expanded_2026_11_23.json`: **Ask or Assume? Uncertainty-Aware Clarification-Seeking in Coding Agents** (EMNLP 2026 Findings), **How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method** (EMNLP 2026 Industry Track), and **SVR-MAD: A Bayesian-Inspired Framework for Posterior-Guided Multi-Agent Debate** (EMNLP 2026 Findings). All are marked `Not verified` for presentation; the Industry Track is not mislabeled as Main Conference.
+
+### 2026-11-23 PM: verified EMNLP Main Conference backfill
+
+Three additional official proceedings records were added in `data/expanded_2026_11_23_pm.json`: **AgentHallu** (agent hallucination step attribution), **LexAgentHallu** (legal-agent hallucination benchmark), and **Teaching LLMs to Abstain via Fine-Grained Semantic Confidence Reward** (confidence-based abstention). All are EMNLP 2026 Main Conference papers with presentation `Not verified`. Sources: [AgentHallu](https://aclanthology.org/2026.emnlp-main.925/), [LexAgentHallu](https://aclanthology.org/2026.emnlp-main.2121/), [Teaching LLMs to Abstain](https://aclanthology.org/2026.emnlp-main.243/).
