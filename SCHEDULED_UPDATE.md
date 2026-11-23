@@ -179,3 +179,7 @@ Added one officially indexed EMNLP 2026 Findings paper: Jing et al., *A Comprehe
 ## Verified additions — 2026-11-23
 
 Three official EMNLP 2026 proceedings records added in `data/expanded_2026_11_23.json`: Ask or Assume? (Findings, ACL Anthology `2026.findings-emnlp.15`); How to Speculate about Uncertainty in Agentic Coding? (Industry Track, `2026.emnlp-industry.206`); SVR-MAD (Findings, `2026.findings-emnlp.483`). Presentation remains `Not verified` for all three. No legacy combination presentation labels found in the inspected historical JSON files. The canonical seed `data/papers.json` is unchanged.
+
+## Verified additions — 2026-11-23 PM
+
+Added three EMNLP 2026 Main Conference papers in `data/expanded_2026_11_23_pm.json`: AgentHallu (`2026.emnlp-main.925`), LexAgentHallu (`2026.emnlp-main.2121`), and Teaching LLMs to Abstain via Fine-Grained Semantic Confidence Reward (`2026.emnlp-main.243`). Verified from official ACL Anthology proceedings; all presentation labels remain `Not verified`. No changes to canonical seed database.
