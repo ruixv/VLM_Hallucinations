@@ -183,3 +183,7 @@ Three official EMNLP 2026 proceedings records added in `data/expanded_2026_11_23
 ## Verified additions — 2026-11-23 PM
 
 Added three EMNLP 2026 Main Conference papers in `data/expanded_2026_11_23_pm.json`: AgentHallu (`2026.emnlp-main.925`), LexAgentHallu (`2026.emnlp-main.2121`), and Teaching LLMs to Abstain via Fine-Grained Semantic Confidence Reward (`2026.emnlp-main.243`). Verified from official ACL Anthology proceedings; all presentation labels remain `Not verified`. No changes to canonical seed database.
+
+## Verified additions — 2026-11-24
+
+Added one CVPR 2026 Main Conference paper, *Breaking the Illusion: When Positive Meets Negative in Multimodal Decoding* (Yubo Jiang et al., pp. 4210–4220), to `data/expanded_2026_11_24.json`. Verified against the [CVF Open Access proceedings](https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_Breaking_the_Illusion_When_Positive_Meets_Negative_in_Multimodal_Decoding_CVPR_2026_paper.html). No matching title in the 29 pre-existing data JSON files. Presentation remains `Not verified`; no new official presentation labels or metadata corrections. `data/papers.json` remains unchanged.
