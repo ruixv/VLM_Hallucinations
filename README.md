@@ -106,3 +106,7 @@ Three official ACL Anthology records added in `data/expanded_2026_11_23.json`: *
 ### 2026-11-23 PM: verified EMNLP Main Conference backfill
 
 Three additional official proceedings records were added in `data/expanded_2026_11_23_pm.json`: **AgentHallu** (agent hallucination step attribution), **LexAgentHallu** (legal-agent hallucination benchmark), and **Teaching LLMs to Abstain via Fine-Grained Semantic Confidence Reward** (confidence-based abstention). All are EMNLP 2026 Main Conference papers with presentation `Not verified`. Sources: [AgentHallu](https://aclanthology.org/2026.emnlp-main.925/), [LexAgentHallu](https://aclanthology.org/2026.emnlp-main.2121/), [Teaching LLMs to Abstain](https://aclanthology.org/2026.emnlp-main.243/).
+
+## Verified additions — 2026-11-24
+
+- **Breaking the Illusion: When Positive Meets Negative in Multimodal Decoding** — CVPR 2026 Main Conference, pp. 4210–4220; Yubo Jiang et al. The proposed Positive-and-Negative Decoding (PND) strengthens visual evidence while penalizing language-prior-driven hallucinations. Presentation: **Not verified**. [Official CVF record](https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_Breaking_the_Illusion_When_Positive_Meets_Negative_in_Multimodal_Decoding_CVPR_2026_paper.html). Stored in `data/expanded_2026_11_24.json` after cross-file title deduplication; seed database unchanged.
