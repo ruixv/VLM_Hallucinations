@@ -1,0 +1,555 @@
+{
+  "schema": 1,
+  "coverage": "Partial; only listed blob SHAs are covered. Do not infer global uniqueness.",
+  "shards": {
+    "data/papers.json": {
+      "sha": "90f27bdd4cbf40c6a9e0aafa76d5937390ee743f",
+      "records": [
+        {
+          "title": "VES-RFT: Rewarding Visual Evidence Sensitivity to Mitigate Hallucinations in Large Vision-Language Models",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hou_VES-RFT_Rewarding_Visual_Evidence_Sensitivity_to_Mitigate_Hallucinations_in_Large_CVPR_2026_paper.html",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Prefill-Time Intervention for Mitigating Hallucination in Large Vision-Language Models",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Prefill-Time_Intervention_for_Mitigating_Hallucination_in_Large_Vision-Language_Models_CVPR_2026_paper.html",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Tell Model Where to Look: Mitigating Hallucinations in MLLMs by Vision-Guided Attention",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhao_Tell_Model_Where_to_Look_Mitigating_Hallucinations_in_MLLMs_by_CVPR_2026_paper.html",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "KVSmooth: Mitigating Hallucination in Multi-modal Large Language Models through Key-Value Smoothing",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_KVSmooth_Mitigating_Hallucination_in_Multi-modal_Large_Language_Models_through_Key-Value_CVPR_2026_paper.html",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Envision, Attend, Then Respond: Counterfactual Hallucination Mitigation in Large Vision-Language Models",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liang_Envision_Attend_Then_Respond_Counterfactual_Hallucination_Mitigation_in_Large_Vision-Language_CVPR_2026_paper.html",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Cross-Modal Attention Calibration for LVLM Hallucination Mitigation",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Cross-Modal_Attention_Calibration_for_LVLM_Hallucination_Mitigation_CVPR_2026_paper.html",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "One Token, Two Fates: A Unified Framework via Vision Token Manipulation Against MLLMs Hallucination",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Fa_One_Token_Two_Fates_A_Unified_Framework_via_Vision_Token_CVPR_2026_paper.html",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Mitigating Multimodal Hallucinations via Gradient-based Self-Reflection",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Mitigating_Multimodal_Hallucinations_via_Gradient-based_Self-Reflection_CVPR_2026_paper.html",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Mitigating Object Hallucinations via Sentence-Level Early Intervention",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Peng_Mitigating_Object_Hallucinations_via_Sentence-Level_Early_Intervention_ICCV_2025_paper.html",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "SHIFT: Smoothing Hallucinations by Information Flow Tuning for Multimodal Large Language Models",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Wang_SHIFT_Smoothing_Hallucinations_by_Information_Flow_Tuning_for_Multimodal_Large_ICCV_2025_paper.html",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "TruthPrInt: Mitigating Large Vision-Language Models Object Hallucination Via Latent Truthful-Guided Pre-Intervention",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Duan_TruthPrInt_Mitigating_Large_Vision-Language_Models_Object_Hallucination_Via_Latent_Truthful-Guided_ICCV_2025_paper.html",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Reducing Hallucinations in Large Vision-Language Models via Latent Space Steering",
+          "url": "https://openreview.net/forum?id=LBl7Hez0fF",
+          "presentation": "Spotlight"
+        },
+        {
+          "title": "Mitigating Object Hallucination in MLLMs via Data-augmented Phrase-level Alignment",
+          "url": "https://openreview.net/forum?id=yG1fW8igzP",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Do You Keep an Eye on What I Ask? Mitigating Multimodal Hallucination via Attention-Guided Ensemble Decoding",
+          "url": "https://openreview.net/forum?id=ziw5bzg2NO",
+          "presentation": "Poster"
+        },
+        {
+          "title": "PostAlign: Multimodal Grounding as a Corrective Lens for MLLMs",
+          "url": "https://openreview.net/forum?id=zJnPyb2xrp",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Decoupling Contrastive Decoding: Robust Hallucination Mitigation in Multimodal Large Language Models",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f39cc9110544a067f024c1fb8b396128-Abstract-Conference.html",
+          "presentation": "Poster"
+        },
+        {
+          "title": "More Thinking, Less Seeing? Assessing Amplified Hallucination in Multimodal Reasoning Models",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/777db387a5ccb131ba8c7cd155166b85-Abstract-Conference.html",
+          "presentation": "Poster"
+        },
+        {
+          "title": "What’s in Common? Multimodal Models Hallucinate When Reasoning Across Scenes",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3e5b0db387078ac4968fd536d3c3a019-Abstract-Datasets_and_Benchmarks_Track.html",
+          "presentation": "Not verified"
+        }
+      ]
+    },
+    "data/corrections.json": {
+      "sha": "c6dc7cbfb01ed7495b9a383cc4a598d7d7449a9e",
+      "records": [
+        {
+          "title": "VES-RFT: Rewarding Visual Evidence Sensitivity to Mitigate Hallucinations in Large Vision-Language Models",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hou_VES-RFT_Rewarding_Visual_Evidence_Sensitivity_to_Mitigate_Hallucinations_in_Large_CVPR_2026_paper.html",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Prefill-Time Intervention for Mitigating Hallucination in Large Vision-Language Models",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Prefill-Time_Intervention_for_Mitigating_Hallucinations_in_Large_Vision-Language_Models_CVPR_2026_paper.html",
+          "presentation": "Poster"
+        },
+        {
+          "title": "KVSmooth: Mitigating Hallucination in Multi-modal Large Language Models through Key-Value Smoothing",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_KVSmooth_Mitigating_Hallucination_in_Multi-modal_Large_Language_Models_through_Key-Value_CVPR_2026_paper.html",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Enhancing Vision-Language Model Reliability with Uncertainty-Guided Dropout Decoding",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/db48d94a42706019262ed8304fa658c5-Abstract-Conference.html",
+          "presentation": "Spotlight"
+        },
+        {
+          "title": "Reducing Belief Deviation in Reinforcement Learning for Active Reasoning of LLM Agents",
+          "url": "https://openreview.net/forum?id=r8hzDA3pUY",
+          "presentation": "Oral"
+        },
+        {
+          "title": "Diagnose, Correct, and Learn from Manipulation Failures via Visual Symbols",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zeng_Diagnose_Correct_and_Learn_from_Manipulation_Failures_via_Visual_Symbols_CVPR_2026_paper.html",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Efficient Hallucination Detection in Automatic Code Generation",
+          "url": "https://aclanthology.org/2026.findings-acl.2143/",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "PROBE: PROcess-Based BEnchmark for Hallucination Detection",
+          "url": "https://aclanthology.org/2026.findings-acl.2099/",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Evidence-Aligned Entity Verification for Hallucination Detection in Retrieval-Augmented Generation",
+          "url": "https://aclanthology.org/2026.findings-acl.1477/",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Enhancing Hallucination Detection via Future Context",
+          "url": "https://aclanthology.org/2026.findings-acl.35/",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "DUD: Decoupled Update Dynamics for Reliable Uncertainty Quantification in Large Language Models",
+          "url": "https://aclanthology.org/2026.acl-long.1665/",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Learning Uncertainty from Sequential Internal Dispersion in Large Language Models",
+          "url": "https://aclanthology.org/2026.acl-long.1862/",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Uncertainty Quantification of Large Language Models through Multiple Uncertainty Sources",
+          "url": "https://aclanthology.org/2026.findings-acl.535/",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Clustered Self-Assessment: A Simple yet Effective Method for Uncertainty Quantification in Large Language Models",
+          "url": "https://aclanthology.org/2026.findings-acl.1531/",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Faithfulness-Aware Uncertainty Quantification for Fact-Checking the Output of Retrieval-Augmented Generation",
+          "url": "https://aclanthology.org/2026.findings-acl.338/",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "AutoMonitor-Bench: Evaluating the Reliability of LLM-Based Misbehavior Monitor",
+          "url": "https://aclanthology.org/2026.findings-acl.116/",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "BaseCal: Unsupervised Confidence Calibration via Base Model Signals",
+          "doi": "10.18653/v1/2026.acl-long.234",
+          "url": "https://aclanthology.org/2026.acl-long.234/",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Confidence Should Be Calibrated More Than One Turn Deep",
+          "doi": "10.18653/v1/2026.acl-long.1787",
+          "url": "https://aclanthology.org/2026.acl-long.1787/",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "VAUQ: Vision-Aware Uncertainty Quantification for LVLM Self-Evaluation",
+          "doi": "10.18653/v1/2026.findings-acl.1321",
+          "url": "https://aclanthology.org/2026.findings-acl.1321/",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Perceptual Hallucination in Vision–Language Models: Definition, Analysis and Verification",
+          "doi": "10.18653/v1/2026.findings-acl.1237",
+          "url": "https://aclanthology.org/2026.findings-acl.1237/",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Deliberative Searcher: Improving LLM Reliability via Reinforcement Learning with Constraints",
+          "doi": "10.18653/v1/2026.acl-long.199",
+          "url": "https://aclanthology.org/2026.acl-long.199/",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Once Correct, Still Wrong: Counterfactual Hallucination in Multilingual Vision-Language Models",
+          "doi": "10.18653/v1/2026.findings-acl.234",
+          "url": "https://aclanthology.org/2026.findings-acl.234/",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "System-Mediated Attention Imbalances Make Vision-Language Models Say Yes",
+          "doi": "10.18653/v1/2026.findings-acl.1940",
+          "url": "https://aclanthology.org/2026.findings-acl.1940/",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "The Art of Saying \"Maybe\": A Conformal Lens for Uncertainty Benchmarking in VLMs",
+          "doi": "10.18653/v1/2026.findings-eacl.274",
+          "url": "https://aclanthology.org/2026.findings-eacl.274/",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Detecting (Un)answerability in Large Language Models with Linear Directions",
+          "doi": "10.18653/v1/2026.eacl-long.29",
+          "url": "https://aclanthology.org/2026.eacl-long.29/",
+          "presentation": "Not verified"
+        }
+      ]
+    },
+    "data/expanded_2025.json": {
+      "sha": "fd1863d480bd5e655be774d28e600b5090d1b939",
+      "records": [
+        {
+          "title": "HalLoc: Token-level Localization of Hallucinations for Vision Language Models",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Park_HalLoc_Token-level_Localization_of_Hallucinations_for_Vision_Language_Models_CVPR_2025_paper.html",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Devils in Middle Layers of Large Vision-Language Models: Interpreting, Detecting and Mitigating Object Hallucinations via Attention Lens",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Jiang_Devils_in_Middle_Layers_of_Large_Vision-Language_Models_Interpreting_Detecting_CVPR_2025_paper.html",
+          "presentation": "Poster"
+        },
+        {
+          "title": "VL-RewardBench: A Challenging Benchmark for Vision-Language Generative Reward Models",
+          "url": "https://cvpr.thecvf.com/virtual/2025/poster/33389",
+          "presentation": "Highlight"
+        },
+        {
+          "title": "DASH: Detection and Assessment of Systematic Hallucinations of VLMs",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Augustin_DASH_Detection_and_Assessment_of_Systematic_Hallucinations_of_VLMs_ICCV_2025_paper.html",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Why LVLMs Are More Prone to Hallucinations in Longer Responses: The Role of Context",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zheng_Why_LVLMs_Are_More_Prone_to_Hallucinations_in_Longer_Responses_ICCV_2025_paper.html",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "ViLU: Learning Vision-Language Uncertainties for Failure Prediction",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Lafon_ViLU_Learning_Vision-Language_Uncertainties_for_Failure_Prediction_ICCV_2025_paper.html",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Trust but Verify: Programmatic VLM Evaluation in the Wild",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Prabhu_Trust_but_Verify_Programmatic_VLM_Evaluation_in_the_Wild_ICCV_2025_paper.html",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Hallucinatory Image Tokens: A Training-free EAZY Approach to Detecting and Mitigating Object Hallucinations in LVLMs",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Che_Hallucinatory_Image_Tokens_A_Training-free_EAZY_Approach_to_Detecting_and_ICCV_2025_paper.html",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "NoVo: Norm Voting off Hallucinations with Attention Heads in Large Language Models",
+          "url": "https://openreview.net/forum?id=yaOe2xBcLC",
+          "presentation": "Poster"
+        },
+        {
+          "title": "HaDeMiF: Hallucination Detection and Mitigation in Large Language Models",
+          "url": "https://openreview.net/forum?id=VwOYxPScxB",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Position: Uncertainty Quantification Needs Reassessment for Large Language Model Agents",
+          "url": "https://proceedings.mlr.press/v267/kirchhof25b.html",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "FactTest: Factuality Testing in Large Language Models with Finite-Sample and Distribution-Free Guarantees",
+          "url": "https://openreview.net/forum?id=tuKwODJ08b",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Steer LLM Latents for Hallucination Detection",
+          "url": "https://openreview.net/forum?id=UMqNQEPNT3",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Toward Robust Hyper-Detailed Image Captioning: A Multiagent Approach and Dual Evaluation Metrics for Factuality and Coverage",
+          "url": "https://openreview.net/forum?id=REnIf3dCsI",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Language models cannot reliably distinguish belief from knowledge and fact",
+          "url": "https://www.nature.com/articles/s42256-025-01113-8",
+          "presentation": "N/A"
+        },
+        {
+          "title": "C-LoRA: Contextual Low-Rank Adaptation for Uncertainty Estimation in Large Language Models",
+          "url": "https://nips.cc/virtual/2025/poster/115666",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Efficient semantic uncertainty quantification in language models via diversity-steered sampling",
+          "url": "https://neurips.cc/virtual/2025/poster/118777",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Enhancing GUI Agent with Uncertainty-Aware Self-Trained Evaluator",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d067d16e3e5fe8fa8a3e62909907659a-Abstract-Conference.html",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Enhancing Vision-Language Model Reliability with Uncertainty-Guided Dropout Decoding",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/db48d94a42706019262ed8304fa658c5-Abstract-Conference.html",
+          "presentation": "Spotlight"
+        },
+        {
+          "title": "Failure Prediction at Runtime for Generative Robot Policies",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0b7cb3b8cc44e652761245537027db44-Abstract-Conference.html",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Inv-Entropy: A Fully Probabilistic Framework for Uncertainty Quantification in Language Models",
+          "url": "https://neurips.cc/virtual/2025/poster/118653",
+          "presentation": "Poster"
+        },
+        {
+          "title": "SAFE: Multitask Failure Detection for Vision-Language-Action Models",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/392d0d05e2f514063e6ce6f8b370834c-Abstract-Conference.html",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Towards Reliable LLM-based Robots Planning via Combined Uncertainty Estimation",
+          "url": "https://neurips.cc/virtual/2025/poster/118405",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Why and How LLMs Hallucinate: Connecting the Dots with Subsequence Associations",
+          "url": "https://neurips.cc/virtual/2025/poster/118673",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Robust Hallucination Detection in LLMs via Adaptive Token Selection",
+          "url": "https://openreview.net/forum?id=gOwqPdBlRB",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Beyond Token Probes: Hallucination Detection via Activation Tensors with ACT-ViT",
+          "url": "https://openreview.net/forum?id=aJ7AdfOfij",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Alleviating Hallucinations in Large Language Models through Multi-Model Contrastive Decoding and Dynamic Hallucination Detection",
+          "url": "https://openreview.net/forum?id=QH2xGLgObM",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Discovering Compositional Hallucinations in LVLMs",
+          "url": "https://openreview.net/forum?id=Aiqtzn3Qo2",
+          "presentation": "Poster"
+        },
+        {
+          "title": "HalluEntity: Benchmarking and Understanding Entity-Level Hallucination Detection",
+          "url": "https://openreview.net/forum?id=494k7e9R5D",
+          "presentation": "N/A"
+        }
+      ]
+    },
+    "data/expanded_2026.json": {
+      "sha": "33352b10f52a4ab9476246a745717110531c2657",
+      "records": [
+        {
+          "title": "Adaptive Confidence Regularization for Multimodal Failure Detection",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_Adaptive_Confidence_Regularization_for_Multimodal_Failure_Detection_CVPR_2026_paper.pdf",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Beyond the Global Scores: Fine-Grained Token Grounding as a Robust Detector of LVLM Hallucinations",
+          "url": "https://cvpr.thecvf.com/Conferences/2026/Videos",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Exposing and Evaluating Hallucinations for GUI Grounding",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_Exposing_and_Evaluating_Hallucinations_for_GUI_Grounding_CVPR_2026_paper.pdf",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Fine-Grained Multi Image Object Hallucination Benchmark",
+          "url": "https://openaccess.thecvf.com/CVPR2026?day=2026-06-06",
+          "presentation": "Poster"
+        },
+        {
+          "title": "LATA: Laplacian-Assisted Transductive Adaptation for Conformal Uncertainty in Medical VLMs",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Bozorgtabar_LATA_Laplacian-Assisted_Transductive_Adaptation_for_Conformal_Uncertainty_in_Medical_VLMs_CVPR_2026_paper.pdf",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Lyapunov Probes for Hallucination Detection in Large Foundation Models",
+          "url": "https://openaccess.thecvf.com/CVPR2026?day=2026-06-06",
+          "presentation": "Poster"
+        },
+        {
+          "title": "PAS: Prelim Attention Score for Detecting Object Hallucinations in Large Vision-Language Models",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Hoang_PAS_Prelim_Attention_Score_for_Detecting_Object_Hallucinations_in_Large_CVPR_2026_paper.pdf",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Same Attention, Different Truths: Put Logit-Lens over Visual Attention to Detect and Mitigate LVLM Object Hallucination",
+          "url": "https://openaccess.thecvf.com/CVPR2026?day=2026-06-06",
+          "presentation": "Poster"
+        },
+        {
+          "title": "SVHalluc: Benchmarking Speech-Vision Hallucination in Audio-Visual Large Language Models",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_SVHalluc_Benchmarking_Speech-Vision_Hallucination_in_Audio-Visual_Large_Language_Models_CVPR_2026_paper.pdf",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Addressing Pitfalls in the Evaluation of Uncertainty Estimation Methods for Natural Language Generation",
+          "url": "https://openreview.net/group?id=ICLR.cc/2026/Conference",
+          "presentation": "Poster"
+        },
+        {
+          "title": "AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?",
+          "url": "https://iclr.cc/virtual/2026/poster/10007726",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Beyond In-Domain Detection: SpikeScore for Cross-Domain Hallucination Detection",
+          "url": "https://iclr.cc/virtual/2026/poster/10008923",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Enhancing Hallucination Detection through Noise Injection",
+          "url": "https://iclr.cc/virtual/2026/poster/10009023",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Grounding or Guessing? Visual Signals for Detecting Hallucinations in Sign Language Translation",
+          "url": "https://iclr.cc/virtual/2026/poster/10008620",
+          "presentation": "Poster"
+        },
+        {
+          "title": "HARP: Hallucination Detection via Reasoning Subspace Projection",
+          "url": "https://iclr.cc/virtual/2026/poster/10009389",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Latent Veracity Inference for Identifying Errors in Stepwise Reasoning",
+          "url": "https://openreview.net/forum?id=eux1cp8GqC",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "LUMINA: Detecting Hallucinations in RAG System with Context–Knowledge Signals",
+          "url": "https://openreview.net/forum?id=oJgNNBNEJM",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Neural Message-Passing on Attention Graphs for Hallucination Detection",
+          "url": "https://iclr.cc/virtual/2026/poster/10011517",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Query-Level Uncertainty in Large Language Models",
+          "url": "https://openreview.net/forum?id=11QZITAMUO",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Reducing Belief Deviation in Reinforcement Learning for Active Reasoning of LLM Agents",
+          "url": "https://openreview.net/forum?id=r8hzDA3pUY",
+          "presentation": "Oral"
+        },
+        {
+          "title": "Rethinking Uncertainty Estimation in LLMs: A Principled Single-Sequence Measure",
+          "url": "https://openreview.net/pdf?id=wdhruVcRx1",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Semantic Uncertainty Quantification of Hallucinations in LLMs: A Quantum Tensor Network Based Method",
+          "url": "https://proceedings.iclr.cc/papers/search?q=Semantic+Uncertainty+Quantification",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Spilled Energy in Large Language Models",
+          "url": "https://iclr.cc/virtual/2026/poster/10010667",
+          "presentation": "Poster"
+        },
+        {
+          "title": "TokUR: Token-Level Uncertainty Estimation for Large Language Model Reasoning",
+          "url": "https://openreview.net/pdf?id=VHQc7wzmYv",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "TRACEDET: Hallucination Detection from the Decoding Trace of Diffusion Large Language Models",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/10272bfd0371ef960ec557ed6c866058-Abstract-Conference.html",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "VeriTrail: Closed-Domain Hallucination Detection with Traceability",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/42ec51d1031d25eca238ccc67559fe84-Abstract-Conference.html",
+          "presentation": "Poster"
+        },
+        {
+          "title": "Automatic Layer Selection for Hallucination Detection",
+          "url": "https://arxiv.org/abs/2605.26366",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "DOUBT: Decoupled Object-level Understanding and Bridging via vMF-based Trustworthiness for Hallucination Detection in MLLMs",
+          "url": "https://icml.cc/Downloads/2026",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Efficient Hallucination Detection for LLMs Using Uncertainty-Aware Attention Heads",
+          "url": "https://icml.cc/Downloads/2026",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "From Out-of-Distribution Detection to Hallucination Detection: A Geometric View",
+          "url": "https://icml.cc/Downloads/2026",
+          "presentation": "Not verified"
+        },
+        {
+          "title": "Information Flow Reveals When to Trust Language Models",
+          "url": "https://icml.cc/virtual/2026/poster/60884",
+          "presentation": "Oral"
+        },
+        {
+          "title": "ProbeLLM: Automating Principled Diagnosis of LLM Failures",
+          "url": "https://icml.cc/Downloads/2026",
+          "presentation": "Not verified"
+        }
+      ]
+    }
+  }
+}
