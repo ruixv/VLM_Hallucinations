@@ -550,6 +550,196 @@
           "presentation": "Not verified"
         }
       ]
+    },
+    "data/expanded_2023.json": {
+      "sha": "f4e2eee9f8e11110d1cac3d98421019aa75555e4",
+      "records": [
+        {
+          "title": "SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2023.emnlp-main.557/"
+        },
+        {
+          "title": "Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation",
+          "presentation": "Oral",
+          "url": "https://iclr.cc/virtual/2023/oral/12609"
+        }
+      ]
+    },
+    "data/expanded_2024.json": {
+      "sha": "259708d5589e0b615028b32375625a331cf9e83b",
+      "records": [
+        {
+          "title": "Quantifying Uncertainty in Answers from any Language Model and Enhancing their Trustworthiness",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2024.acl-long.283/"
+        },
+        {
+          "title": "Shifting Attention to Relevance: Towards the Predictive Uncertainty Quantification of Free-Form Large Language Models",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2024.acl-long.276/"
+        },
+        {
+          "title": "Lookback Lens: Detecting and Mitigating Contextual Hallucinations in Large Language Models Using Only Attention Maps",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2024.emnlp-main.84/"
+        },
+        {
+          "title": "INSIDE: LLMs' Internal States Retain the Power of Hallucination Detection",
+          "presentation": "Poster",
+          "url": "https://openreview.net/forum?id=Zj12nzlQbz"
+        },
+        {
+          "title": "Detecting hallucinations in large language models using semantic entropy",
+          "presentation": "N/A",
+          "url": "https://www.nature.com/articles/s41586-024-07421-0"
+        },
+        {
+          "title": "Benchmarking LLMs via Uncertainty Quantification",
+          "presentation": "Poster",
+          "url": "https://neurips.cc/virtual/2024/poster/97746"
+        },
+        {
+          "title": "LLM-Check: Investigating Detection of Hallucinations in Large Language Models",
+          "presentation": "Poster",
+          "url": "https://openreview.net/forum?id=LYx4w3CAgy"
+        },
+        {
+          "title": "Semantic Density: Uncertainty Quantification for Large Language Models through Confidence Measurement in Semantic Space",
+          "presentation": "Poster",
+          "url": "https://neurips.cc/virtual/2024/poster/95598"
+        }
+      ]
+    },
+    "data/expanded_2026_08_25.json": {
+      "sha": "df0750af739ac1f3b2675fbe0001fbc5968afb35",
+      "records": [
+        {
+          "title": "Logical Consistency as a Bridge: Improving LLM Hallucination Detection via Label Constraint Modeling between Responses and Self-Judgments",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2026.acl-long.286/"
+        },
+        {
+          "title": "Quantifying Aleatoric Uncertainty of In-Context Learning for Robust Measure of LLM Prediction Confidence",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2026.acl-long.95/"
+        },
+        {
+          "title": "TPA: Next Token Probability Attribution for Detecting Hallucinations in RAG",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2026.acl-long.1159/"
+        },
+        {
+          "title": "VL-Calibration: Decoupled Confidence Calibration for Large Vision-Language Models Reasoning",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2026.acl-long.2074/"
+        },
+        {
+          "title": "Beyond ‘I Don’t Know’: Evaluating LLM Self-Awareness in Discriminating Data and Model Uncertainty",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2026.acl-long.547/"
+        },
+        {
+          "title": "Beyond Output Confidence: Epistemic-Aware Hallucination Detection with Answer-Level Signals",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2026.findings-acl.674/"
+        },
+        {
+          "title": "CausalGaze: Unveiling Hallucinations via Counterfactual Graph Intervention in Large Language Models",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2026.findings-acl.1943/"
+        },
+        {
+          "title": "Principled Detection of Hallucinations in Large Language Models via Multiple Testing",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2026.findings-acl.1705/"
+        },
+        {
+          "title": "Fine-Grained Detection of Context-Grounded Hallucinations Using LLMs",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2026.findings-acl.1907/"
+        }
+      ]
+    },
+    "data/expanded_2026_08_26.json": {
+      "sha": "187ffed30bf08ae783ce2a9e575852adb7efde77",
+      "records": [
+        {
+          "title": "Hallucination Detection in Long-Form Text Generated by LLMs: A Benchmark and a Hyper-Relational Knowledge Graph Approach",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2026.findings-acl.1673/",
+          "doi": "10.18653/v1/2026.findings-acl.1673"
+        },
+        {
+          "title": "Hallucination Detection in LLMs with Topological Divergence on Attention Graphs",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2026.acl-long.704/",
+          "doi": "10.18653/v1/2026.acl-long.704"
+        },
+        {
+          "title": "Rethinking Evaluation for LLM Hallucination Detection: A Desiderata, A New RAG-based Benchmark, New Insights",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2026.acl-long.680/",
+          "doi": "10.18653/v1/2026.acl-long.680"
+        },
+        {
+          "title": "Detecting Hallucinations in Retrieval-Augmented Generation via Semantic-level Internal Reasoning Graph",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2026.findings-acl.1385/",
+          "doi": "10.18653/v1/2026.findings-acl.1385"
+        },
+        {
+          "title": "Prompting the Unknown: Understanding Response Uncertainty in Large Language Models",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2026.findings-acl.1548/",
+          "doi": "10.18653/v1/2026.findings-acl.1548"
+        },
+        {
+          "title": "IUQ: Interrogative Uncertainty Quantification for Long-Form Large Language Model Generation",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2026.acl-long.606/",
+          "doi": "10.18653/v1/2026.acl-long.606"
+        },
+        {
+          "title": "Robust Uncertainty Quantification for Self-Evolving Large Language Models via Continual Domain Pretraining",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2026.findings-acl.388/",
+          "doi": "10.18653/v1/2026.findings-acl.388"
+        },
+        {
+          "title": "Demystifying Uncertainty in LLMs: Active Calibration between Concepts and Human Evaluations",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2026.acl-long.259/",
+          "doi": "10.18653/v1/2026.acl-long.259"
+        }
+      ]
+    },
+    "data/expanded_2026_08_26_pm_a.json": {
+      "sha": "bac2584fc3d9114c65dfa0d2ba20968bae8bb93a",
+      "records": [
+        {
+          "title": "Estimating the Black-box LLM Uncertainty with Distribution-Aligned Adversarial Distillation",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2026.acl-long.1979/",
+          "doi": "10.18653/v1/2026.acl-long.1979"
+        },
+        {
+          "title": "ReFL: Reflective Feedback Learning for Hallucination Detection of Large Language Models",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2026.acl-long.899/",
+          "doi": "10.18653/v1/2026.acl-long.899"
+        }
+      ]
+    },
+    "data/expanded_2026_08_26_pm_vista.json": {
+      "sha": "cbe4b998824d1ce5fe81b8a503e74b2ef1878c99",
+      "records": [
+        {
+          "title": "VISTA: Verification In Sequential Turn-based Assessment",
+          "presentation": "Not verified",
+          "url": "https://aclanthology.org/2026.acl-long.1890/"
+        }
+      ]
     }
   }
 }
